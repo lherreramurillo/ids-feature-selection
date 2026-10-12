@@ -99,6 +99,10 @@ FINAL_FAMILY = "combined"
 FINAL_FEATURES_FILE = "final_features_{name}.csv"  # written to RESULTS_DIR
 HANDOFF_V2_NAME = "feature_selection_handoff_v2"
 REPORT_FILE = "feature_selection_report.md"  # written to REPORT_DIR
+REPORT_PDF_FILE = "feature_selection_report.pdf"
+# Spanish version of the report, generated from the same values.
+REPORT_FILE_ES = "feature_selection_report_es.md"
+REPORT_PDF_FILE_ES = "feature_selection_report_es.pdf"
 
 # Classes with so few rows that losing any of them must be noticed.
 RARE_LABELS = ["sqli", "Infiltration", "dos_slowhttptest"]

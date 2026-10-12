@@ -13,23 +13,55 @@ Inputs
     the training rows (to count the features that are always zero in lab rows)
     and the figures in report/figures/ (referenced, not regenerated).
 
-Output
-    report/feature_selection_report.md
+Outputs
+    report/feature_selection_report.md      English (default)
+    report/feature_selection_report_es.md   Spanish, with --lang es
 
-How to run
-    .venv/bin/python src/06b_report.py     (after 05b_plots.py and 06_deliverables.py)
+    Both versions are filled from the same values, so their numbers always
+    match. In the Spanish version only the explanatory text is translated;
+    feature names, labels, configuration names, paths and metric names stay
+    as they are in the code and the CSV files. The Spanish text lives in
+    src/report_text_es.py.
+
+How to run (after 05b_plots.py and 06_deliverables.py)
+    .venv/bin/python src/06b_report.py
+    .venv/bin/python src/06b_report.py --lang es
 """
+import sys
+
 import pandas as pd
 
 from config import (CHI2_N_BINS, CLEANING_DIR, CLEANING_LOG_FILE, CV_FOLDS,
                     EVALUATION_DIR, FEATURE_SCORES_FILE, FILTERS_DIR,
                     FINAL_FEATURES_FILE, MODEL_PARAMS, N_EXTERNAL_ROWS,
                     PEARSON_PAIRS_FILE, RANDOM_SEED, REPORT_DIR, REPORT_FILE,
+                    REPORT_FILE_ES,
                     RESULTS_DIR, SPLIT_DIR, SPLIT_SUMMARY_FILE, TARGET,
                     TEST_SIZE)
 from data_io import load_split
+from report_text_es import TEMPLATE_ES, TEXT_ES
 
 DATASETS = ("A", "B")
+
+# Table headers and short phrases of the English version. The Spanish ones
+# are in report_text_es.py with the same keys.
+TEXT_EN = {
+    "cv_header": ["Configuration", "A feat.", "A F1-macro", "A PR-AUC",
+                  "A MCC", "B feat.", "B F1-macro", "B PR-AUC", "B MCC"],
+    "test_header": ["Dataset", "Configuration", "Features", "F1-macro",
+                    "PR-AUC macro", "MCC", "Train time (s)"],
+    "recall_header": ["Label", "A test rows", "A baseline", "A final",
+                      "B test rows", "B baseline", "B final"],
+    "feature_header": ["Rank", "Feature", "Chi-square", "Cramer's V",
+                       "In the other list"],
+    "selected": " **(selected)**",
+    "yes": "yes",
+    "no": "no",
+    "or": " or ",
+    "range": "{low} to {high}",
+    "worst": "{rows} `{true}` rows predicted as `{predicted}`",
+    "appendix_alt": "Confusion matrix on test, dataset {dataset}, {config}",
+}
 
 
 def md_table(header, rows):
@@ -40,33 +72,30 @@ def md_table(header, rows):
     return "\n".join(lines)
 
 
-def cv_table(cv):
+def cv_table(cv, text):
     """Cross-validation comparison: one row per configuration, A and B."""
     rows = []
     for config in cv["config"].drop_duplicates():
         row = [f"`{config}`"]
         for name in DATASETS:
             r = cv[(cv["dataset"] == name) & (cv["config"] == config)].iloc[0]
-            mark = " **(selected)**" if r["selected"] else ""
+            mark = text["selected"] if r["selected"] else ""
             row += [f"{r['n_features']:.0f}",
                     f"{r['f1_macro_mean']:.4f} ± {r['f1_macro_se']:.4f}{mark}",
                     f"{r['pr_auc_macro_mean']:.4f}", f"{r['mcc_mean']:.4f}"]
         rows.append(row)
-    return md_table(["Configuration", "A feat.", "A F1-macro", "A PR-AUC",
-                     "A MCC", "B feat.", "B F1-macro", "B PR-AUC", "B MCC"],
-                    rows)
+    return md_table(text["cv_header"], rows)
 
 
-def test_table(test):
+def test_table(test, text):
     """Test results of the baseline and the selected setting of each family."""
     rows = [[r.dataset, f"`{r.config}`", r.n_features, f"{r.f1_macro:.4f}",
              f"{r.pr_auc_macro:.4f}", f"{r.mcc:.4f}", f"{r.fit_seconds:.1f}"]
             for r in test.itertuples()]
-    return md_table(["Dataset", "Configuration", "Features", "F1-macro",
-                     "PR-AUC macro", "MCC", "Train time (s)"], rows)
+    return md_table(text["test_header"], rows)
 
 
-def recall_table(recall, finals):
+def recall_table(recall, finals, text):
     """Per-class test recall: baseline against the final list, A and B."""
     labels = recall.loc[recall["dataset"] == "A", "label"].drop_duplicates()
     rows = []
@@ -79,17 +108,16 @@ def recall_table(recall, finals):
                     f"{part.loc['baseline', 'recall']:.3f}",
                     f"{part.loc[finals[name], 'recall']:.3f}"]
         rows.append(row)
-    return md_table(["Label", "A test rows", "A baseline", "A final",
-                     "B test rows", "B baseline", "B final"], rows)
+    return md_table(text["recall_header"], rows)
 
 
-def feature_table(features):
+def feature_table(features, text):
     """Final feature list of one dataset."""
     rows = [[r.chi2_rank_in_list, f"`{r.feature}`", f"{r.chi2:,.0f}",
-             f"{r.cramers_v:.3f}", "yes" if r.also_in_other_dataset else "no"]
+             f"{r.cramers_v:.3f}",
+             text["yes"] if r.also_in_other_dataset else text["no"]]
             for r in features.itertuples()]
-    return md_table(["Rank", "Feature", "Chi-square", "Cramer's V",
-                     "In the other list"], rows)
+    return md_table(text["feature_header"], rows)
 
 
 def redundancy(name, final):
@@ -132,8 +160,32 @@ def cfg_row(cv, name, config):
     return cv[(cv["dataset"] == name) & (cv["config"] == config)].iloc[0]
 
 
+def appendix_figures(test, finals, text):
+    """Markdown for the confusion matrices not shown in the report body.
+
+    One figure per configuration scored on test, except the final lists,
+    which the report shows in the section about them.
+    """
+    lines = []
+    for row in test.itertuples():
+        if row.config == finals[row.dataset]:
+            continue
+        alt = text["appendix_alt"].format(dataset=row.dataset,
+                                          config=row.config)
+        lines.append(f"![{alt}](figures/confusion_{row.dataset}_"
+                     f"{row.config}.png)")
+    return "\n\n".join(lines)
+
+
 def main():
-    """Collect the numbers and write the report."""
+    """Collect the numbers and write the report in the requested language."""
+    lang = "en"
+    if "--lang" in sys.argv:
+        lang = sys.argv[sys.argv.index("--lang") + 1]
+    template, text, target = {
+        "en": (TEMPLATE, TEXT_EN, REPORT_FILE),
+        "es": (TEMPLATE_ES, TEXT_ES, REPORT_FILE_ES),
+    }[lang]
     cv = pd.read_csv(EVALUATION_DIR / "cv_results.csv")
     test = pd.read_csv(EVALUATION_DIR / "test_results.csv")
     recall = pd.read_csv(EVALUATION_DIR / "test_recall_by_class.csv")
@@ -184,14 +236,15 @@ def main():
         v[f"probe_err_{n}"] = int(p["misclassified_rows"])
         v[f"probe_rows_{n}"] = f"{int(p['external_test_rows'] + p['lab_test_rows']):,}"
         inf = recall[(recall["dataset"] == n) & (recall["label"] == "Infiltration")]
-        v[f"inf_hits_{n}"] = " or ".join(
+        v[f"inf_hits_{n}"] = text["or"].join(
             str(h) for h in sorted(set((inf["recall"] * inf["support"])
                                        .round().astype(int))))
         v[f"inf_test_{n}"] = int(inf["support"].iloc[0])
         inf_cv = cv_recall[(cv_recall["dataset"] == n)
                            & (cv_recall["label"] == "Infiltration")]
-        v[f"inf_cv_{n}"] = (f"{inf_cv['recall'].min():.2f} to "
-                            f"{inf_cv['recall'].max():.2f}")
+        v[f"inf_cv_{n}"] = text["range"].format(
+            low=f"{inf_cv['recall'].min():.2f}",
+            high=f"{inf_cv['recall'].max():.2f}")
         v[f"inf_train_{n}"] = int(inf_cv["support"].iloc[0])
         s = summary[(summary["dataset"] == n)].set_index(["method", "setting"])
         v[f"var_removed_{n}"] = int(s.loc[("variance_quasi_constant", 0.999),
@@ -200,8 +253,9 @@ def main():
                          & (confusion["config"] == "baseline")
                          & (confusion["true_label"] != confusion["predicted_label"])]
         worst = base.sort_values("rows", ascending=False).iloc[0]
-        v[f"worst_{n}"] = (f"{worst['rows']} `{worst['true_label']}` rows "
-                           f"predicted as `{worst['predicted_label']}`")
+        v[f"worst_{n}"] = text["worst"].format(
+            rows=worst["rows"], true=worst["true_label"],
+            predicted=worst["predicted_label"])
     v["pair_errors"] = int(pairs["external_predicted_as_lab"].sum()
                            + pairs["lab_predicted_as_external"].sum())
     v["n_test_configs"] = len(test)
@@ -212,16 +266,17 @@ def main():
         part = comparison.loc[comparison["status"] == status, "feature"]
         v[f"n_{status}"] = len(part)
         v[status] = ", ".join(f"`{f}`" for f in part)
-    v.update(cv_table=cv_table(cv), test_table=test_table(test),
-             recall_table=recall_table(recall, finals),
-             features_A=feature_table(final["A"]),
-             features_B=feature_table(final["B"]),
+    v.update(cv_table=cv_table(cv, text), test_table=test_table(test, text),
+             recall_table=recall_table(recall, finals, text),
+             features_A=feature_table(final["A"], text),
+             features_B=feature_table(final["B"], text),
+             appendix=appendix_figures(test, finals, text),
              trees=MODEL_PARAMS["n_estimators"], folds=CV_FOLDS,
              bins=CHI2_N_BINS, seed=RANDOM_SEED, target=TARGET,
              test_pct=round(TEST_SIZE * 100))
 
-    (REPORT_DIR / REPORT_FILE).write_text(TEMPLATE.format(**v))
-    print(f"Written: {REPORT_DIR / REPORT_FILE}")
+    (REPORT_DIR / target).write_text(template.format(**v))
+    print(f"Written: {REPORT_DIR / target}")
 
 
 TEMPLATE = """# Feature selection with filter methods for an IDS flow dataset
