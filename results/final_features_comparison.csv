@@ -1,0 +1,35 @@
+feature,in_A,in_B,status
+Active Max,True,False,only_A
+Fwd IAT Total,True,False,only_A
+Idle Max,True,False,only_A
+Packet Length Mean,True,False,only_A
+Active Mean,False,True,only_B
+Average Packet Size,False,True,only_B
+Bwd IAT Mean,False,True,only_B
+Bwd IAT Min,False,True,only_B
+Bwd IAT Total,False,True,only_B
+Bwd Packet Length Mean,False,True,only_B
+Bwd Packet Length Min,False,True,only_B
+Bwd Packetss,False,True,only_B
+Down Up Ratio,False,True,only_B
+Flow Duration,False,True,only_B
+Flow IAT Mean,False,True,only_B
+Fwd Packet Length Min,False,True,only_B
+Protocol,False,True,only_B
+Subflow Bwd Bytes,False,True,only_B
+Active Min,True,True,shared
+Flow Bytess,True,True,shared
+Flow IAT Min,True,True,shared
+Flow Packetss,True,True,shared
+Fwd Header Length,True,True,shared
+Fwd IAT Mean,True,True,shared
+Fwd IAT Min,True,True,shared
+Fwd Packet Length Mean,True,True,shared
+Idle Mean,True,True,shared
+Idle Std,True,True,shared
+Init_Win_bytes_backward,True,True,shared
+Init_Win_bytes_forward,True,True,shared
+Max Packet Length,True,True,shared
+Min Packet Length,True,True,shared
+Total Fwd Packets,True,True,shared
+Total Length of Fwd Packets,True,True,shared

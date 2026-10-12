@@ -1,0 +1,9 @@
+dataset,step,rule,rows_before,rows_after,rows_removed,cols_before,cols_after,removed_Botnet ARES,removed_Brute Force,removed_Dos/DDos,removed_Infiltration,removed_PortScan,removed_Web Attack,removed_benign,removed_bruteforce,removed_dos_httpflood,removed_dos_slowhttptest,removed_recon,removed_sqli
+A,1,drop port columns,370545,370545,0,80,78,0,0,0,0,0,0,0,0,0,0,0,0
+A,2,drop rows with NaN or Inf,370545,370418,127,78,78,9,3,73,0,22,0,20,0,0,0,0,0
+A,3,drop exact duplicates (keep first),370418,335356,35062,78,78,490,3310,4628,0,24816,36,1096,0,31,0,535,120
+A,4,drop conflict groups (all copies),335356,335314,42,78,78,1,0,1,0,17,0,19,1,1,0,1,1
+B,1,drop port columns,345192,345192,0,80,78,0,0,0,0,0,0,0,0,0,0,0,0
+B,2,drop rows with NaN or Inf,345192,345065,127,78,78,9,3,73,0,22,0,20,0,0,0,0,0
+B,3,drop exact duplicates (keep first),345065,308986,36079,78,78,490,3310,4628,0,24816,36,1100,0,414,0,1165,120
+B,4,drop conflict groups (all copies),308986,308940,46,78,78,1,0,1,0,17,0,20,1,2,0,2,2

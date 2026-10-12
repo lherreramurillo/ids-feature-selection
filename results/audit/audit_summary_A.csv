@@ -1,0 +1,81 @@
+column,dtype,n_nan,n_inf,n_unique,top_value_share_pct,min_finite,max_finite
+Source Port,int64,0,0,24575,74.5661,0.0,65534.0
+Destination Port,int64,0,0,17727,8.562,0.0,65513.0
+Protocol,int64,0,0,3,96.9933,0.0,17.0
+Flow Duration,float64,0,0,215737,0.7675,-1.0,129038147.0
+Total Fwd Packets,int64,0,0,236,22.2829,1.0,17739.0
+Total Backward Packets,int64,0,0,229,78.7041,0.0,27020.0
+Total Length of Fwd Packets,int64,0,0,3311,17.2613,0.0,2866110.0
+Total Length of Bwd Packets,int64,0,0,3879,81.2811,0.0,51800000.0
+Fwd Packet Length Max,float64,0,0,1418,34.5683,0.0,23360.0
+Fwd Packet Length Min,float64,0,0,123,74.6924,0.0,1983.0
+Fwd Packet Length Mean,float64,0,0,5964,29.5046,0.0,5940.857143
+Fwd Packet Length Std,float64,0,0,9817,29.5046,0.0,7049.469004
+Bwd Packet Length Max,float64,0,0,1425,81.2811,0.0,13032.0
+Bwd Packet Length Min,float64,0,0,305,89.1301,0.0,1442.0
+Bwd Packet Length Mean,float64,0,0,4670,81.2811,0.0,3877.333333
+Bwd Packet Length Std,float64,0,0,5207,91.9257,0.0,6715.738331
+Flow Bytess,float64,77,50,233246,3.819,-12000000.0,2070000000.0
+Flow Packetss,float64,0,127,223884,0.7049,-2000000.0,3000000.0
+Flow IAT Mean,float64,0,0,220509,0.7651,-1.0,118000000.0
+Flow IAT Std,float64,0,0,306705,11.8801,0.0,81900000.0
+Flow IAT Max,float64,0,0,195696,0.8034,-1.0,120000000.0
+Flow IAT Min,float64,0,0,5908,57.9036,-13.0,118000000.0
+Fwd IAT Total,float64,0,0,192013,9.5084,0.0,129038147.0
+Fwd IAT Mean,float64,0,0,199269,9.5084,0.0,120000000.0
+Fwd IAT Std,float64,0,0,299008,14.9304,0.0,83100000.0
+Fwd IAT Max,float64,0,0,190400,9.5084,0.0,120000000.0
+Fwd IAT Min,float64,0,0,5072,67.0221,-1.0,120000000.0
+Bwd IAT Total,float64,0,0,21053,89.3384,0.0,120000000.0
+Bwd IAT Mean,float64,0,0,26185,89.3384,0.0,120000000.0
+Bwd IAT Std,float64,0,0,25925,91.7853,0.0,82600000.0
+Bwd IAT Max,float64,0,0,23029,89.3384,0.0,120000000.0
+Bwd IAT Min,float64,0,0,3020,89.3827,0.0,120000000.0
+Fwd PSH Flags,int64,0,0,2,98.7529,0.0,1.0
+Bwd PSH Flags,int64,0,0,1,100.0,0.0,0.0
+Fwd URG Flags,int64,0,0,2,99.9995,0.0,1.0
+Bwd URG Flags,int64,0,0,1,100.0,0.0,0.0
+Fwd Header Length,int64,0,0,569,21.6514,-83885125.0,362644.0
+Bwd Header Length,int64,0,0,529,78.7043,-83885125.0,540400.0
+Fwd Packetss,float64,0,0,223617,0.6755,0.0,3000000.0
+Bwd Packetss,float64,0,0,42039,78.7165,0.0,2000000.0
+Min Packet Length,int64,0,0,105,74.6924,0.0,1448.0
+Max Packet Length,int64,0,0,1703,34.5683,0.0,23360.0
+Packet Length Mean,float64,0,0,9734,29.5046,0.0,2036.482759
+Packet Length Std,float64,0,0,19425,29.5046,0.0,4708.990311
+Packet Length Variance,float64,0,0,19046,29.5046,0.0,22200000.0
+FIN Flag Count,int64,0,0,2,76.7464,0.0,1.0
+SYN Flag Count,int64,0,0,2,98.7529,0.0,1.0
+RST Flag Count,int64,0,0,2,99.9981,0.0,1.0
+PSH Flag Count,int64,0,0,2,88.0023,0.0,1.0
+ACK Flag Count,int64,0,0,2,91.7127,0.0,1.0
+URG Flag Count,int64,0,0,2,98.3781,0.0,1.0
+CWE Flag Count,int64,0,0,2,99.9995,0.0,1.0
+ECE Flag Count,int64,0,0,2,99.9981,0.0,1.0
+Down Up Ratio,float64,0,0,8,83.9172,0.0,7.0
+Average Packet Size,float64,0,0,9339,29.5046,0.0,2109.214286
+Avg Fwd Segment Size,float64,0,0,5907,29.5046,0.0,5940.857143
+Avg Bwd Segment Size,float64,0,0,4659,81.2811,0.0,3877.333333
+Fwd Avg Bytes Bulk,float64,0,0,39,97.6467,0.0,191520.0
+Fwd Avg Packets Bulk,float64,0,0,14,97.6467,0.0,432.0
+Fwd Avg Bulk Rate,float64,0,0,8576,97.6467,0.0,1955748.1751824815
+Bwd Avg Bytes Bulk,float64,0,0,1,100.0,0.0,0.0
+Bwd Avg Packets Bulk,float64,0,0,1,100.0,0.0,0.0
+Bwd Avg Bulk Rate,float64,0,0,1,100.0,0.0,0.0
+Subflow Fwd Packets,int64,0,0,236,22.2829,1.0,17739.0
+Subflow Fwd Bytes,int64,0,0,3311,17.2613,0.0,2866110.0
+Subflow Bwd Packets,int64,0,0,229,78.7041,0.0,27020.0
+Subflow Bwd Bytes,int64,0,0,3879,81.2811,0.0,51791768.0
+Init_Win_bytes_forward,int64,0,0,1304,74.0955,-1.0,65535.0
+Init_Win_bytes_backward,int64,0,0,1274,83.0177,-1.0,65535.0
+act_data_pkt_fwd,int64,0,0,153,43.1267,0.0,17296.0
+min_seg_size_forward,int64,0,0,12,82.4491,-83885313.0,60.0
+Active Mean,float64,0,0,137592,59.6465,0.0,39455886.5
+Active Std,float64,0,0,132238,64.3031,0.0,39454582.5
+Active Max,float64,0,0,137251,59.6465,0.0,78910469.0
+Active Min,float64,0,0,29336,59.6465,0.0,36025856.0
+Idle Mean,float64,0,0,137570,58.415,0.0,120000000.0
+Idle Std,float64,0,0,135719,62.9179,0.0,66500000.0
+Idle Max,float64,0,0,136575,58.415,0.0,120000000.0
+Idle Min,float64,0,0,13186,58.415,0.0,120000000.0
+newLabel,str,0,0,12,34.2865,,

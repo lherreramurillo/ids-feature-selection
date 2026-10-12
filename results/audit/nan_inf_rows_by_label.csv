@@ -1,0 +1,25 @@
+dataset,newLabel,rows_total,rows_with_nan,rows_with_inf,rows_with_nan_or_inf,affected_pct_of_label
+A,Botnet ARES,1873,0,9,9,0.4805
+A,Brute Force,10201,0,3,3,0.0294
+A,Dos/DDos,26066,73,73,73,0.2801
+A,Infiltration,29,0,0,0,0.0
+A,PortScan,25409,0,22,22,0.0866
+A,Web Attack,2067,0,0,0,0.0
+A,benign,105306,4,20,20,0.019
+A,bruteforce,66723,0,0,0,0.0
+A,dos_httpflood,127047,0,0,0,0.0
+A,dos_slowhttptest,823,0,0,0,0.0
+A,recon,4822,0,0,0,0.0
+A,sqli,179,0,0,0,0.0
+B,Botnet ARES,1873,0,9,9,0.4805
+B,Brute Force,10201,0,3,3,0.0294
+B,Dos/DDos,26066,73,73,73,0.2801
+B,Infiltration,29,0,0,0,0.0
+B,PortScan,25409,0,22,22,0.0866
+B,Web Attack,2067,0,0,0,0.0
+B,benign,103943,4,20,20,0.0192
+B,bruteforce,42113,0,0,0,0.0
+B,dos_httpflood,123945,0,0,0,0.0
+B,dos_slowhttptest,822,0,0,0,0.0
+B,recon,8545,0,0,0,0.0
+B,sqli,179,0,0,0,0.0

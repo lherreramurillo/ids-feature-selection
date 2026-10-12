@@ -1,0 +1,582 @@
+dataset,config,feature
+A,baseline,Protocol
+A,baseline,Flow Duration
+A,baseline,Total Fwd Packets
+A,baseline,Total Backward Packets
+A,baseline,Total Length of Fwd Packets
+A,baseline,Total Length of Bwd Packets
+A,baseline,Fwd Packet Length Max
+A,baseline,Fwd Packet Length Min
+A,baseline,Fwd Packet Length Mean
+A,baseline,Fwd Packet Length Std
+A,baseline,Bwd Packet Length Max
+A,baseline,Bwd Packet Length Min
+A,baseline,Bwd Packet Length Mean
+A,baseline,Bwd Packet Length Std
+A,baseline,Flow Bytess
+A,baseline,Flow Packetss
+A,baseline,Flow IAT Mean
+A,baseline,Flow IAT Std
+A,baseline,Flow IAT Max
+A,baseline,Flow IAT Min
+A,baseline,Fwd IAT Total
+A,baseline,Fwd IAT Mean
+A,baseline,Fwd IAT Std
+A,baseline,Fwd IAT Max
+A,baseline,Fwd IAT Min
+A,baseline,Bwd IAT Total
+A,baseline,Bwd IAT Mean
+A,baseline,Bwd IAT Std
+A,baseline,Bwd IAT Max
+A,baseline,Bwd IAT Min
+A,baseline,Fwd PSH Flags
+A,baseline,Bwd PSH Flags
+A,baseline,Fwd URG Flags
+A,baseline,Bwd URG Flags
+A,baseline,Fwd Header Length
+A,baseline,Bwd Header Length
+A,baseline,Fwd Packetss
+A,baseline,Bwd Packetss
+A,baseline,Min Packet Length
+A,baseline,Max Packet Length
+A,baseline,Packet Length Mean
+A,baseline,Packet Length Std
+A,baseline,Packet Length Variance
+A,baseline,FIN Flag Count
+A,baseline,SYN Flag Count
+A,baseline,RST Flag Count
+A,baseline,PSH Flag Count
+A,baseline,ACK Flag Count
+A,baseline,URG Flag Count
+A,baseline,CWE Flag Count
+A,baseline,ECE Flag Count
+A,baseline,Down Up Ratio
+A,baseline,Average Packet Size
+A,baseline,Avg Fwd Segment Size
+A,baseline,Avg Bwd Segment Size
+A,baseline,Fwd Avg Bytes Bulk
+A,baseline,Fwd Avg Packets Bulk
+A,baseline,Fwd Avg Bulk Rate
+A,baseline,Bwd Avg Bytes Bulk
+A,baseline,Bwd Avg Packets Bulk
+A,baseline,Bwd Avg Bulk Rate
+A,baseline,Subflow Fwd Packets
+A,baseline,Subflow Fwd Bytes
+A,baseline,Subflow Bwd Packets
+A,baseline,Subflow Bwd Bytes
+A,baseline,Init_Win_bytes_forward
+A,baseline,Init_Win_bytes_backward
+A,baseline,act_data_pkt_fwd
+A,baseline,min_seg_size_forward
+A,baseline,Active Mean
+A,baseline,Active Std
+A,baseline,Active Max
+A,baseline,Active Min
+A,baseline,Idle Mean
+A,baseline,Idle Std
+A,baseline,Idle Max
+A,baseline,Idle Min
+A,variance_qc_0.999,Protocol
+A,variance_qc_0.999,Flow Duration
+A,variance_qc_0.999,Total Fwd Packets
+A,variance_qc_0.999,Total Backward Packets
+A,variance_qc_0.999,Total Length of Fwd Packets
+A,variance_qc_0.999,Total Length of Bwd Packets
+A,variance_qc_0.999,Fwd Packet Length Max
+A,variance_qc_0.999,Fwd Packet Length Min
+A,variance_qc_0.999,Fwd Packet Length Mean
+A,variance_qc_0.999,Fwd Packet Length Std
+A,variance_qc_0.999,Bwd Packet Length Max
+A,variance_qc_0.999,Bwd Packet Length Min
+A,variance_qc_0.999,Bwd Packet Length Mean
+A,variance_qc_0.999,Bwd Packet Length Std
+A,variance_qc_0.999,Flow Bytess
+A,variance_qc_0.999,Flow Packetss
+A,variance_qc_0.999,Flow IAT Mean
+A,variance_qc_0.999,Flow IAT Std
+A,variance_qc_0.999,Flow IAT Max
+A,variance_qc_0.999,Flow IAT Min
+A,variance_qc_0.999,Fwd IAT Total
+A,variance_qc_0.999,Fwd IAT Mean
+A,variance_qc_0.999,Fwd IAT Std
+A,variance_qc_0.999,Fwd IAT Max
+A,variance_qc_0.999,Fwd IAT Min
+A,variance_qc_0.999,Bwd IAT Total
+A,variance_qc_0.999,Bwd IAT Mean
+A,variance_qc_0.999,Bwd IAT Std
+A,variance_qc_0.999,Bwd IAT Max
+A,variance_qc_0.999,Bwd IAT Min
+A,variance_qc_0.999,Fwd PSH Flags
+A,variance_qc_0.999,Fwd Header Length
+A,variance_qc_0.999,Bwd Header Length
+A,variance_qc_0.999,Fwd Packetss
+A,variance_qc_0.999,Bwd Packetss
+A,variance_qc_0.999,Min Packet Length
+A,variance_qc_0.999,Max Packet Length
+A,variance_qc_0.999,Packet Length Mean
+A,variance_qc_0.999,Packet Length Std
+A,variance_qc_0.999,Packet Length Variance
+A,variance_qc_0.999,FIN Flag Count
+A,variance_qc_0.999,SYN Flag Count
+A,variance_qc_0.999,PSH Flag Count
+A,variance_qc_0.999,ACK Flag Count
+A,variance_qc_0.999,URG Flag Count
+A,variance_qc_0.999,Down Up Ratio
+A,variance_qc_0.999,Average Packet Size
+A,variance_qc_0.999,Avg Fwd Segment Size
+A,variance_qc_0.999,Avg Bwd Segment Size
+A,variance_qc_0.999,Fwd Avg Bytes Bulk
+A,variance_qc_0.999,Fwd Avg Packets Bulk
+A,variance_qc_0.999,Fwd Avg Bulk Rate
+A,variance_qc_0.999,Subflow Fwd Packets
+A,variance_qc_0.999,Subflow Fwd Bytes
+A,variance_qc_0.999,Subflow Bwd Packets
+A,variance_qc_0.999,Subflow Bwd Bytes
+A,variance_qc_0.999,Init_Win_bytes_forward
+A,variance_qc_0.999,Init_Win_bytes_backward
+A,variance_qc_0.999,act_data_pkt_fwd
+A,variance_qc_0.999,min_seg_size_forward
+A,variance_qc_0.999,Active Mean
+A,variance_qc_0.999,Active Std
+A,variance_qc_0.999,Active Max
+A,variance_qc_0.999,Active Min
+A,variance_qc_0.999,Idle Mean
+A,variance_qc_0.999,Idle Std
+A,variance_qc_0.999,Idle Max
+A,variance_qc_0.999,Idle Min
+A,pearson_0.90,Protocol
+A,pearson_0.90,Total Fwd Packets
+A,pearson_0.90,Total Backward Packets
+A,pearson_0.90,Total Length of Fwd Packets
+A,pearson_0.90,Fwd Packet Length Min
+A,pearson_0.90,Fwd Packet Length Mean
+A,pearson_0.90,Bwd Packet Length Min
+A,pearson_0.90,Bwd Packet Length Mean
+A,pearson_0.90,Flow Bytess
+A,pearson_0.90,Flow Packetss
+A,pearson_0.90,Flow IAT Min
+A,pearson_0.90,Fwd IAT Total
+A,pearson_0.90,Fwd IAT Mean
+A,pearson_0.90,Fwd IAT Min
+A,pearson_0.90,Bwd IAT Total
+A,pearson_0.90,Bwd IAT Mean
+A,pearson_0.90,Bwd IAT Std
+A,pearson_0.90,Bwd IAT Min
+A,pearson_0.90,Fwd PSH Flags
+A,pearson_0.90,Bwd PSH Flags
+A,pearson_0.90,Fwd URG Flags
+A,pearson_0.90,Bwd URG Flags
+A,pearson_0.90,Fwd Header Length
+A,pearson_0.90,Bwd Packetss
+A,pearson_0.90,Min Packet Length
+A,pearson_0.90,Max Packet Length
+A,pearson_0.90,Packet Length Mean
+A,pearson_0.90,FIN Flag Count
+A,pearson_0.90,RST Flag Count
+A,pearson_0.90,PSH Flag Count
+A,pearson_0.90,ACK Flag Count
+A,pearson_0.90,URG Flag Count
+A,pearson_0.90,Down Up Ratio
+A,pearson_0.90,Fwd Avg Packets Bulk
+A,pearson_0.90,Fwd Avg Bulk Rate
+A,pearson_0.90,Bwd Avg Bytes Bulk
+A,pearson_0.90,Bwd Avg Packets Bulk
+A,pearson_0.90,Bwd Avg Bulk Rate
+A,pearson_0.90,Init_Win_bytes_forward
+A,pearson_0.90,Init_Win_bytes_backward
+A,pearson_0.90,Active Max
+A,pearson_0.90,Active Min
+A,pearson_0.90,Idle Mean
+A,pearson_0.90,Idle Std
+A,pearson_0.90,Idle Max
+A,chi2_top_40,Flow Duration
+A,chi2_top_40,Total Fwd Packets
+A,chi2_top_40,Total Length of Fwd Packets
+A,chi2_top_40,Fwd Packet Length Max
+A,chi2_top_40,Fwd Packet Length Min
+A,chi2_top_40,Fwd Packet Length Mean
+A,chi2_top_40,Fwd Packet Length Std
+A,chi2_top_40,Flow Bytess
+A,chi2_top_40,Flow Packetss
+A,chi2_top_40,Flow IAT Mean
+A,chi2_top_40,Flow IAT Std
+A,chi2_top_40,Flow IAT Max
+A,chi2_top_40,Flow IAT Min
+A,chi2_top_40,Fwd IAT Total
+A,chi2_top_40,Fwd IAT Mean
+A,chi2_top_40,Fwd IAT Std
+A,chi2_top_40,Fwd IAT Max
+A,chi2_top_40,Fwd IAT Min
+A,chi2_top_40,Fwd Header Length
+A,chi2_top_40,Fwd Packetss
+A,chi2_top_40,Min Packet Length
+A,chi2_top_40,Max Packet Length
+A,chi2_top_40,Packet Length Mean
+A,chi2_top_40,Packet Length Std
+A,chi2_top_40,Packet Length Variance
+A,chi2_top_40,Average Packet Size
+A,chi2_top_40,Avg Fwd Segment Size
+A,chi2_top_40,Subflow Fwd Packets
+A,chi2_top_40,Subflow Fwd Bytes
+A,chi2_top_40,Init_Win_bytes_forward
+A,chi2_top_40,Init_Win_bytes_backward
+A,chi2_top_40,act_data_pkt_fwd
+A,chi2_top_40,Active Mean
+A,chi2_top_40,Active Std
+A,chi2_top_40,Active Max
+A,chi2_top_40,Active Min
+A,chi2_top_40,Idle Mean
+A,chi2_top_40,Idle Std
+A,chi2_top_40,Idle Max
+A,chi2_top_40,Idle Min
+A,cramers_v_top_40,Total Fwd Packets
+A,cramers_v_top_40,Total Backward Packets
+A,cramers_v_top_40,Total Length of Fwd Packets
+A,cramers_v_top_40,Total Length of Bwd Packets
+A,cramers_v_top_40,Fwd Packet Length Max
+A,cramers_v_top_40,Fwd Packet Length Min
+A,cramers_v_top_40,Fwd Packet Length Mean
+A,cramers_v_top_40,Fwd Packet Length Std
+A,cramers_v_top_40,Bwd Packet Length Max
+A,cramers_v_top_40,Bwd Packet Length Mean
+A,cramers_v_top_40,Flow IAT Std
+A,cramers_v_top_40,Flow IAT Max
+A,cramers_v_top_40,Fwd IAT Mean
+A,cramers_v_top_40,Fwd IAT Max
+A,cramers_v_top_40,Bwd IAT Total
+A,cramers_v_top_40,Bwd IAT Mean
+A,cramers_v_top_40,Bwd IAT Max
+A,cramers_v_top_40,Bwd IAT Min
+A,cramers_v_top_40,Fwd Header Length
+A,cramers_v_top_40,Bwd Header Length
+A,cramers_v_top_40,Bwd Packetss
+A,cramers_v_top_40,Min Packet Length
+A,cramers_v_top_40,Max Packet Length
+A,cramers_v_top_40,Packet Length Mean
+A,cramers_v_top_40,Packet Length Std
+A,cramers_v_top_40,Packet Length Variance
+A,cramers_v_top_40,Average Packet Size
+A,cramers_v_top_40,Avg Fwd Segment Size
+A,cramers_v_top_40,Avg Bwd Segment Size
+A,cramers_v_top_40,Subflow Fwd Packets
+A,cramers_v_top_40,Subflow Fwd Bytes
+A,cramers_v_top_40,Subflow Bwd Packets
+A,cramers_v_top_40,Subflow Bwd Bytes
+A,cramers_v_top_40,Init_Win_bytes_forward
+A,cramers_v_top_40,Init_Win_bytes_backward
+A,cramers_v_top_40,act_data_pkt_fwd
+A,cramers_v_top_40,Idle Mean
+A,cramers_v_top_40,Idle Std
+A,cramers_v_top_40,Idle Max
+A,cramers_v_top_40,Idle Min
+A,combined_p0.90_k20,Total Fwd Packets
+A,combined_p0.90_k20,Total Length of Fwd Packets
+A,combined_p0.90_k20,Fwd Packet Length Mean
+A,combined_p0.90_k20,Flow Bytess
+A,combined_p0.90_k20,Flow Packetss
+A,combined_p0.90_k20,Flow IAT Min
+A,combined_p0.90_k20,Fwd IAT Total
+A,combined_p0.90_k20,Fwd IAT Mean
+A,combined_p0.90_k20,Fwd IAT Min
+A,combined_p0.90_k20,Fwd Header Length
+A,combined_p0.90_k20,Min Packet Length
+A,combined_p0.90_k20,Max Packet Length
+A,combined_p0.90_k20,Packet Length Mean
+A,combined_p0.90_k20,Init_Win_bytes_forward
+A,combined_p0.90_k20,Init_Win_bytes_backward
+A,combined_p0.90_k20,Active Max
+A,combined_p0.90_k20,Active Min
+A,combined_p0.90_k20,Idle Mean
+A,combined_p0.90_k20,Idle Std
+A,combined_p0.90_k20,Idle Max
+B,baseline,Protocol
+B,baseline,Flow Duration
+B,baseline,Total Fwd Packets
+B,baseline,Total Backward Packets
+B,baseline,Total Length of Fwd Packets
+B,baseline,Total Length of Bwd Packets
+B,baseline,Fwd Packet Length Max
+B,baseline,Fwd Packet Length Min
+B,baseline,Fwd Packet Length Mean
+B,baseline,Fwd Packet Length Std
+B,baseline,Bwd Packet Length Max
+B,baseline,Bwd Packet Length Min
+B,baseline,Bwd Packet Length Mean
+B,baseline,Bwd Packet Length Std
+B,baseline,Flow Bytess
+B,baseline,Flow Packetss
+B,baseline,Flow IAT Mean
+B,baseline,Flow IAT Std
+B,baseline,Flow IAT Max
+B,baseline,Flow IAT Min
+B,baseline,Fwd IAT Total
+B,baseline,Fwd IAT Mean
+B,baseline,Fwd IAT Std
+B,baseline,Fwd IAT Max
+B,baseline,Fwd IAT Min
+B,baseline,Bwd IAT Total
+B,baseline,Bwd IAT Mean
+B,baseline,Bwd IAT Std
+B,baseline,Bwd IAT Max
+B,baseline,Bwd IAT Min
+B,baseline,Fwd PSH Flags
+B,baseline,Bwd PSH Flags
+B,baseline,Fwd URG Flags
+B,baseline,Bwd URG Flags
+B,baseline,Fwd Header Length
+B,baseline,Bwd Header Length
+B,baseline,Fwd Packetss
+B,baseline,Bwd Packetss
+B,baseline,Min Packet Length
+B,baseline,Max Packet Length
+B,baseline,Packet Length Mean
+B,baseline,Packet Length Std
+B,baseline,Packet Length Variance
+B,baseline,FIN Flag Count
+B,baseline,SYN Flag Count
+B,baseline,RST Flag Count
+B,baseline,PSH Flag Count
+B,baseline,ACK Flag Count
+B,baseline,URG Flag Count
+B,baseline,CWE Flag Count
+B,baseline,ECE Flag Count
+B,baseline,Down Up Ratio
+B,baseline,Average Packet Size
+B,baseline,Avg Fwd Segment Size
+B,baseline,Avg Bwd Segment Size
+B,baseline,Fwd Avg Bytes Bulk
+B,baseline,Fwd Avg Packets Bulk
+B,baseline,Fwd Avg Bulk Rate
+B,baseline,Bwd Avg Bytes Bulk
+B,baseline,Bwd Avg Packets Bulk
+B,baseline,Bwd Avg Bulk Rate
+B,baseline,Subflow Fwd Packets
+B,baseline,Subflow Fwd Bytes
+B,baseline,Subflow Bwd Packets
+B,baseline,Subflow Bwd Bytes
+B,baseline,Init_Win_bytes_forward
+B,baseline,Init_Win_bytes_backward
+B,baseline,act_data_pkt_fwd
+B,baseline,min_seg_size_forward
+B,baseline,Active Mean
+B,baseline,Active Std
+B,baseline,Active Max
+B,baseline,Active Min
+B,baseline,Idle Mean
+B,baseline,Idle Std
+B,baseline,Idle Max
+B,baseline,Idle Min
+B,variance_qc_0.999,Protocol
+B,variance_qc_0.999,Flow Duration
+B,variance_qc_0.999,Total Fwd Packets
+B,variance_qc_0.999,Total Backward Packets
+B,variance_qc_0.999,Total Length of Fwd Packets
+B,variance_qc_0.999,Total Length of Bwd Packets
+B,variance_qc_0.999,Fwd Packet Length Max
+B,variance_qc_0.999,Fwd Packet Length Min
+B,variance_qc_0.999,Fwd Packet Length Mean
+B,variance_qc_0.999,Fwd Packet Length Std
+B,variance_qc_0.999,Bwd Packet Length Max
+B,variance_qc_0.999,Bwd Packet Length Min
+B,variance_qc_0.999,Bwd Packet Length Mean
+B,variance_qc_0.999,Bwd Packet Length Std
+B,variance_qc_0.999,Flow Bytess
+B,variance_qc_0.999,Flow Packetss
+B,variance_qc_0.999,Flow IAT Mean
+B,variance_qc_0.999,Flow IAT Std
+B,variance_qc_0.999,Flow IAT Max
+B,variance_qc_0.999,Flow IAT Min
+B,variance_qc_0.999,Fwd IAT Total
+B,variance_qc_0.999,Fwd IAT Mean
+B,variance_qc_0.999,Fwd IAT Std
+B,variance_qc_0.999,Fwd IAT Max
+B,variance_qc_0.999,Fwd IAT Min
+B,variance_qc_0.999,Bwd IAT Total
+B,variance_qc_0.999,Bwd IAT Mean
+B,variance_qc_0.999,Bwd IAT Std
+B,variance_qc_0.999,Bwd IAT Max
+B,variance_qc_0.999,Bwd IAT Min
+B,variance_qc_0.999,Fwd PSH Flags
+B,variance_qc_0.999,Fwd Header Length
+B,variance_qc_0.999,Bwd Header Length
+B,variance_qc_0.999,Fwd Packetss
+B,variance_qc_0.999,Bwd Packetss
+B,variance_qc_0.999,Min Packet Length
+B,variance_qc_0.999,Max Packet Length
+B,variance_qc_0.999,Packet Length Mean
+B,variance_qc_0.999,Packet Length Std
+B,variance_qc_0.999,Packet Length Variance
+B,variance_qc_0.999,FIN Flag Count
+B,variance_qc_0.999,SYN Flag Count
+B,variance_qc_0.999,PSH Flag Count
+B,variance_qc_0.999,ACK Flag Count
+B,variance_qc_0.999,URG Flag Count
+B,variance_qc_0.999,Down Up Ratio
+B,variance_qc_0.999,Average Packet Size
+B,variance_qc_0.999,Avg Fwd Segment Size
+B,variance_qc_0.999,Avg Bwd Segment Size
+B,variance_qc_0.999,Fwd Avg Bytes Bulk
+B,variance_qc_0.999,Fwd Avg Packets Bulk
+B,variance_qc_0.999,Fwd Avg Bulk Rate
+B,variance_qc_0.999,Subflow Fwd Packets
+B,variance_qc_0.999,Subflow Fwd Bytes
+B,variance_qc_0.999,Subflow Bwd Packets
+B,variance_qc_0.999,Subflow Bwd Bytes
+B,variance_qc_0.999,Init_Win_bytes_forward
+B,variance_qc_0.999,Init_Win_bytes_backward
+B,variance_qc_0.999,act_data_pkt_fwd
+B,variance_qc_0.999,min_seg_size_forward
+B,variance_qc_0.999,Active Mean
+B,variance_qc_0.999,Active Std
+B,variance_qc_0.999,Active Max
+B,variance_qc_0.999,Active Min
+B,variance_qc_0.999,Idle Mean
+B,variance_qc_0.999,Idle Std
+B,variance_qc_0.999,Idle Max
+B,variance_qc_0.999,Idle Min
+B,pearson_0.90,Protocol
+B,pearson_0.90,Flow Duration
+B,pearson_0.90,Total Fwd Packets
+B,pearson_0.90,Total Length of Fwd Packets
+B,pearson_0.90,Fwd Packet Length Min
+B,pearson_0.90,Fwd Packet Length Mean
+B,pearson_0.90,Bwd Packet Length Min
+B,pearson_0.90,Bwd Packet Length Mean
+B,pearson_0.90,Flow Bytess
+B,pearson_0.90,Flow Packetss
+B,pearson_0.90,Flow IAT Mean
+B,pearson_0.90,Flow IAT Min
+B,pearson_0.90,Fwd IAT Mean
+B,pearson_0.90,Fwd IAT Min
+B,pearson_0.90,Bwd IAT Total
+B,pearson_0.90,Bwd IAT Mean
+B,pearson_0.90,Bwd IAT Std
+B,pearson_0.90,Bwd IAT Min
+B,pearson_0.90,Fwd PSH Flags
+B,pearson_0.90,Bwd PSH Flags
+B,pearson_0.90,Fwd URG Flags
+B,pearson_0.90,Bwd URG Flags
+B,pearson_0.90,Fwd Header Length
+B,pearson_0.90,Bwd Packetss
+B,pearson_0.90,Min Packet Length
+B,pearson_0.90,Max Packet Length
+B,pearson_0.90,FIN Flag Count
+B,pearson_0.90,RST Flag Count
+B,pearson_0.90,PSH Flag Count
+B,pearson_0.90,ACK Flag Count
+B,pearson_0.90,URG Flag Count
+B,pearson_0.90,Down Up Ratio
+B,pearson_0.90,Average Packet Size
+B,pearson_0.90,Fwd Avg Bytes Bulk
+B,pearson_0.90,Fwd Avg Packets Bulk
+B,pearson_0.90,Fwd Avg Bulk Rate
+B,pearson_0.90,Bwd Avg Bytes Bulk
+B,pearson_0.90,Bwd Avg Packets Bulk
+B,pearson_0.90,Bwd Avg Bulk Rate
+B,pearson_0.90,Subflow Bwd Bytes
+B,pearson_0.90,Init_Win_bytes_forward
+B,pearson_0.90,Init_Win_bytes_backward
+B,pearson_0.90,Active Mean
+B,pearson_0.90,Active Min
+B,pearson_0.90,Idle Mean
+B,pearson_0.90,Idle Std
+B,cramers_v_top_30,Total Fwd Packets
+B,cramers_v_top_30,Total Backward Packets
+B,cramers_v_top_30,Total Length of Fwd Packets
+B,cramers_v_top_30,Total Length of Bwd Packets
+B,cramers_v_top_30,Fwd Packet Length Max
+B,cramers_v_top_30,Fwd Packet Length Min
+B,cramers_v_top_30,Fwd Packet Length Mean
+B,cramers_v_top_30,Fwd Packet Length Std
+B,cramers_v_top_30,Bwd Packet Length Max
+B,cramers_v_top_30,Bwd Packet Length Mean
+B,cramers_v_top_30,Bwd IAT Total
+B,cramers_v_top_30,Bwd IAT Mean
+B,cramers_v_top_30,Bwd IAT Max
+B,cramers_v_top_30,Bwd IAT Min
+B,cramers_v_top_30,Fwd Header Length
+B,cramers_v_top_30,Bwd Packetss
+B,cramers_v_top_30,Min Packet Length
+B,cramers_v_top_30,Max Packet Length
+B,cramers_v_top_30,Packet Length Mean
+B,cramers_v_top_30,Packet Length Std
+B,cramers_v_top_30,Packet Length Variance
+B,cramers_v_top_30,Average Packet Size
+B,cramers_v_top_30,Avg Fwd Segment Size
+B,cramers_v_top_30,Avg Bwd Segment Size
+B,cramers_v_top_30,Subflow Fwd Packets
+B,cramers_v_top_30,Subflow Fwd Bytes
+B,cramers_v_top_30,Subflow Bwd Packets
+B,cramers_v_top_30,Subflow Bwd Bytes
+B,cramers_v_top_30,Init_Win_bytes_forward
+B,cramers_v_top_30,Init_Win_bytes_backward
+B,chi2_top_40,Flow Duration
+B,chi2_top_40,Total Fwd Packets
+B,chi2_top_40,Total Length of Fwd Packets
+B,chi2_top_40,Fwd Packet Length Max
+B,chi2_top_40,Fwd Packet Length Min
+B,chi2_top_40,Fwd Packet Length Mean
+B,chi2_top_40,Fwd Packet Length Std
+B,chi2_top_40,Flow Bytess
+B,chi2_top_40,Flow Packetss
+B,chi2_top_40,Flow IAT Mean
+B,chi2_top_40,Flow IAT Std
+B,chi2_top_40,Flow IAT Max
+B,chi2_top_40,Flow IAT Min
+B,chi2_top_40,Fwd IAT Total
+B,chi2_top_40,Fwd IAT Mean
+B,chi2_top_40,Fwd IAT Std
+B,chi2_top_40,Fwd IAT Max
+B,chi2_top_40,Bwd IAT Total
+B,chi2_top_40,Fwd Header Length
+B,chi2_top_40,Fwd Packetss
+B,chi2_top_40,Min Packet Length
+B,chi2_top_40,Max Packet Length
+B,chi2_top_40,Packet Length Mean
+B,chi2_top_40,Packet Length Std
+B,chi2_top_40,Packet Length Variance
+B,chi2_top_40,Average Packet Size
+B,chi2_top_40,Avg Fwd Segment Size
+B,chi2_top_40,Subflow Fwd Packets
+B,chi2_top_40,Subflow Fwd Bytes
+B,chi2_top_40,Init_Win_bytes_forward
+B,chi2_top_40,Init_Win_bytes_backward
+B,chi2_top_40,act_data_pkt_fwd
+B,chi2_top_40,Active Mean
+B,chi2_top_40,Active Std
+B,chi2_top_40,Active Max
+B,chi2_top_40,Active Min
+B,chi2_top_40,Idle Mean
+B,chi2_top_40,Idle Std
+B,chi2_top_40,Idle Max
+B,chi2_top_40,Idle Min
+B,combined_p0.90_k30,Protocol
+B,combined_p0.90_k30,Flow Duration
+B,combined_p0.90_k30,Total Fwd Packets
+B,combined_p0.90_k30,Total Length of Fwd Packets
+B,combined_p0.90_k30,Fwd Packet Length Min
+B,combined_p0.90_k30,Fwd Packet Length Mean
+B,combined_p0.90_k30,Bwd Packet Length Min
+B,combined_p0.90_k30,Bwd Packet Length Mean
+B,combined_p0.90_k30,Flow Bytess
+B,combined_p0.90_k30,Flow Packetss
+B,combined_p0.90_k30,Flow IAT Mean
+B,combined_p0.90_k30,Flow IAT Min
+B,combined_p0.90_k30,Fwd IAT Mean
+B,combined_p0.90_k30,Fwd IAT Min
+B,combined_p0.90_k30,Bwd IAT Total
+B,combined_p0.90_k30,Bwd IAT Mean
+B,combined_p0.90_k30,Bwd IAT Min
+B,combined_p0.90_k30,Fwd Header Length
+B,combined_p0.90_k30,Bwd Packetss
+B,combined_p0.90_k30,Min Packet Length
+B,combined_p0.90_k30,Max Packet Length
+B,combined_p0.90_k30,Down Up Ratio
+B,combined_p0.90_k30,Average Packet Size
+B,combined_p0.90_k30,Subflow Bwd Bytes
+B,combined_p0.90_k30,Init_Win_bytes_forward
+B,combined_p0.90_k30,Init_Win_bytes_backward
+B,combined_p0.90_k30,Active Mean
+B,combined_p0.90_k30,Active Min
+B,combined_p0.90_k30,Idle Mean
+B,combined_p0.90_k30,Idle Std

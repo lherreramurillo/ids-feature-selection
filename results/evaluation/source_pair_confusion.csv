@@ -1,0 +1,37 @@
+dataset,config,external_label,lab_label,external_test_rows,lab_test_rows,external_predicted_as_lab,lab_predicted_as_external
+A,baseline,Brute Force,bruteforce,1378,13344,0,0
+A,baseline,PortScan,recon,111,857,0,0
+A,baseline,Web Attack,sqli,406,11,0,0
+A,variance_qc_0.999,Brute Force,bruteforce,1378,13344,0,0
+A,variance_qc_0.999,PortScan,recon,111,857,0,0
+A,variance_qc_0.999,Web Attack,sqli,406,11,0,0
+A,pearson_0.90,Brute Force,bruteforce,1378,13344,0,0
+A,pearson_0.90,PortScan,recon,111,857,0,0
+A,pearson_0.90,Web Attack,sqli,406,11,0,0
+A,chi2_top_40,Brute Force,bruteforce,1378,13344,0,0
+A,chi2_top_40,PortScan,recon,111,857,0,0
+A,chi2_top_40,Web Attack,sqli,406,11,0,0
+A,cramers_v_top_40,Brute Force,bruteforce,1378,13344,0,0
+A,cramers_v_top_40,PortScan,recon,111,857,0,0
+A,cramers_v_top_40,Web Attack,sqli,406,11,0,0
+A,combined_p0.90_k20,Brute Force,bruteforce,1378,13344,0,0
+A,combined_p0.90_k20,PortScan,recon,111,857,0,0
+A,combined_p0.90_k20,Web Attack,sqli,406,11,0,0
+B,baseline,Brute Force,bruteforce,1378,8422,0,0
+B,baseline,PortScan,recon,111,1476,0,0
+B,baseline,Web Attack,sqli,406,11,0,0
+B,variance_qc_0.999,Brute Force,bruteforce,1378,8422,0,0
+B,variance_qc_0.999,PortScan,recon,111,1476,0,0
+B,variance_qc_0.999,Web Attack,sqli,406,11,0,0
+B,pearson_0.90,Brute Force,bruteforce,1378,8422,0,0
+B,pearson_0.90,PortScan,recon,111,1476,0,0
+B,pearson_0.90,Web Attack,sqli,406,11,0,0
+B,cramers_v_top_30,Brute Force,bruteforce,1378,8422,0,0
+B,cramers_v_top_30,PortScan,recon,111,1476,0,0
+B,cramers_v_top_30,Web Attack,sqli,406,11,0,0
+B,chi2_top_40,Brute Force,bruteforce,1378,8422,0,0
+B,chi2_top_40,PortScan,recon,111,1476,0,0
+B,chi2_top_40,Web Attack,sqli,406,11,0,0
+B,combined_p0.90_k30,Brute Force,bruteforce,1378,8422,0,0
+B,combined_p0.90_k30,PortScan,recon,111,1476,0,0
+B,combined_p0.90_k30,Web Attack,sqli,406,11,0,0

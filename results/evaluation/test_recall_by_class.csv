@@ -1,0 +1,145 @@
+dataset,config,label,support,recall
+A,baseline,Botnet ARES,275,0.9709090909090908
+A,baseline,Brute Force,1378,1.0
+A,baseline,Dos/DDos,4273,0.9974256962321554
+A,baseline,Infiltration,6,0.6666666666666666
+A,baseline,PortScan,111,0.981981981981982
+A,baseline,Web Attack,406,0.9926108374384236
+A,baseline,benign,20834,0.988192377843909
+A,baseline,bruteforce,13344,1.0
+A,baseline,dos_httpflood,25403,0.99929142227296
+A,baseline,dos_slowhttptest,165,1.0
+A,baseline,recon,857,0.9953325554259044
+A,baseline,sqli,11,1.0
+A,variance_qc_0.999,Botnet ARES,275,0.9818181818181818
+A,variance_qc_0.999,Brute Force,1378,0.9992743105950652
+A,variance_qc_0.999,Dos/DDos,4273,0.9978937514626726
+A,variance_qc_0.999,Infiltration,6,0.6666666666666666
+A,variance_qc_0.999,PortScan,111,0.972972972972973
+A,variance_qc_0.999,Web Attack,406,0.9926108374384236
+A,variance_qc_0.999,benign,20834,0.988480368628204
+A,variance_qc_0.999,bruteforce,13344,1.0
+A,variance_qc_0.999,dos_httpflood,25403,0.99933078770224
+A,variance_qc_0.999,dos_slowhttptest,165,1.0
+A,variance_qc_0.999,recon,857,0.9953325554259044
+A,variance_qc_0.999,sqli,11,1.0
+A,pearson_0.90,Botnet ARES,275,0.9854545454545456
+A,pearson_0.90,Brute Force,1378,1.0
+A,pearson_0.90,Dos/DDos,4273,0.9978937514626726
+A,pearson_0.90,Infiltration,6,0.6666666666666666
+A,pearson_0.90,PortScan,111,0.972972972972973
+A,pearson_0.90,Web Attack,406,0.9926108374384236
+A,pearson_0.90,benign,20834,0.9893443409810886
+A,pearson_0.90,bruteforce,13344,0.9999250599520384
+A,pearson_0.90,dos_httpflood,25403,0.9982285556823998
+A,pearson_0.90,dos_slowhttptest,165,1.0
+A,pearson_0.90,recon,857,0.9894982497082848
+A,pearson_0.90,sqli,11,1.0
+A,chi2_top_40,Botnet ARES,275,0.9709090909090908
+A,chi2_top_40,Brute Force,1378,0.9985486211901308
+A,chi2_top_40,Dos/DDos,4273,0.997659723847414
+A,chi2_top_40,Infiltration,6,0.6666666666666666
+A,chi2_top_40,PortScan,111,0.972972972972973
+A,chi2_top_40,Web Attack,406,0.9926108374384236
+A,chi2_top_40,benign,20834,0.9884323701641547
+A,chi2_top_40,bruteforce,13344,1.0
+A,chi2_top_40,dos_httpflood,25403,0.99933078770224
+A,chi2_top_40,dos_slowhttptest,165,1.0
+A,chi2_top_40,recon,857,0.9953325554259044
+A,chi2_top_40,sqli,11,1.0
+A,cramers_v_top_40,Botnet ARES,275,0.9963636363636365
+A,cramers_v_top_40,Brute Force,1378,1.0
+A,cramers_v_top_40,Dos/DDos,4273,0.9981277790779312
+A,cramers_v_top_40,Infiltration,6,0.6666666666666666
+A,cramers_v_top_40,PortScan,111,0.981981981981982
+A,cramers_v_top_40,Web Attack,406,0.9926108374384236
+A,cramers_v_top_40,benign,20834,0.9890083517327446
+A,cramers_v_top_40,bruteforce,13344,1.0
+A,cramers_v_top_40,dos_httpflood,25403,0.9991339605558398
+A,cramers_v_top_40,dos_slowhttptest,165,1.0
+A,cramers_v_top_40,recon,857,0.9964994165694282
+A,cramers_v_top_40,sqli,11,0.9090909090909092
+A,combined_p0.90_k20,Botnet ARES,275,0.9818181818181818
+A,combined_p0.90_k20,Brute Force,1378,1.0
+A,combined_p0.90_k20,Dos/DDos,4273,0.9978937514626726
+A,combined_p0.90_k20,Infiltration,6,0.6666666666666666
+A,combined_p0.90_k20,PortScan,111,0.981981981981982
+A,combined_p0.90_k20,Web Attack,406,0.9926108374384236
+A,combined_p0.90_k20,benign,20834,0.98982432562158
+A,combined_p0.90_k20,bruteforce,13344,0.9999250599520384
+A,combined_p0.90_k20,dos_httpflood,25403,0.9981104593945596
+A,combined_p0.90_k20,dos_slowhttptest,165,1.0
+A,combined_p0.90_k20,recon,857,0.9883313885647608
+A,combined_p0.90_k20,sqli,11,1.0
+B,baseline,Botnet ARES,275,0.9709090909090909
+B,baseline,Brute Force,1378,0.9992743105950653
+B,baseline,Dos/DDos,4273,0.9981277790779312
+B,baseline,Infiltration,6,0.6666666666666666
+B,baseline,PortScan,111,0.972972972972973
+B,baseline,Web Attack,406,0.9926108374384236
+B,baseline,benign,20560,0.9875972762645915
+B,baseline,bruteforce,8422,0.9996437900736167
+B,baseline,dos_httpflood,24706,0.9986642920747997
+B,baseline,dos_slowhttptest,164,1.0
+B,baseline,recon,1476,0.997289972899729
+B,baseline,sqli,11,1.0
+B,variance_qc_0.999,Botnet ARES,275,0.9781818181818182
+B,variance_qc_0.999,Brute Force,1378,1.0
+B,variance_qc_0.999,Dos/DDos,4273,0.9978937514626726
+B,variance_qc_0.999,Infiltration,6,0.6666666666666666
+B,variance_qc_0.999,PortScan,111,0.9819819819819819
+B,variance_qc_0.999,Web Attack,406,0.9926108374384236
+B,variance_qc_0.999,benign,20560,0.9877431906614786
+B,variance_qc_0.999,bruteforce,8422,0.9996437900736167
+B,variance_qc_0.999,dos_httpflood,24706,0.998704768072533
+B,variance_qc_0.999,dos_slowhttptest,164,1.0
+B,variance_qc_0.999,recon,1476,0.997289972899729
+B,variance_qc_0.999,sqli,11,1.0
+B,pearson_0.90,Botnet ARES,275,0.9890909090909091
+B,pearson_0.90,Brute Force,1378,0.9992743105950653
+B,pearson_0.90,Dos/DDos,4273,0.9981277790779312
+B,pearson_0.90,Infiltration,6,0.6666666666666666
+B,pearson_0.90,PortScan,111,0.972972972972973
+B,pearson_0.90,Web Attack,406,0.9926108374384236
+B,pearson_0.90,benign,20560,0.988375486381323
+B,pearson_0.90,bruteforce,8422,0.9996437900736167
+B,pearson_0.90,dos_httpflood,24706,0.9986642920747997
+B,pearson_0.90,dos_slowhttptest,164,1.0
+B,pearson_0.90,recon,1476,0.997289972899729
+B,pearson_0.90,sqli,11,1.0
+B,cramers_v_top_30,Botnet ARES,275,0.9963636363636363
+B,cramers_v_top_30,Brute Force,1378,1.0
+B,cramers_v_top_30,Dos/DDos,4273,0.9948513924643108
+B,cramers_v_top_30,Infiltration,6,0.6666666666666666
+B,cramers_v_top_30,PortScan,111,0.990990990990991
+B,cramers_v_top_30,Web Attack,406,0.9926108374384236
+B,cramers_v_top_30,benign,20560,0.9877918287937744
+B,cramers_v_top_30,bruteforce,8422,0.9998812633578722
+B,cramers_v_top_30,dos_httpflood,24706,0.9991500040475998
+B,cramers_v_top_30,dos_slowhttptest,164,0.9817073170731707
+B,cramers_v_top_30,recon,1476,0.8868563685636857
+B,cramers_v_top_30,sqli,11,1.0
+B,chi2_top_40,Botnet ARES,275,0.9818181818181818
+B,chi2_top_40,Brute Force,1378,0.9985486211901307
+B,chi2_top_40,Dos/DDos,4273,0.997659723847414
+B,chi2_top_40,Infiltration,6,0.6666666666666666
+B,chi2_top_40,PortScan,111,0.972972972972973
+B,chi2_top_40,Web Attack,406,0.9950738916256158
+B,chi2_top_40,benign,20560,0.9876459143968872
+B,chi2_top_40,bruteforce,8422,0.9996437900736167
+B,chi2_top_40,dos_httpflood,24706,0.9986642920747997
+B,chi2_top_40,dos_slowhttptest,164,1.0
+B,chi2_top_40,recon,1476,0.997289972899729
+B,chi2_top_40,sqli,11,1.0
+B,combined_p0.90_k30,Botnet ARES,275,0.9890909090909091
+B,combined_p0.90_k30,Brute Force,1378,1.0
+B,combined_p0.90_k30,Dos/DDos,4273,0.9978937514626726
+B,combined_p0.90_k30,Infiltration,6,0.6666666666666666
+B,combined_p0.90_k30,PortScan,111,0.9819819819819819
+B,combined_p0.90_k30,Web Attack,406,0.9926108374384236
+B,combined_p0.90_k30,benign,20560,0.9885700389105059
+B,combined_p0.90_k30,bruteforce,8422,0.9996437900736167
+B,combined_p0.90_k30,dos_httpflood,24706,0.9985833400793329
+B,combined_p0.90_k30,dos_slowhttptest,164,1.0
+B,combined_p0.90_k30,recon,1476,0.997289972899729
+B,combined_p0.90_k30,sqli,11,1.0

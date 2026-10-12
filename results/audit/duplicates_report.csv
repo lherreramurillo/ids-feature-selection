@@ -1,0 +1,19 @@
+dataset,section,group_id,labels,n_rows,first_row_index
+A,exact_duplicates_by_label,,Dos/DDos,74,
+A,exact_duplicates_by_label,,benign,12,
+A,exact_duplicates_by_label,,recon,5,
+A,exact_duplicates_by_label,,sqli,3,
+A,conflict_group,A-1,dos_httpflood (1) | sqli (1),2,280051
+A,conflict_group,A-2,recon (1) | sqli (1),2,367034
+A,conflict_group,A-3,recon (1) | sqli (1),2,367251
+A,conflict_group,A-4,recon (1) | sqli (1),2,367899
+A,conflict_group,A-5,recon (1) | sqli (1),2,368457
+B,exact_duplicates_by_label,,Dos/DDos,74,
+B,exact_duplicates_by_label,,benign,12,
+B,exact_duplicates_by_label,,dos_httpflood,2,
+B,exact_duplicates_by_label,,recon,9,
+B,exact_duplicates_by_label,,sqli,3,
+B,conflict_group,B-1,dos_httpflood (1) | recon (1),2,234440
+B,conflict_group,B-2,dos_httpflood (1) | recon (1),2,258315
+B,conflict_group,B-3,dos_httpflood (1) | recon (1),2,272297
+B,conflict_group,B-4,recon (1) | sqli (1),2,342158

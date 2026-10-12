@@ -1,0 +1,46 @@
+
+=== Dataset A: train 268251, test 67063 ===
+  [A] fold 1/5: filters fitted in 36s
+  [A] fold 1/5: 22 models trained, best F1-macro 0.9705 (cramers_v_top_40)
+  [A] fold 2/5: filters fitted in 21s
+  [A] fold 2/5: 22 models trained, best F1-macro 0.9735 (cramers_v_top_40)
+  [A] fold 3/5: filters fitted in 16s
+  [A] fold 3/5: 22 models trained, best F1-macro 0.9409 (cramers_v_top_40)
+  [A] fold 4/5: filters fitted in 15s
+  [A] fold 4/5: 22 models trained, best F1-macro 0.9863 (cramers_v_top_40)
+  [A] fold 5/5: filters fitted in 17s
+  [A] fold 5/5: 22 models trained, best F1-macro 0.9696 (cramers_v_top_40)
+  [A] selected for test: ['baseline', 'variance_qc_0.999', 'pearson_0.90', 'chi2_top_40', 'cramers_v_top_40', 'combined_p0.90_k20']
+  [A] test baseline: 77 features, F1-macro 0.9713, MCC 0.9939
+  [A] test variance_qc_0.999: 68 features, F1-macro 0.9721, MCC 0.9941
+  [A] test pearson_0.90: 45 features, F1-macro 0.9727, MCC 0.9938
+  [A] test chi2_top_40: 40 features, F1-macro 0.9659, MCC 0.9940
+  [A] test cramers_v_top_40: 40 features, F1-macro 0.9715, MCC 0.9944
+  [A] test combined_p0.90_k20: 20 features, F1-macro 0.9678, MCC 0.9939
+  [A] source probe all_rows: done
+  [A] source probe benign_only: done
+  [A] finished in 29.0 min
+
+=== Dataset B: train 247152, test 61788 ===
+  [B] fold 1/5: filters fitted in 20s
+  [B] fold 1/5: 22 models trained, best F1-macro 0.9827 (combined_p0.95_k30)
+  [B] fold 2/5: filters fitted in 23s
+  [B] fold 2/5: 22 models trained, best F1-macro 0.9672 (combined_p0.90_k30)
+  [B] fold 3/5: filters fitted in 21s
+  [B] fold 3/5: 22 models trained, best F1-macro 0.9710 (variance_qc_0.999)
+  [B] fold 4/5: filters fitted in 17s
+  [B] fold 4/5: 22 models trained, best F1-macro 0.9838 (combined_p0.95_k30)
+  [B] fold 5/5: filters fitted in 16s
+  [B] fold 5/5: 22 models trained, best F1-macro 0.9481 (cramers_v_top_30)
+  [B] selected for test: ['baseline', 'variance_qc_0.999', 'pearson_0.90', 'cramers_v_top_30', 'chi2_top_40', 'combined_p0.90_k30']
+  [B] test baseline: 77 features, F1-macro 0.9669, MCC 0.9927
+  [B] test variance_qc_0.999: 68 features, F1-macro 0.9683, MCC 0.9928
+  [B] test pearson_0.90: 46 features, F1-macro 0.9692, MCC 0.9932
+  [B] test cramers_v_top_30: 30 features, F1-macro 0.9540, MCC 0.9892
+  [B] test chi2_top_40: 40 features, F1-macro 0.9621, MCC 0.9927
+  [B] test combined_p0.90_k30: 30 features, F1-macro 0.9701, MCC 0.9932
+  [B] source probe all_rows: done
+  [B] source probe benign_only: done
+  [B] finished in 27.8 min
+
+Written: /home/camille/Documents/Proyecto_GAIA/ids-feature-selection/results/evaluation

@@ -1,0 +1,711 @@
+method,setting,feature
+variance_quasi_constant,1.0,Protocol
+variance_quasi_constant,1.0,Flow Duration
+variance_quasi_constant,1.0,Total Fwd Packets
+variance_quasi_constant,1.0,Total Backward Packets
+variance_quasi_constant,1.0,Total Length of Fwd Packets
+variance_quasi_constant,1.0,Total Length of Bwd Packets
+variance_quasi_constant,1.0,Fwd Packet Length Max
+variance_quasi_constant,1.0,Fwd Packet Length Min
+variance_quasi_constant,1.0,Fwd Packet Length Mean
+variance_quasi_constant,1.0,Fwd Packet Length Std
+variance_quasi_constant,1.0,Bwd Packet Length Max
+variance_quasi_constant,1.0,Bwd Packet Length Min
+variance_quasi_constant,1.0,Bwd Packet Length Mean
+variance_quasi_constant,1.0,Bwd Packet Length Std
+variance_quasi_constant,1.0,Flow Bytess
+variance_quasi_constant,1.0,Flow Packetss
+variance_quasi_constant,1.0,Flow IAT Mean
+variance_quasi_constant,1.0,Flow IAT Std
+variance_quasi_constant,1.0,Flow IAT Max
+variance_quasi_constant,1.0,Flow IAT Min
+variance_quasi_constant,1.0,Fwd IAT Total
+variance_quasi_constant,1.0,Fwd IAT Mean
+variance_quasi_constant,1.0,Fwd IAT Std
+variance_quasi_constant,1.0,Fwd IAT Max
+variance_quasi_constant,1.0,Fwd IAT Min
+variance_quasi_constant,1.0,Bwd IAT Total
+variance_quasi_constant,1.0,Bwd IAT Mean
+variance_quasi_constant,1.0,Bwd IAT Std
+variance_quasi_constant,1.0,Bwd IAT Max
+variance_quasi_constant,1.0,Bwd IAT Min
+variance_quasi_constant,1.0,Fwd PSH Flags
+variance_quasi_constant,1.0,Fwd URG Flags
+variance_quasi_constant,1.0,Fwd Header Length
+variance_quasi_constant,1.0,Bwd Header Length
+variance_quasi_constant,1.0,Fwd Packetss
+variance_quasi_constant,1.0,Bwd Packetss
+variance_quasi_constant,1.0,Min Packet Length
+variance_quasi_constant,1.0,Max Packet Length
+variance_quasi_constant,1.0,Packet Length Mean
+variance_quasi_constant,1.0,Packet Length Std
+variance_quasi_constant,1.0,Packet Length Variance
+variance_quasi_constant,1.0,FIN Flag Count
+variance_quasi_constant,1.0,SYN Flag Count
+variance_quasi_constant,1.0,RST Flag Count
+variance_quasi_constant,1.0,PSH Flag Count
+variance_quasi_constant,1.0,ACK Flag Count
+variance_quasi_constant,1.0,URG Flag Count
+variance_quasi_constant,1.0,CWE Flag Count
+variance_quasi_constant,1.0,ECE Flag Count
+variance_quasi_constant,1.0,Down Up Ratio
+variance_quasi_constant,1.0,Average Packet Size
+variance_quasi_constant,1.0,Avg Fwd Segment Size
+variance_quasi_constant,1.0,Avg Bwd Segment Size
+variance_quasi_constant,1.0,Fwd Avg Bytes Bulk
+variance_quasi_constant,1.0,Fwd Avg Packets Bulk
+variance_quasi_constant,1.0,Fwd Avg Bulk Rate
+variance_quasi_constant,1.0,Subflow Fwd Packets
+variance_quasi_constant,1.0,Subflow Fwd Bytes
+variance_quasi_constant,1.0,Subflow Bwd Packets
+variance_quasi_constant,1.0,Subflow Bwd Bytes
+variance_quasi_constant,1.0,Init_Win_bytes_forward
+variance_quasi_constant,1.0,Init_Win_bytes_backward
+variance_quasi_constant,1.0,act_data_pkt_fwd
+variance_quasi_constant,1.0,min_seg_size_forward
+variance_quasi_constant,1.0,Active Mean
+variance_quasi_constant,1.0,Active Std
+variance_quasi_constant,1.0,Active Max
+variance_quasi_constant,1.0,Active Min
+variance_quasi_constant,1.0,Idle Mean
+variance_quasi_constant,1.0,Idle Std
+variance_quasi_constant,1.0,Idle Max
+variance_quasi_constant,1.0,Idle Min
+variance_quasi_constant,0.999,Protocol
+variance_quasi_constant,0.999,Flow Duration
+variance_quasi_constant,0.999,Total Fwd Packets
+variance_quasi_constant,0.999,Total Backward Packets
+variance_quasi_constant,0.999,Total Length of Fwd Packets
+variance_quasi_constant,0.999,Total Length of Bwd Packets
+variance_quasi_constant,0.999,Fwd Packet Length Max
+variance_quasi_constant,0.999,Fwd Packet Length Min
+variance_quasi_constant,0.999,Fwd Packet Length Mean
+variance_quasi_constant,0.999,Fwd Packet Length Std
+variance_quasi_constant,0.999,Bwd Packet Length Max
+variance_quasi_constant,0.999,Bwd Packet Length Min
+variance_quasi_constant,0.999,Bwd Packet Length Mean
+variance_quasi_constant,0.999,Bwd Packet Length Std
+variance_quasi_constant,0.999,Flow Bytess
+variance_quasi_constant,0.999,Flow Packetss
+variance_quasi_constant,0.999,Flow IAT Mean
+variance_quasi_constant,0.999,Flow IAT Std
+variance_quasi_constant,0.999,Flow IAT Max
+variance_quasi_constant,0.999,Flow IAT Min
+variance_quasi_constant,0.999,Fwd IAT Total
+variance_quasi_constant,0.999,Fwd IAT Mean
+variance_quasi_constant,0.999,Fwd IAT Std
+variance_quasi_constant,0.999,Fwd IAT Max
+variance_quasi_constant,0.999,Fwd IAT Min
+variance_quasi_constant,0.999,Bwd IAT Total
+variance_quasi_constant,0.999,Bwd IAT Mean
+variance_quasi_constant,0.999,Bwd IAT Std
+variance_quasi_constant,0.999,Bwd IAT Max
+variance_quasi_constant,0.999,Bwd IAT Min
+variance_quasi_constant,0.999,Fwd PSH Flags
+variance_quasi_constant,0.999,Fwd Header Length
+variance_quasi_constant,0.999,Bwd Header Length
+variance_quasi_constant,0.999,Fwd Packetss
+variance_quasi_constant,0.999,Bwd Packetss
+variance_quasi_constant,0.999,Min Packet Length
+variance_quasi_constant,0.999,Max Packet Length
+variance_quasi_constant,0.999,Packet Length Mean
+variance_quasi_constant,0.999,Packet Length Std
+variance_quasi_constant,0.999,Packet Length Variance
+variance_quasi_constant,0.999,FIN Flag Count
+variance_quasi_constant,0.999,SYN Flag Count
+variance_quasi_constant,0.999,PSH Flag Count
+variance_quasi_constant,0.999,ACK Flag Count
+variance_quasi_constant,0.999,URG Flag Count
+variance_quasi_constant,0.999,Down Up Ratio
+variance_quasi_constant,0.999,Average Packet Size
+variance_quasi_constant,0.999,Avg Fwd Segment Size
+variance_quasi_constant,0.999,Avg Bwd Segment Size
+variance_quasi_constant,0.999,Fwd Avg Bytes Bulk
+variance_quasi_constant,0.999,Fwd Avg Packets Bulk
+variance_quasi_constant,0.999,Fwd Avg Bulk Rate
+variance_quasi_constant,0.999,Subflow Fwd Packets
+variance_quasi_constant,0.999,Subflow Fwd Bytes
+variance_quasi_constant,0.999,Subflow Bwd Packets
+variance_quasi_constant,0.999,Subflow Bwd Bytes
+variance_quasi_constant,0.999,Init_Win_bytes_forward
+variance_quasi_constant,0.999,Init_Win_bytes_backward
+variance_quasi_constant,0.999,act_data_pkt_fwd
+variance_quasi_constant,0.999,min_seg_size_forward
+variance_quasi_constant,0.999,Active Mean
+variance_quasi_constant,0.999,Active Std
+variance_quasi_constant,0.999,Active Max
+variance_quasi_constant,0.999,Active Min
+variance_quasi_constant,0.999,Idle Mean
+variance_quasi_constant,0.999,Idle Std
+variance_quasi_constant,0.999,Idle Max
+variance_quasi_constant,0.999,Idle Min
+variance_quasi_constant,0.99,Protocol
+variance_quasi_constant,0.99,Flow Duration
+variance_quasi_constant,0.99,Total Fwd Packets
+variance_quasi_constant,0.99,Total Backward Packets
+variance_quasi_constant,0.99,Total Length of Fwd Packets
+variance_quasi_constant,0.99,Total Length of Bwd Packets
+variance_quasi_constant,0.99,Fwd Packet Length Max
+variance_quasi_constant,0.99,Fwd Packet Length Min
+variance_quasi_constant,0.99,Fwd Packet Length Mean
+variance_quasi_constant,0.99,Fwd Packet Length Std
+variance_quasi_constant,0.99,Bwd Packet Length Max
+variance_quasi_constant,0.99,Bwd Packet Length Min
+variance_quasi_constant,0.99,Bwd Packet Length Mean
+variance_quasi_constant,0.99,Bwd Packet Length Std
+variance_quasi_constant,0.99,Flow Bytess
+variance_quasi_constant,0.99,Flow Packetss
+variance_quasi_constant,0.99,Flow IAT Mean
+variance_quasi_constant,0.99,Flow IAT Std
+variance_quasi_constant,0.99,Flow IAT Max
+variance_quasi_constant,0.99,Flow IAT Min
+variance_quasi_constant,0.99,Fwd IAT Total
+variance_quasi_constant,0.99,Fwd IAT Mean
+variance_quasi_constant,0.99,Fwd IAT Std
+variance_quasi_constant,0.99,Fwd IAT Max
+variance_quasi_constant,0.99,Fwd IAT Min
+variance_quasi_constant,0.99,Bwd IAT Total
+variance_quasi_constant,0.99,Bwd IAT Mean
+variance_quasi_constant,0.99,Bwd IAT Std
+variance_quasi_constant,0.99,Bwd IAT Max
+variance_quasi_constant,0.99,Bwd IAT Min
+variance_quasi_constant,0.99,Fwd Header Length
+variance_quasi_constant,0.99,Bwd Header Length
+variance_quasi_constant,0.99,Fwd Packetss
+variance_quasi_constant,0.99,Bwd Packetss
+variance_quasi_constant,0.99,Min Packet Length
+variance_quasi_constant,0.99,Max Packet Length
+variance_quasi_constant,0.99,Packet Length Mean
+variance_quasi_constant,0.99,Packet Length Std
+variance_quasi_constant,0.99,Packet Length Variance
+variance_quasi_constant,0.99,FIN Flag Count
+variance_quasi_constant,0.99,PSH Flag Count
+variance_quasi_constant,0.99,ACK Flag Count
+variance_quasi_constant,0.99,URG Flag Count
+variance_quasi_constant,0.99,Down Up Ratio
+variance_quasi_constant,0.99,Average Packet Size
+variance_quasi_constant,0.99,Avg Fwd Segment Size
+variance_quasi_constant,0.99,Avg Bwd Segment Size
+variance_quasi_constant,0.99,Fwd Avg Bytes Bulk
+variance_quasi_constant,0.99,Fwd Avg Packets Bulk
+variance_quasi_constant,0.99,Fwd Avg Bulk Rate
+variance_quasi_constant,0.99,Subflow Fwd Packets
+variance_quasi_constant,0.99,Subflow Fwd Bytes
+variance_quasi_constant,0.99,Subflow Bwd Packets
+variance_quasi_constant,0.99,Subflow Bwd Bytes
+variance_quasi_constant,0.99,Init_Win_bytes_forward
+variance_quasi_constant,0.99,Init_Win_bytes_backward
+variance_quasi_constant,0.99,act_data_pkt_fwd
+variance_quasi_constant,0.99,min_seg_size_forward
+variance_quasi_constant,0.99,Active Mean
+variance_quasi_constant,0.99,Active Std
+variance_quasi_constant,0.99,Active Max
+variance_quasi_constant,0.99,Active Min
+variance_quasi_constant,0.99,Idle Mean
+variance_quasi_constant,0.99,Idle Std
+variance_quasi_constant,0.99,Idle Max
+variance_quasi_constant,0.99,Idle Min
+variance_quasi_constant,0.95,Flow Duration
+variance_quasi_constant,0.95,Total Fwd Packets
+variance_quasi_constant,0.95,Total Backward Packets
+variance_quasi_constant,0.95,Total Length of Fwd Packets
+variance_quasi_constant,0.95,Total Length of Bwd Packets
+variance_quasi_constant,0.95,Fwd Packet Length Max
+variance_quasi_constant,0.95,Fwd Packet Length Min
+variance_quasi_constant,0.95,Fwd Packet Length Mean
+variance_quasi_constant,0.95,Fwd Packet Length Std
+variance_quasi_constant,0.95,Bwd Packet Length Max
+variance_quasi_constant,0.95,Bwd Packet Length Mean
+variance_quasi_constant,0.95,Bwd Packet Length Std
+variance_quasi_constant,0.95,Flow Bytess
+variance_quasi_constant,0.95,Flow Packetss
+variance_quasi_constant,0.95,Flow IAT Mean
+variance_quasi_constant,0.95,Flow IAT Std
+variance_quasi_constant,0.95,Flow IAT Max
+variance_quasi_constant,0.95,Flow IAT Min
+variance_quasi_constant,0.95,Fwd IAT Total
+variance_quasi_constant,0.95,Fwd IAT Mean
+variance_quasi_constant,0.95,Fwd IAT Std
+variance_quasi_constant,0.95,Fwd IAT Max
+variance_quasi_constant,0.95,Fwd IAT Min
+variance_quasi_constant,0.95,Bwd IAT Total
+variance_quasi_constant,0.95,Bwd IAT Mean
+variance_quasi_constant,0.95,Bwd IAT Std
+variance_quasi_constant,0.95,Bwd IAT Max
+variance_quasi_constant,0.95,Bwd IAT Min
+variance_quasi_constant,0.95,Fwd Header Length
+variance_quasi_constant,0.95,Bwd Header Length
+variance_quasi_constant,0.95,Fwd Packetss
+variance_quasi_constant,0.95,Bwd Packetss
+variance_quasi_constant,0.95,Min Packet Length
+variance_quasi_constant,0.95,Max Packet Length
+variance_quasi_constant,0.95,Packet Length Mean
+variance_quasi_constant,0.95,Packet Length Std
+variance_quasi_constant,0.95,Packet Length Variance
+variance_quasi_constant,0.95,FIN Flag Count
+variance_quasi_constant,0.95,PSH Flag Count
+variance_quasi_constant,0.95,ACK Flag Count
+variance_quasi_constant,0.95,Down Up Ratio
+variance_quasi_constant,0.95,Average Packet Size
+variance_quasi_constant,0.95,Avg Fwd Segment Size
+variance_quasi_constant,0.95,Avg Bwd Segment Size
+variance_quasi_constant,0.95,Subflow Fwd Packets
+variance_quasi_constant,0.95,Subflow Fwd Bytes
+variance_quasi_constant,0.95,Subflow Bwd Packets
+variance_quasi_constant,0.95,Subflow Bwd Bytes
+variance_quasi_constant,0.95,Init_Win_bytes_forward
+variance_quasi_constant,0.95,Init_Win_bytes_backward
+variance_quasi_constant,0.95,act_data_pkt_fwd
+variance_quasi_constant,0.95,min_seg_size_forward
+variance_quasi_constant,0.95,Active Mean
+variance_quasi_constant,0.95,Active Std
+variance_quasi_constant,0.95,Active Max
+variance_quasi_constant,0.95,Active Min
+variance_quasi_constant,0.95,Idle Mean
+variance_quasi_constant,0.95,Idle Std
+variance_quasi_constant,0.95,Idle Max
+variance_quasi_constant,0.95,Idle Min
+variance_minmax,0.0,Protocol
+variance_minmax,0.0,Flow Duration
+variance_minmax,0.0,Total Fwd Packets
+variance_minmax,0.0,Total Backward Packets
+variance_minmax,0.0,Total Length of Fwd Packets
+variance_minmax,0.0,Total Length of Bwd Packets
+variance_minmax,0.0,Fwd Packet Length Max
+variance_minmax,0.0,Fwd Packet Length Min
+variance_minmax,0.0,Fwd Packet Length Mean
+variance_minmax,0.0,Fwd Packet Length Std
+variance_minmax,0.0,Bwd Packet Length Max
+variance_minmax,0.0,Bwd Packet Length Min
+variance_minmax,0.0,Bwd Packet Length Mean
+variance_minmax,0.0,Bwd Packet Length Std
+variance_minmax,0.0,Flow Bytess
+variance_minmax,0.0,Flow Packetss
+variance_minmax,0.0,Flow IAT Mean
+variance_minmax,0.0,Flow IAT Std
+variance_minmax,0.0,Flow IAT Max
+variance_minmax,0.0,Flow IAT Min
+variance_minmax,0.0,Fwd IAT Total
+variance_minmax,0.0,Fwd IAT Mean
+variance_minmax,0.0,Fwd IAT Std
+variance_minmax,0.0,Fwd IAT Max
+variance_minmax,0.0,Fwd IAT Min
+variance_minmax,0.0,Bwd IAT Total
+variance_minmax,0.0,Bwd IAT Mean
+variance_minmax,0.0,Bwd IAT Std
+variance_minmax,0.0,Bwd IAT Max
+variance_minmax,0.0,Bwd IAT Min
+variance_minmax,0.0,Fwd PSH Flags
+variance_minmax,0.0,Fwd URG Flags
+variance_minmax,0.0,Fwd Header Length
+variance_minmax,0.0,Bwd Header Length
+variance_minmax,0.0,Fwd Packetss
+variance_minmax,0.0,Bwd Packetss
+variance_minmax,0.0,Min Packet Length
+variance_minmax,0.0,Max Packet Length
+variance_minmax,0.0,Packet Length Mean
+variance_minmax,0.0,Packet Length Std
+variance_minmax,0.0,Packet Length Variance
+variance_minmax,0.0,FIN Flag Count
+variance_minmax,0.0,SYN Flag Count
+variance_minmax,0.0,RST Flag Count
+variance_minmax,0.0,PSH Flag Count
+variance_minmax,0.0,ACK Flag Count
+variance_minmax,0.0,URG Flag Count
+variance_minmax,0.0,CWE Flag Count
+variance_minmax,0.0,ECE Flag Count
+variance_minmax,0.0,Down Up Ratio
+variance_minmax,0.0,Average Packet Size
+variance_minmax,0.0,Avg Fwd Segment Size
+variance_minmax,0.0,Avg Bwd Segment Size
+variance_minmax,0.0,Fwd Avg Bytes Bulk
+variance_minmax,0.0,Fwd Avg Packets Bulk
+variance_minmax,0.0,Fwd Avg Bulk Rate
+variance_minmax,0.0,Subflow Fwd Packets
+variance_minmax,0.0,Subflow Fwd Bytes
+variance_minmax,0.0,Subflow Bwd Packets
+variance_minmax,0.0,Subflow Bwd Bytes
+variance_minmax,0.0,Init_Win_bytes_forward
+variance_minmax,0.0,Init_Win_bytes_backward
+variance_minmax,0.0,act_data_pkt_fwd
+variance_minmax,0.0,min_seg_size_forward
+variance_minmax,0.0,Active Mean
+variance_minmax,0.0,Active Std
+variance_minmax,0.0,Active Max
+variance_minmax,0.0,Active Min
+variance_minmax,0.0,Idle Mean
+variance_minmax,0.0,Idle Std
+variance_minmax,0.0,Idle Max
+variance_minmax,0.0,Idle Min
+variance_minmax,0.0001,Protocol
+variance_minmax,0.0001,Flow Duration
+variance_minmax,0.0001,Fwd Packet Length Max
+variance_minmax,0.0001,Fwd Packet Length Min
+variance_minmax,0.0001,Fwd Packet Length Mean
+variance_minmax,0.0001,Fwd Packet Length Std
+variance_minmax,0.0001,Bwd Packet Length Max
+variance_minmax,0.0001,Bwd Packet Length Min
+variance_minmax,0.0001,Bwd Packet Length Mean
+variance_minmax,0.0001,Bwd Packet Length Std
+variance_minmax,0.0001,Flow Packetss
+variance_minmax,0.0001,Flow IAT Mean
+variance_minmax,0.0001,Flow IAT Std
+variance_minmax,0.0001,Flow IAT Max
+variance_minmax,0.0001,Flow IAT Min
+variance_minmax,0.0001,Fwd IAT Total
+variance_minmax,0.0001,Fwd IAT Mean
+variance_minmax,0.0001,Fwd IAT Std
+variance_minmax,0.0001,Fwd IAT Max
+variance_minmax,0.0001,Fwd IAT Min
+variance_minmax,0.0001,Bwd IAT Total
+variance_minmax,0.0001,Bwd IAT Mean
+variance_minmax,0.0001,Bwd IAT Std
+variance_minmax,0.0001,Bwd IAT Max
+variance_minmax,0.0001,Bwd IAT Min
+variance_minmax,0.0001,Fwd PSH Flags
+variance_minmax,0.0001,Fwd Packetss
+variance_minmax,0.0001,Min Packet Length
+variance_minmax,0.0001,Max Packet Length
+variance_minmax,0.0001,Packet Length Mean
+variance_minmax,0.0001,Packet Length Std
+variance_minmax,0.0001,Packet Length Variance
+variance_minmax,0.0001,FIN Flag Count
+variance_minmax,0.0001,SYN Flag Count
+variance_minmax,0.0001,PSH Flag Count
+variance_minmax,0.0001,ACK Flag Count
+variance_minmax,0.0001,URG Flag Count
+variance_minmax,0.0001,Down Up Ratio
+variance_minmax,0.0001,Average Packet Size
+variance_minmax,0.0001,Avg Fwd Segment Size
+variance_minmax,0.0001,Avg Bwd Segment Size
+variance_minmax,0.0001,Fwd Avg Bulk Rate
+variance_minmax,0.0001,Init_Win_bytes_forward
+variance_minmax,0.0001,Init_Win_bytes_backward
+variance_minmax,0.0001,Active Mean
+variance_minmax,0.0001,Active Std
+variance_minmax,0.0001,Active Max
+variance_minmax,0.0001,Active Min
+variance_minmax,0.0001,Idle Mean
+variance_minmax,0.0001,Idle Std
+variance_minmax,0.0001,Idle Max
+variance_minmax,0.0001,Idle Min
+variance_minmax,0.001,Protocol
+variance_minmax,0.001,Flow Duration
+variance_minmax,0.001,Bwd Packet Length Max
+variance_minmax,0.001,Bwd Packet Length Mean
+variance_minmax,0.001,Bwd Packet Length Std
+variance_minmax,0.001,Flow IAT Std
+variance_minmax,0.001,Flow IAT Max
+variance_minmax,0.001,Fwd IAT Total
+variance_minmax,0.001,Fwd IAT Mean
+variance_minmax,0.001,Fwd IAT Std
+variance_minmax,0.001,Fwd IAT Max
+variance_minmax,0.001,Fwd IAT Min
+variance_minmax,0.001,Bwd IAT Total
+variance_minmax,0.001,Bwd IAT Mean
+variance_minmax,0.001,Bwd IAT Std
+variance_minmax,0.001,Bwd IAT Max
+variance_minmax,0.001,Fwd PSH Flags
+variance_minmax,0.001,Max Packet Length
+variance_minmax,0.001,Packet Length Mean
+variance_minmax,0.001,Packet Length Std
+variance_minmax,0.001,Packet Length Variance
+variance_minmax,0.001,FIN Flag Count
+variance_minmax,0.001,SYN Flag Count
+variance_minmax,0.001,PSH Flag Count
+variance_minmax,0.001,ACK Flag Count
+variance_minmax,0.001,URG Flag Count
+variance_minmax,0.001,Down Up Ratio
+variance_minmax,0.001,Average Packet Size
+variance_minmax,0.001,Avg Bwd Segment Size
+variance_minmax,0.001,Fwd Avg Bulk Rate
+variance_minmax,0.001,Init_Win_bytes_forward
+variance_minmax,0.001,Init_Win_bytes_backward
+variance_minmax,0.001,Active Mean
+variance_minmax,0.001,Active Std
+variance_minmax,0.001,Active Max
+variance_minmax,0.001,Idle Mean
+variance_minmax,0.001,Idle Std
+variance_minmax,0.001,Idle Max
+variance_minmax,0.001,Idle Min
+variance_minmax,0.01,Protocol
+variance_minmax,0.01,Flow Duration
+variance_minmax,0.01,Bwd Packet Length Max
+variance_minmax,0.01,Bwd Packet Length Mean
+variance_minmax,0.01,Flow IAT Max
+variance_minmax,0.01,Fwd IAT Total
+variance_minmax,0.01,Fwd IAT Std
+variance_minmax,0.01,Fwd IAT Max
+variance_minmax,0.01,Bwd IAT Total
+variance_minmax,0.01,Packet Length Mean
+variance_minmax,0.01,FIN Flag Count
+variance_minmax,0.01,PSH Flag Count
+variance_minmax,0.01,ACK Flag Count
+variance_minmax,0.01,URG Flag Count
+variance_minmax,0.01,Average Packet Size
+variance_minmax,0.01,Avg Bwd Segment Size
+variance_minmax,0.01,Init_Win_bytes_forward
+variance_minmax,0.01,Active Mean
+variance_minmax,0.01,Active Std
+variance_minmax,0.01,Active Max
+variance_minmax,0.01,Idle Mean
+variance_minmax,0.01,Idle Max
+variance_minmax,0.01,Idle Min
+pearson,0.9,Protocol
+pearson,0.9,Flow Duration
+pearson,0.9,Total Fwd Packets
+pearson,0.9,Total Length of Fwd Packets
+pearson,0.9,Fwd Packet Length Min
+pearson,0.9,Fwd Packet Length Mean
+pearson,0.9,Bwd Packet Length Min
+pearson,0.9,Bwd Packet Length Mean
+pearson,0.9,Flow Bytess
+pearson,0.9,Flow Packetss
+pearson,0.9,Flow IAT Mean
+pearson,0.9,Flow IAT Min
+pearson,0.9,Fwd IAT Mean
+pearson,0.9,Fwd IAT Min
+pearson,0.9,Bwd IAT Total
+pearson,0.9,Bwd IAT Mean
+pearson,0.9,Bwd IAT Std
+pearson,0.9,Bwd IAT Min
+pearson,0.9,Fwd PSH Flags
+pearson,0.9,Bwd PSH Flags
+pearson,0.9,Fwd URG Flags
+pearson,0.9,Bwd URG Flags
+pearson,0.9,Fwd Header Length
+pearson,0.9,Bwd Packetss
+pearson,0.9,Min Packet Length
+pearson,0.9,Max Packet Length
+pearson,0.9,FIN Flag Count
+pearson,0.9,RST Flag Count
+pearson,0.9,PSH Flag Count
+pearson,0.9,ACK Flag Count
+pearson,0.9,URG Flag Count
+pearson,0.9,Down Up Ratio
+pearson,0.9,Average Packet Size
+pearson,0.9,Fwd Avg Bytes Bulk
+pearson,0.9,Fwd Avg Packets Bulk
+pearson,0.9,Fwd Avg Bulk Rate
+pearson,0.9,Bwd Avg Bytes Bulk
+pearson,0.9,Bwd Avg Packets Bulk
+pearson,0.9,Bwd Avg Bulk Rate
+pearson,0.9,Subflow Bwd Bytes
+pearson,0.9,Init_Win_bytes_forward
+pearson,0.9,Init_Win_bytes_backward
+pearson,0.9,Active Mean
+pearson,0.9,Active Min
+pearson,0.9,Idle Mean
+pearson,0.9,Idle Std
+pearson,0.95,Protocol
+pearson,0.95,Flow Duration
+pearson,0.95,Total Fwd Packets
+pearson,0.95,Total Length of Fwd Packets
+pearson,0.95,Fwd Packet Length Max
+pearson,0.95,Fwd Packet Length Min
+pearson,0.95,Fwd Packet Length Mean
+pearson,0.95,Bwd Packet Length Min
+pearson,0.95,Bwd Packet Length Mean
+pearson,0.95,Flow Bytess
+pearson,0.95,Flow Packetss
+pearson,0.95,Flow IAT Mean
+pearson,0.95,Flow IAT Std
+pearson,0.95,Flow IAT Min
+pearson,0.95,Fwd IAT Mean
+pearson,0.95,Fwd IAT Std
+pearson,0.95,Fwd IAT Min
+pearson,0.95,Bwd IAT Total
+pearson,0.95,Bwd IAT Mean
+pearson,0.95,Bwd IAT Std
+pearson,0.95,Bwd IAT Max
+pearson,0.95,Bwd IAT Min
+pearson,0.95,Fwd PSH Flags
+pearson,0.95,Bwd PSH Flags
+pearson,0.95,Fwd URG Flags
+pearson,0.95,Bwd URG Flags
+pearson,0.95,Fwd Header Length
+pearson,0.95,Bwd Packetss
+pearson,0.95,Min Packet Length
+pearson,0.95,Max Packet Length
+pearson,0.95,Packet Length Variance
+pearson,0.95,FIN Flag Count
+pearson,0.95,RST Flag Count
+pearson,0.95,PSH Flag Count
+pearson,0.95,ACK Flag Count
+pearson,0.95,URG Flag Count
+pearson,0.95,Down Up Ratio
+pearson,0.95,Average Packet Size
+pearson,0.95,Fwd Avg Bytes Bulk
+pearson,0.95,Fwd Avg Packets Bulk
+pearson,0.95,Fwd Avg Bulk Rate
+pearson,0.95,Bwd Avg Bytes Bulk
+pearson,0.95,Bwd Avg Packets Bulk
+pearson,0.95,Bwd Avg Bulk Rate
+pearson,0.95,Subflow Bwd Bytes
+pearson,0.95,Init_Win_bytes_forward
+pearson,0.95,Init_Win_bytes_backward
+pearson,0.95,Active Mean
+pearson,0.95,Active Min
+pearson,0.95,Idle Mean
+pearson,0.95,Idle Std
+pearson,0.99,Protocol
+pearson,0.99,Flow Duration
+pearson,0.99,Total Fwd Packets
+pearson,0.99,Total Backward Packets
+pearson,0.99,Total Length of Fwd Packets
+pearson,0.99,Fwd Packet Length Max
+pearson,0.99,Fwd Packet Length Min
+pearson,0.99,Fwd Packet Length Mean
+pearson,0.99,Fwd Packet Length Std
+pearson,0.99,Bwd Packet Length Max
+pearson,0.99,Bwd Packet Length Min
+pearson,0.99,Bwd Packet Length Mean
+pearson,0.99,Flow Bytess
+pearson,0.99,Flow Packetss
+pearson,0.99,Flow IAT Mean
+pearson,0.99,Flow IAT Std
+pearson,0.99,Flow IAT Max
+pearson,0.99,Flow IAT Min
+pearson,0.99,Fwd IAT Mean
+pearson,0.99,Fwd IAT Std
+pearson,0.99,Fwd IAT Min
+pearson,0.99,Bwd IAT Total
+pearson,0.99,Bwd IAT Mean
+pearson,0.99,Bwd IAT Std
+pearson,0.99,Bwd IAT Max
+pearson,0.99,Bwd IAT Min
+pearson,0.99,Fwd PSH Flags
+pearson,0.99,Bwd PSH Flags
+pearson,0.99,Fwd URG Flags
+pearson,0.99,Bwd URG Flags
+pearson,0.99,Fwd Header Length
+pearson,0.99,Fwd Packetss
+pearson,0.99,Bwd Packetss
+pearson,0.99,Min Packet Length
+pearson,0.99,Max Packet Length
+pearson,0.99,Packet Length Std
+pearson,0.99,Packet Length Variance
+pearson,0.99,FIN Flag Count
+pearson,0.99,RST Flag Count
+pearson,0.99,PSH Flag Count
+pearson,0.99,ACK Flag Count
+pearson,0.99,URG Flag Count
+pearson,0.99,Down Up Ratio
+pearson,0.99,Average Packet Size
+pearson,0.99,Fwd Avg Bytes Bulk
+pearson,0.99,Fwd Avg Packets Bulk
+pearson,0.99,Fwd Avg Bulk Rate
+pearson,0.99,Bwd Avg Bytes Bulk
+pearson,0.99,Bwd Avg Packets Bulk
+pearson,0.99,Bwd Avg Bulk Rate
+pearson,0.99,Subflow Bwd Bytes
+pearson,0.99,Init_Win_bytes_forward
+pearson,0.99,Init_Win_bytes_backward
+pearson,0.99,act_data_pkt_fwd
+pearson,0.99,Active Mean
+pearson,0.99,Active Std
+pearson,0.99,Active Max
+pearson,0.99,Active Min
+pearson,0.99,Idle Mean
+pearson,0.99,Idle Std
+pearson,0.99,Idle Min
+chi2_top_k,10.0,Total Length of Fwd Packets
+chi2_top_k,10.0,Fwd Packet Length Max
+chi2_top_k,10.0,Fwd Packet Length Mean
+chi2_top_k,10.0,Fwd Packet Length Std
+chi2_top_k,10.0,Packet Length Mean
+chi2_top_k,10.0,Packet Length Std
+chi2_top_k,10.0,Packet Length Variance
+chi2_top_k,10.0,Average Packet Size
+chi2_top_k,10.0,Avg Fwd Segment Size
+chi2_top_k,10.0,Subflow Fwd Bytes
+chi2_top_k,20.0,Flow Duration
+chi2_top_k,20.0,Total Length of Fwd Packets
+chi2_top_k,20.0,Fwd Packet Length Max
+chi2_top_k,20.0,Fwd Packet Length Mean
+chi2_top_k,20.0,Fwd Packet Length Std
+chi2_top_k,20.0,Flow Packetss
+chi2_top_k,20.0,Flow IAT Mean
+chi2_top_k,20.0,Flow IAT Std
+chi2_top_k,20.0,Flow IAT Max
+chi2_top_k,20.0,Fwd IAT Total
+chi2_top_k,20.0,Fwd Packetss
+chi2_top_k,20.0,Max Packet Length
+chi2_top_k,20.0,Packet Length Mean
+chi2_top_k,20.0,Packet Length Std
+chi2_top_k,20.0,Packet Length Variance
+chi2_top_k,20.0,Average Packet Size
+chi2_top_k,20.0,Avg Fwd Segment Size
+chi2_top_k,20.0,Subflow Fwd Bytes
+chi2_top_k,20.0,Idle Mean
+chi2_top_k,20.0,Idle Max
+chi2_top_k,30.0,Flow Duration
+chi2_top_k,30.0,Total Fwd Packets
+chi2_top_k,30.0,Total Length of Fwd Packets
+chi2_top_k,30.0,Fwd Packet Length Max
+chi2_top_k,30.0,Fwd Packet Length Mean
+chi2_top_k,30.0,Fwd Packet Length Std
+chi2_top_k,30.0,Flow Bytess
+chi2_top_k,30.0,Flow Packetss
+chi2_top_k,30.0,Flow IAT Mean
+chi2_top_k,30.0,Flow IAT Std
+chi2_top_k,30.0,Flow IAT Max
+chi2_top_k,30.0,Fwd IAT Total
+chi2_top_k,30.0,Fwd IAT Mean
+chi2_top_k,30.0,Fwd IAT Std
+chi2_top_k,30.0,Fwd IAT Max
+chi2_top_k,30.0,Fwd Header Length
+chi2_top_k,30.0,Fwd Packetss
+chi2_top_k,30.0,Max Packet Length
+chi2_top_k,30.0,Packet Length Mean
+chi2_top_k,30.0,Packet Length Std
+chi2_top_k,30.0,Packet Length Variance
+chi2_top_k,30.0,Average Packet Size
+chi2_top_k,30.0,Avg Fwd Segment Size
+chi2_top_k,30.0,Subflow Fwd Packets
+chi2_top_k,30.0,Subflow Fwd Bytes
+chi2_top_k,30.0,act_data_pkt_fwd
+chi2_top_k,30.0,Idle Mean
+chi2_top_k,30.0,Idle Std
+chi2_top_k,30.0,Idle Max
+chi2_top_k,30.0,Idle Min
+chi2_top_k,40.0,Flow Duration
+chi2_top_k,40.0,Total Fwd Packets
+chi2_top_k,40.0,Total Length of Fwd Packets
+chi2_top_k,40.0,Fwd Packet Length Max
+chi2_top_k,40.0,Fwd Packet Length Min
+chi2_top_k,40.0,Fwd Packet Length Mean
+chi2_top_k,40.0,Fwd Packet Length Std
+chi2_top_k,40.0,Flow Bytess
+chi2_top_k,40.0,Flow Packetss
+chi2_top_k,40.0,Flow IAT Mean
+chi2_top_k,40.0,Flow IAT Std
+chi2_top_k,40.0,Flow IAT Max
+chi2_top_k,40.0,Flow IAT Min
+chi2_top_k,40.0,Fwd IAT Total
+chi2_top_k,40.0,Fwd IAT Mean
+chi2_top_k,40.0,Fwd IAT Std
+chi2_top_k,40.0,Fwd IAT Max
+chi2_top_k,40.0,Bwd IAT Total
+chi2_top_k,40.0,Fwd Header Length
+chi2_top_k,40.0,Fwd Packetss
+chi2_top_k,40.0,Min Packet Length
+chi2_top_k,40.0,Max Packet Length
+chi2_top_k,40.0,Packet Length Mean
+chi2_top_k,40.0,Packet Length Std
+chi2_top_k,40.0,Packet Length Variance
+chi2_top_k,40.0,Average Packet Size
+chi2_top_k,40.0,Avg Fwd Segment Size
+chi2_top_k,40.0,Subflow Fwd Packets
+chi2_top_k,40.0,Subflow Fwd Bytes
+chi2_top_k,40.0,Init_Win_bytes_forward
+chi2_top_k,40.0,Init_Win_bytes_backward
+chi2_top_k,40.0,act_data_pkt_fwd
+chi2_top_k,40.0,Active Mean
+chi2_top_k,40.0,Active Std
+chi2_top_k,40.0,Active Max
+chi2_top_k,40.0,Active Min
+chi2_top_k,40.0,Idle Mean
+chi2_top_k,40.0,Idle Std
+chi2_top_k,40.0,Idle Max
+chi2_top_k,40.0,Idle Min

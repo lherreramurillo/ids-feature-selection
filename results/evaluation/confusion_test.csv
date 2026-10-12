@@ -1,0 +1,1729 @@
+dataset,config,true_label,predicted_label,rows
+A,baseline,Botnet ARES,Botnet ARES,267
+A,baseline,Botnet ARES,Brute Force,0
+A,baseline,Botnet ARES,Dos/DDos,0
+A,baseline,Botnet ARES,Infiltration,0
+A,baseline,Botnet ARES,PortScan,0
+A,baseline,Botnet ARES,Web Attack,0
+A,baseline,Botnet ARES,benign,8
+A,baseline,Botnet ARES,bruteforce,0
+A,baseline,Botnet ARES,dos_httpflood,0
+A,baseline,Botnet ARES,dos_slowhttptest,0
+A,baseline,Botnet ARES,recon,0
+A,baseline,Botnet ARES,sqli,0
+A,baseline,Brute Force,Botnet ARES,0
+A,baseline,Brute Force,Brute Force,1378
+A,baseline,Brute Force,Dos/DDos,0
+A,baseline,Brute Force,Infiltration,0
+A,baseline,Brute Force,PortScan,0
+A,baseline,Brute Force,Web Attack,0
+A,baseline,Brute Force,benign,0
+A,baseline,Brute Force,bruteforce,0
+A,baseline,Brute Force,dos_httpflood,0
+A,baseline,Brute Force,dos_slowhttptest,0
+A,baseline,Brute Force,recon,0
+A,baseline,Brute Force,sqli,0
+A,baseline,Dos/DDos,Botnet ARES,0
+A,baseline,Dos/DDos,Brute Force,1
+A,baseline,Dos/DDos,Dos/DDos,4262
+A,baseline,Dos/DDos,Infiltration,0
+A,baseline,Dos/DDos,PortScan,0
+A,baseline,Dos/DDos,Web Attack,0
+A,baseline,Dos/DDos,benign,10
+A,baseline,Dos/DDos,bruteforce,0
+A,baseline,Dos/DDos,dos_httpflood,0
+A,baseline,Dos/DDos,dos_slowhttptest,0
+A,baseline,Dos/DDos,recon,0
+A,baseline,Dos/DDos,sqli,0
+A,baseline,Infiltration,Botnet ARES,0
+A,baseline,Infiltration,Brute Force,0
+A,baseline,Infiltration,Dos/DDos,0
+A,baseline,Infiltration,Infiltration,4
+A,baseline,Infiltration,PortScan,0
+A,baseline,Infiltration,Web Attack,0
+A,baseline,Infiltration,benign,2
+A,baseline,Infiltration,bruteforce,0
+A,baseline,Infiltration,dos_httpflood,0
+A,baseline,Infiltration,dos_slowhttptest,0
+A,baseline,Infiltration,recon,0
+A,baseline,Infiltration,sqli,0
+A,baseline,PortScan,Botnet ARES,0
+A,baseline,PortScan,Brute Force,0
+A,baseline,PortScan,Dos/DDos,1
+A,baseline,PortScan,Infiltration,0
+A,baseline,PortScan,PortScan,109
+A,baseline,PortScan,Web Attack,1
+A,baseline,PortScan,benign,0
+A,baseline,PortScan,bruteforce,0
+A,baseline,PortScan,dos_httpflood,0
+A,baseline,PortScan,dos_slowhttptest,0
+A,baseline,PortScan,recon,0
+A,baseline,PortScan,sqli,0
+A,baseline,Web Attack,Botnet ARES,0
+A,baseline,Web Attack,Brute Force,0
+A,baseline,Web Attack,Dos/DDos,1
+A,baseline,Web Attack,Infiltration,0
+A,baseline,Web Attack,PortScan,0
+A,baseline,Web Attack,Web Attack,403
+A,baseline,Web Attack,benign,2
+A,baseline,Web Attack,bruteforce,0
+A,baseline,Web Attack,dos_httpflood,0
+A,baseline,Web Attack,dos_slowhttptest,0
+A,baseline,Web Attack,recon,0
+A,baseline,Web Attack,sqli,0
+A,baseline,benign,Botnet ARES,37
+A,baseline,benign,Brute Force,3
+A,baseline,benign,Dos/DDos,200
+A,baseline,benign,Infiltration,0
+A,baseline,benign,PortScan,0
+A,baseline,benign,Web Attack,5
+A,baseline,benign,benign,20588
+A,baseline,benign,bruteforce,1
+A,baseline,benign,dos_httpflood,0
+A,baseline,benign,dos_slowhttptest,0
+A,baseline,benign,recon,0
+A,baseline,benign,sqli,0
+A,baseline,bruteforce,Botnet ARES,0
+A,baseline,bruteforce,Brute Force,0
+A,baseline,bruteforce,Dos/DDos,0
+A,baseline,bruteforce,Infiltration,0
+A,baseline,bruteforce,PortScan,0
+A,baseline,bruteforce,Web Attack,0
+A,baseline,bruteforce,benign,0
+A,baseline,bruteforce,bruteforce,13344
+A,baseline,bruteforce,dos_httpflood,0
+A,baseline,bruteforce,dos_slowhttptest,0
+A,baseline,bruteforce,recon,0
+A,baseline,bruteforce,sqli,0
+A,baseline,dos_httpflood,Botnet ARES,0
+A,baseline,dos_httpflood,Brute Force,0
+A,baseline,dos_httpflood,Dos/DDos,0
+A,baseline,dos_httpflood,Infiltration,0
+A,baseline,dos_httpflood,PortScan,0
+A,baseline,dos_httpflood,Web Attack,0
+A,baseline,dos_httpflood,benign,3
+A,baseline,dos_httpflood,bruteforce,0
+A,baseline,dos_httpflood,dos_httpflood,25385
+A,baseline,dos_httpflood,dos_slowhttptest,1
+A,baseline,dos_httpflood,recon,14
+A,baseline,dos_httpflood,sqli,0
+A,baseline,dos_slowhttptest,Botnet ARES,0
+A,baseline,dos_slowhttptest,Brute Force,0
+A,baseline,dos_slowhttptest,Dos/DDos,0
+A,baseline,dos_slowhttptest,Infiltration,0
+A,baseline,dos_slowhttptest,PortScan,0
+A,baseline,dos_slowhttptest,Web Attack,0
+A,baseline,dos_slowhttptest,benign,0
+A,baseline,dos_slowhttptest,bruteforce,0
+A,baseline,dos_slowhttptest,dos_httpflood,0
+A,baseline,dos_slowhttptest,dos_slowhttptest,165
+A,baseline,dos_slowhttptest,recon,0
+A,baseline,dos_slowhttptest,sqli,0
+A,baseline,recon,Botnet ARES,0
+A,baseline,recon,Brute Force,0
+A,baseline,recon,Dos/DDos,0
+A,baseline,recon,Infiltration,0
+A,baseline,recon,PortScan,0
+A,baseline,recon,Web Attack,0
+A,baseline,recon,benign,1
+A,baseline,recon,bruteforce,0
+A,baseline,recon,dos_httpflood,3
+A,baseline,recon,dos_slowhttptest,0
+A,baseline,recon,recon,853
+A,baseline,recon,sqli,0
+A,baseline,sqli,Botnet ARES,0
+A,baseline,sqli,Brute Force,0
+A,baseline,sqli,Dos/DDos,0
+A,baseline,sqli,Infiltration,0
+A,baseline,sqli,PortScan,0
+A,baseline,sqli,Web Attack,0
+A,baseline,sqli,benign,0
+A,baseline,sqli,bruteforce,0
+A,baseline,sqli,dos_httpflood,0
+A,baseline,sqli,dos_slowhttptest,0
+A,baseline,sqli,recon,0
+A,baseline,sqli,sqli,11
+A,variance_qc_0.999,Botnet ARES,Botnet ARES,270
+A,variance_qc_0.999,Botnet ARES,Brute Force,0
+A,variance_qc_0.999,Botnet ARES,Dos/DDos,0
+A,variance_qc_0.999,Botnet ARES,Infiltration,0
+A,variance_qc_0.999,Botnet ARES,PortScan,0
+A,variance_qc_0.999,Botnet ARES,Web Attack,0
+A,variance_qc_0.999,Botnet ARES,benign,5
+A,variance_qc_0.999,Botnet ARES,bruteforce,0
+A,variance_qc_0.999,Botnet ARES,dos_httpflood,0
+A,variance_qc_0.999,Botnet ARES,dos_slowhttptest,0
+A,variance_qc_0.999,Botnet ARES,recon,0
+A,variance_qc_0.999,Botnet ARES,sqli,0
+A,variance_qc_0.999,Brute Force,Botnet ARES,0
+A,variance_qc_0.999,Brute Force,Brute Force,1377
+A,variance_qc_0.999,Brute Force,Dos/DDos,0
+A,variance_qc_0.999,Brute Force,Infiltration,0
+A,variance_qc_0.999,Brute Force,PortScan,0
+A,variance_qc_0.999,Brute Force,Web Attack,1
+A,variance_qc_0.999,Brute Force,benign,0
+A,variance_qc_0.999,Brute Force,bruteforce,0
+A,variance_qc_0.999,Brute Force,dos_httpflood,0
+A,variance_qc_0.999,Brute Force,dos_slowhttptest,0
+A,variance_qc_0.999,Brute Force,recon,0
+A,variance_qc_0.999,Brute Force,sqli,0
+A,variance_qc_0.999,Dos/DDos,Botnet ARES,0
+A,variance_qc_0.999,Dos/DDos,Brute Force,1
+A,variance_qc_0.999,Dos/DDos,Dos/DDos,4264
+A,variance_qc_0.999,Dos/DDos,Infiltration,0
+A,variance_qc_0.999,Dos/DDos,PortScan,0
+A,variance_qc_0.999,Dos/DDos,Web Attack,0
+A,variance_qc_0.999,Dos/DDos,benign,8
+A,variance_qc_0.999,Dos/DDos,bruteforce,0
+A,variance_qc_0.999,Dos/DDos,dos_httpflood,0
+A,variance_qc_0.999,Dos/DDos,dos_slowhttptest,0
+A,variance_qc_0.999,Dos/DDos,recon,0
+A,variance_qc_0.999,Dos/DDos,sqli,0
+A,variance_qc_0.999,Infiltration,Botnet ARES,0
+A,variance_qc_0.999,Infiltration,Brute Force,0
+A,variance_qc_0.999,Infiltration,Dos/DDos,0
+A,variance_qc_0.999,Infiltration,Infiltration,4
+A,variance_qc_0.999,Infiltration,PortScan,0
+A,variance_qc_0.999,Infiltration,Web Attack,0
+A,variance_qc_0.999,Infiltration,benign,2
+A,variance_qc_0.999,Infiltration,bruteforce,0
+A,variance_qc_0.999,Infiltration,dos_httpflood,0
+A,variance_qc_0.999,Infiltration,dos_slowhttptest,0
+A,variance_qc_0.999,Infiltration,recon,0
+A,variance_qc_0.999,Infiltration,sqli,0
+A,variance_qc_0.999,PortScan,Botnet ARES,0
+A,variance_qc_0.999,PortScan,Brute Force,0
+A,variance_qc_0.999,PortScan,Dos/DDos,2
+A,variance_qc_0.999,PortScan,Infiltration,0
+A,variance_qc_0.999,PortScan,PortScan,108
+A,variance_qc_0.999,PortScan,Web Attack,1
+A,variance_qc_0.999,PortScan,benign,0
+A,variance_qc_0.999,PortScan,bruteforce,0
+A,variance_qc_0.999,PortScan,dos_httpflood,0
+A,variance_qc_0.999,PortScan,dos_slowhttptest,0
+A,variance_qc_0.999,PortScan,recon,0
+A,variance_qc_0.999,PortScan,sqli,0
+A,variance_qc_0.999,Web Attack,Botnet ARES,0
+A,variance_qc_0.999,Web Attack,Brute Force,0
+A,variance_qc_0.999,Web Attack,Dos/DDos,1
+A,variance_qc_0.999,Web Attack,Infiltration,0
+A,variance_qc_0.999,Web Attack,PortScan,0
+A,variance_qc_0.999,Web Attack,Web Attack,403
+A,variance_qc_0.999,Web Attack,benign,2
+A,variance_qc_0.999,Web Attack,bruteforce,0
+A,variance_qc_0.999,Web Attack,dos_httpflood,0
+A,variance_qc_0.999,Web Attack,dos_slowhttptest,0
+A,variance_qc_0.999,Web Attack,recon,0
+A,variance_qc_0.999,Web Attack,sqli,0
+A,variance_qc_0.999,benign,Botnet ARES,33
+A,variance_qc_0.999,benign,Brute Force,3
+A,variance_qc_0.999,benign,Dos/DDos,199
+A,variance_qc_0.999,benign,Infiltration,0
+A,variance_qc_0.999,benign,PortScan,0
+A,variance_qc_0.999,benign,Web Attack,3
+A,variance_qc_0.999,benign,benign,20594
+A,variance_qc_0.999,benign,bruteforce,2
+A,variance_qc_0.999,benign,dos_httpflood,0
+A,variance_qc_0.999,benign,dos_slowhttptest,0
+A,variance_qc_0.999,benign,recon,0
+A,variance_qc_0.999,benign,sqli,0
+A,variance_qc_0.999,bruteforce,Botnet ARES,0
+A,variance_qc_0.999,bruteforce,Brute Force,0
+A,variance_qc_0.999,bruteforce,Dos/DDos,0
+A,variance_qc_0.999,bruteforce,Infiltration,0
+A,variance_qc_0.999,bruteforce,PortScan,0
+A,variance_qc_0.999,bruteforce,Web Attack,0
+A,variance_qc_0.999,bruteforce,benign,0
+A,variance_qc_0.999,bruteforce,bruteforce,13344
+A,variance_qc_0.999,bruteforce,dos_httpflood,0
+A,variance_qc_0.999,bruteforce,dos_slowhttptest,0
+A,variance_qc_0.999,bruteforce,recon,0
+A,variance_qc_0.999,bruteforce,sqli,0
+A,variance_qc_0.999,dos_httpflood,Botnet ARES,0
+A,variance_qc_0.999,dos_httpflood,Brute Force,0
+A,variance_qc_0.999,dos_httpflood,Dos/DDos,0
+A,variance_qc_0.999,dos_httpflood,Infiltration,0
+A,variance_qc_0.999,dos_httpflood,PortScan,0
+A,variance_qc_0.999,dos_httpflood,Web Attack,0
+A,variance_qc_0.999,dos_httpflood,benign,3
+A,variance_qc_0.999,dos_httpflood,bruteforce,0
+A,variance_qc_0.999,dos_httpflood,dos_httpflood,25386
+A,variance_qc_0.999,dos_httpflood,dos_slowhttptest,1
+A,variance_qc_0.999,dos_httpflood,recon,13
+A,variance_qc_0.999,dos_httpflood,sqli,0
+A,variance_qc_0.999,dos_slowhttptest,Botnet ARES,0
+A,variance_qc_0.999,dos_slowhttptest,Brute Force,0
+A,variance_qc_0.999,dos_slowhttptest,Dos/DDos,0
+A,variance_qc_0.999,dos_slowhttptest,Infiltration,0
+A,variance_qc_0.999,dos_slowhttptest,PortScan,0
+A,variance_qc_0.999,dos_slowhttptest,Web Attack,0
+A,variance_qc_0.999,dos_slowhttptest,benign,0
+A,variance_qc_0.999,dos_slowhttptest,bruteforce,0
+A,variance_qc_0.999,dos_slowhttptest,dos_httpflood,0
+A,variance_qc_0.999,dos_slowhttptest,dos_slowhttptest,165
+A,variance_qc_0.999,dos_slowhttptest,recon,0
+A,variance_qc_0.999,dos_slowhttptest,sqli,0
+A,variance_qc_0.999,recon,Botnet ARES,0
+A,variance_qc_0.999,recon,Brute Force,0
+A,variance_qc_0.999,recon,Dos/DDos,0
+A,variance_qc_0.999,recon,Infiltration,0
+A,variance_qc_0.999,recon,PortScan,0
+A,variance_qc_0.999,recon,Web Attack,0
+A,variance_qc_0.999,recon,benign,1
+A,variance_qc_0.999,recon,bruteforce,0
+A,variance_qc_0.999,recon,dos_httpflood,3
+A,variance_qc_0.999,recon,dos_slowhttptest,0
+A,variance_qc_0.999,recon,recon,853
+A,variance_qc_0.999,recon,sqli,0
+A,variance_qc_0.999,sqli,Botnet ARES,0
+A,variance_qc_0.999,sqli,Brute Force,0
+A,variance_qc_0.999,sqli,Dos/DDos,0
+A,variance_qc_0.999,sqli,Infiltration,0
+A,variance_qc_0.999,sqli,PortScan,0
+A,variance_qc_0.999,sqli,Web Attack,0
+A,variance_qc_0.999,sqli,benign,0
+A,variance_qc_0.999,sqli,bruteforce,0
+A,variance_qc_0.999,sqli,dos_httpflood,0
+A,variance_qc_0.999,sqli,dos_slowhttptest,0
+A,variance_qc_0.999,sqli,recon,0
+A,variance_qc_0.999,sqli,sqli,11
+A,pearson_0.90,Botnet ARES,Botnet ARES,271
+A,pearson_0.90,Botnet ARES,Brute Force,0
+A,pearson_0.90,Botnet ARES,Dos/DDos,0
+A,pearson_0.90,Botnet ARES,Infiltration,0
+A,pearson_0.90,Botnet ARES,PortScan,0
+A,pearson_0.90,Botnet ARES,Web Attack,0
+A,pearson_0.90,Botnet ARES,benign,4
+A,pearson_0.90,Botnet ARES,bruteforce,0
+A,pearson_0.90,Botnet ARES,dos_httpflood,0
+A,pearson_0.90,Botnet ARES,dos_slowhttptest,0
+A,pearson_0.90,Botnet ARES,recon,0
+A,pearson_0.90,Botnet ARES,sqli,0
+A,pearson_0.90,Brute Force,Botnet ARES,0
+A,pearson_0.90,Brute Force,Brute Force,1378
+A,pearson_0.90,Brute Force,Dos/DDos,0
+A,pearson_0.90,Brute Force,Infiltration,0
+A,pearson_0.90,Brute Force,PortScan,0
+A,pearson_0.90,Brute Force,Web Attack,0
+A,pearson_0.90,Brute Force,benign,0
+A,pearson_0.90,Brute Force,bruteforce,0
+A,pearson_0.90,Brute Force,dos_httpflood,0
+A,pearson_0.90,Brute Force,dos_slowhttptest,0
+A,pearson_0.90,Brute Force,recon,0
+A,pearson_0.90,Brute Force,sqli,0
+A,pearson_0.90,Dos/DDos,Botnet ARES,0
+A,pearson_0.90,Dos/DDos,Brute Force,1
+A,pearson_0.90,Dos/DDos,Dos/DDos,4264
+A,pearson_0.90,Dos/DDos,Infiltration,0
+A,pearson_0.90,Dos/DDos,PortScan,0
+A,pearson_0.90,Dos/DDos,Web Attack,0
+A,pearson_0.90,Dos/DDos,benign,8
+A,pearson_0.90,Dos/DDos,bruteforce,0
+A,pearson_0.90,Dos/DDos,dos_httpflood,0
+A,pearson_0.90,Dos/DDos,dos_slowhttptest,0
+A,pearson_0.90,Dos/DDos,recon,0
+A,pearson_0.90,Dos/DDos,sqli,0
+A,pearson_0.90,Infiltration,Botnet ARES,0
+A,pearson_0.90,Infiltration,Brute Force,0
+A,pearson_0.90,Infiltration,Dos/DDos,0
+A,pearson_0.90,Infiltration,Infiltration,4
+A,pearson_0.90,Infiltration,PortScan,0
+A,pearson_0.90,Infiltration,Web Attack,0
+A,pearson_0.90,Infiltration,benign,2
+A,pearson_0.90,Infiltration,bruteforce,0
+A,pearson_0.90,Infiltration,dos_httpflood,0
+A,pearson_0.90,Infiltration,dos_slowhttptest,0
+A,pearson_0.90,Infiltration,recon,0
+A,pearson_0.90,Infiltration,sqli,0
+A,pearson_0.90,PortScan,Botnet ARES,0
+A,pearson_0.90,PortScan,Brute Force,0
+A,pearson_0.90,PortScan,Dos/DDos,2
+A,pearson_0.90,PortScan,Infiltration,0
+A,pearson_0.90,PortScan,PortScan,108
+A,pearson_0.90,PortScan,Web Attack,1
+A,pearson_0.90,PortScan,benign,0
+A,pearson_0.90,PortScan,bruteforce,0
+A,pearson_0.90,PortScan,dos_httpflood,0
+A,pearson_0.90,PortScan,dos_slowhttptest,0
+A,pearson_0.90,PortScan,recon,0
+A,pearson_0.90,PortScan,sqli,0
+A,pearson_0.90,Web Attack,Botnet ARES,0
+A,pearson_0.90,Web Attack,Brute Force,0
+A,pearson_0.90,Web Attack,Dos/DDos,1
+A,pearson_0.90,Web Attack,Infiltration,0
+A,pearson_0.90,Web Attack,PortScan,0
+A,pearson_0.90,Web Attack,Web Attack,403
+A,pearson_0.90,Web Attack,benign,2
+A,pearson_0.90,Web Attack,bruteforce,0
+A,pearson_0.90,Web Attack,dos_httpflood,0
+A,pearson_0.90,Web Attack,dos_slowhttptest,0
+A,pearson_0.90,Web Attack,recon,0
+A,pearson_0.90,Web Attack,sqli,0
+A,pearson_0.90,benign,Botnet ARES,20
+A,pearson_0.90,benign,Brute Force,2
+A,pearson_0.90,benign,Dos/DDos,197
+A,pearson_0.90,benign,Infiltration,0
+A,pearson_0.90,benign,PortScan,0
+A,pearson_0.90,benign,Web Attack,2
+A,pearson_0.90,benign,benign,20612
+A,pearson_0.90,benign,bruteforce,1
+A,pearson_0.90,benign,dos_httpflood,0
+A,pearson_0.90,benign,dos_slowhttptest,0
+A,pearson_0.90,benign,recon,0
+A,pearson_0.90,benign,sqli,0
+A,pearson_0.90,bruteforce,Botnet ARES,0
+A,pearson_0.90,bruteforce,Brute Force,0
+A,pearson_0.90,bruteforce,Dos/DDos,0
+A,pearson_0.90,bruteforce,Infiltration,0
+A,pearson_0.90,bruteforce,PortScan,0
+A,pearson_0.90,bruteforce,Web Attack,0
+A,pearson_0.90,bruteforce,benign,1
+A,pearson_0.90,bruteforce,bruteforce,13343
+A,pearson_0.90,bruteforce,dos_httpflood,0
+A,pearson_0.90,bruteforce,dos_slowhttptest,0
+A,pearson_0.90,bruteforce,recon,0
+A,pearson_0.90,bruteforce,sqli,0
+A,pearson_0.90,dos_httpflood,Botnet ARES,0
+A,pearson_0.90,dos_httpflood,Brute Force,0
+A,pearson_0.90,dos_httpflood,Dos/DDos,0
+A,pearson_0.90,dos_httpflood,Infiltration,0
+A,pearson_0.90,dos_httpflood,PortScan,0
+A,pearson_0.90,dos_httpflood,Web Attack,0
+A,pearson_0.90,dos_httpflood,benign,1
+A,pearson_0.90,dos_httpflood,bruteforce,0
+A,pearson_0.90,dos_httpflood,dos_httpflood,25358
+A,pearson_0.90,dos_httpflood,dos_slowhttptest,1
+A,pearson_0.90,dos_httpflood,recon,43
+A,pearson_0.90,dos_httpflood,sqli,0
+A,pearson_0.90,dos_slowhttptest,Botnet ARES,0
+A,pearson_0.90,dos_slowhttptest,Brute Force,0
+A,pearson_0.90,dos_slowhttptest,Dos/DDos,0
+A,pearson_0.90,dos_slowhttptest,Infiltration,0
+A,pearson_0.90,dos_slowhttptest,PortScan,0
+A,pearson_0.90,dos_slowhttptest,Web Attack,0
+A,pearson_0.90,dos_slowhttptest,benign,0
+A,pearson_0.90,dos_slowhttptest,bruteforce,0
+A,pearson_0.90,dos_slowhttptest,dos_httpflood,0
+A,pearson_0.90,dos_slowhttptest,dos_slowhttptest,165
+A,pearson_0.90,dos_slowhttptest,recon,0
+A,pearson_0.90,dos_slowhttptest,sqli,0
+A,pearson_0.90,recon,Botnet ARES,0
+A,pearson_0.90,recon,Brute Force,0
+A,pearson_0.90,recon,Dos/DDos,0
+A,pearson_0.90,recon,Infiltration,0
+A,pearson_0.90,recon,PortScan,0
+A,pearson_0.90,recon,Web Attack,0
+A,pearson_0.90,recon,benign,1
+A,pearson_0.90,recon,bruteforce,0
+A,pearson_0.90,recon,dos_httpflood,8
+A,pearson_0.90,recon,dos_slowhttptest,0
+A,pearson_0.90,recon,recon,848
+A,pearson_0.90,recon,sqli,0
+A,pearson_0.90,sqli,Botnet ARES,0
+A,pearson_0.90,sqli,Brute Force,0
+A,pearson_0.90,sqli,Dos/DDos,0
+A,pearson_0.90,sqli,Infiltration,0
+A,pearson_0.90,sqli,PortScan,0
+A,pearson_0.90,sqli,Web Attack,0
+A,pearson_0.90,sqli,benign,0
+A,pearson_0.90,sqli,bruteforce,0
+A,pearson_0.90,sqli,dos_httpflood,0
+A,pearson_0.90,sqli,dos_slowhttptest,0
+A,pearson_0.90,sqli,recon,0
+A,pearson_0.90,sqli,sqli,11
+A,chi2_top_40,Botnet ARES,Botnet ARES,267
+A,chi2_top_40,Botnet ARES,Brute Force,0
+A,chi2_top_40,Botnet ARES,Dos/DDos,0
+A,chi2_top_40,Botnet ARES,Infiltration,0
+A,chi2_top_40,Botnet ARES,PortScan,0
+A,chi2_top_40,Botnet ARES,Web Attack,0
+A,chi2_top_40,Botnet ARES,benign,8
+A,chi2_top_40,Botnet ARES,bruteforce,0
+A,chi2_top_40,Botnet ARES,dos_httpflood,0
+A,chi2_top_40,Botnet ARES,dos_slowhttptest,0
+A,chi2_top_40,Botnet ARES,recon,0
+A,chi2_top_40,Botnet ARES,sqli,0
+A,chi2_top_40,Brute Force,Botnet ARES,0
+A,chi2_top_40,Brute Force,Brute Force,1376
+A,chi2_top_40,Brute Force,Dos/DDos,1
+A,chi2_top_40,Brute Force,Infiltration,0
+A,chi2_top_40,Brute Force,PortScan,0
+A,chi2_top_40,Brute Force,Web Attack,0
+A,chi2_top_40,Brute Force,benign,1
+A,chi2_top_40,Brute Force,bruteforce,0
+A,chi2_top_40,Brute Force,dos_httpflood,0
+A,chi2_top_40,Brute Force,dos_slowhttptest,0
+A,chi2_top_40,Brute Force,recon,0
+A,chi2_top_40,Brute Force,sqli,0
+A,chi2_top_40,Dos/DDos,Botnet ARES,0
+A,chi2_top_40,Dos/DDos,Brute Force,2
+A,chi2_top_40,Dos/DDos,Dos/DDos,4263
+A,chi2_top_40,Dos/DDos,Infiltration,0
+A,chi2_top_40,Dos/DDos,PortScan,0
+A,chi2_top_40,Dos/DDos,Web Attack,0
+A,chi2_top_40,Dos/DDos,benign,8
+A,chi2_top_40,Dos/DDos,bruteforce,0
+A,chi2_top_40,Dos/DDos,dos_httpflood,0
+A,chi2_top_40,Dos/DDos,dos_slowhttptest,0
+A,chi2_top_40,Dos/DDos,recon,0
+A,chi2_top_40,Dos/DDos,sqli,0
+A,chi2_top_40,Infiltration,Botnet ARES,0
+A,chi2_top_40,Infiltration,Brute Force,0
+A,chi2_top_40,Infiltration,Dos/DDos,0
+A,chi2_top_40,Infiltration,Infiltration,4
+A,chi2_top_40,Infiltration,PortScan,0
+A,chi2_top_40,Infiltration,Web Attack,0
+A,chi2_top_40,Infiltration,benign,2
+A,chi2_top_40,Infiltration,bruteforce,0
+A,chi2_top_40,Infiltration,dos_httpflood,0
+A,chi2_top_40,Infiltration,dos_slowhttptest,0
+A,chi2_top_40,Infiltration,recon,0
+A,chi2_top_40,Infiltration,sqli,0
+A,chi2_top_40,PortScan,Botnet ARES,0
+A,chi2_top_40,PortScan,Brute Force,0
+A,chi2_top_40,PortScan,Dos/DDos,2
+A,chi2_top_40,PortScan,Infiltration,0
+A,chi2_top_40,PortScan,PortScan,108
+A,chi2_top_40,PortScan,Web Attack,1
+A,chi2_top_40,PortScan,benign,0
+A,chi2_top_40,PortScan,bruteforce,0
+A,chi2_top_40,PortScan,dos_httpflood,0
+A,chi2_top_40,PortScan,dos_slowhttptest,0
+A,chi2_top_40,PortScan,recon,0
+A,chi2_top_40,PortScan,sqli,0
+A,chi2_top_40,Web Attack,Botnet ARES,0
+A,chi2_top_40,Web Attack,Brute Force,0
+A,chi2_top_40,Web Attack,Dos/DDos,2
+A,chi2_top_40,Web Attack,Infiltration,0
+A,chi2_top_40,Web Attack,PortScan,0
+A,chi2_top_40,Web Attack,Web Attack,403
+A,chi2_top_40,Web Attack,benign,1
+A,chi2_top_40,Web Attack,bruteforce,0
+A,chi2_top_40,Web Attack,dos_httpflood,0
+A,chi2_top_40,Web Attack,dos_slowhttptest,0
+A,chi2_top_40,Web Attack,recon,0
+A,chi2_top_40,Web Attack,sqli,0
+A,chi2_top_40,benign,Botnet ARES,30
+A,chi2_top_40,benign,Brute Force,3
+A,chi2_top_40,benign,Dos/DDos,203
+A,chi2_top_40,benign,Infiltration,1
+A,chi2_top_40,benign,PortScan,0
+A,chi2_top_40,benign,Web Attack,3
+A,chi2_top_40,benign,benign,20593
+A,chi2_top_40,benign,bruteforce,1
+A,chi2_top_40,benign,dos_httpflood,0
+A,chi2_top_40,benign,dos_slowhttptest,0
+A,chi2_top_40,benign,recon,0
+A,chi2_top_40,benign,sqli,0
+A,chi2_top_40,bruteforce,Botnet ARES,0
+A,chi2_top_40,bruteforce,Brute Force,0
+A,chi2_top_40,bruteforce,Dos/DDos,0
+A,chi2_top_40,bruteforce,Infiltration,0
+A,chi2_top_40,bruteforce,PortScan,0
+A,chi2_top_40,bruteforce,Web Attack,0
+A,chi2_top_40,bruteforce,benign,0
+A,chi2_top_40,bruteforce,bruteforce,13344
+A,chi2_top_40,bruteforce,dos_httpflood,0
+A,chi2_top_40,bruteforce,dos_slowhttptest,0
+A,chi2_top_40,bruteforce,recon,0
+A,chi2_top_40,bruteforce,sqli,0
+A,chi2_top_40,dos_httpflood,Botnet ARES,0
+A,chi2_top_40,dos_httpflood,Brute Force,0
+A,chi2_top_40,dos_httpflood,Dos/DDos,0
+A,chi2_top_40,dos_httpflood,Infiltration,0
+A,chi2_top_40,dos_httpflood,PortScan,0
+A,chi2_top_40,dos_httpflood,Web Attack,0
+A,chi2_top_40,dos_httpflood,benign,3
+A,chi2_top_40,dos_httpflood,bruteforce,0
+A,chi2_top_40,dos_httpflood,dos_httpflood,25386
+A,chi2_top_40,dos_httpflood,dos_slowhttptest,1
+A,chi2_top_40,dos_httpflood,recon,13
+A,chi2_top_40,dos_httpflood,sqli,0
+A,chi2_top_40,dos_slowhttptest,Botnet ARES,0
+A,chi2_top_40,dos_slowhttptest,Brute Force,0
+A,chi2_top_40,dos_slowhttptest,Dos/DDos,0
+A,chi2_top_40,dos_slowhttptest,Infiltration,0
+A,chi2_top_40,dos_slowhttptest,PortScan,0
+A,chi2_top_40,dos_slowhttptest,Web Attack,0
+A,chi2_top_40,dos_slowhttptest,benign,0
+A,chi2_top_40,dos_slowhttptest,bruteforce,0
+A,chi2_top_40,dos_slowhttptest,dos_httpflood,0
+A,chi2_top_40,dos_slowhttptest,dos_slowhttptest,165
+A,chi2_top_40,dos_slowhttptest,recon,0
+A,chi2_top_40,dos_slowhttptest,sqli,0
+A,chi2_top_40,recon,Botnet ARES,0
+A,chi2_top_40,recon,Brute Force,0
+A,chi2_top_40,recon,Dos/DDos,0
+A,chi2_top_40,recon,Infiltration,0
+A,chi2_top_40,recon,PortScan,0
+A,chi2_top_40,recon,Web Attack,0
+A,chi2_top_40,recon,benign,2
+A,chi2_top_40,recon,bruteforce,0
+A,chi2_top_40,recon,dos_httpflood,2
+A,chi2_top_40,recon,dos_slowhttptest,0
+A,chi2_top_40,recon,recon,853
+A,chi2_top_40,recon,sqli,0
+A,chi2_top_40,sqli,Botnet ARES,0
+A,chi2_top_40,sqli,Brute Force,0
+A,chi2_top_40,sqli,Dos/DDos,0
+A,chi2_top_40,sqli,Infiltration,0
+A,chi2_top_40,sqli,PortScan,0
+A,chi2_top_40,sqli,Web Attack,0
+A,chi2_top_40,sqli,benign,0
+A,chi2_top_40,sqli,bruteforce,0
+A,chi2_top_40,sqli,dos_httpflood,0
+A,chi2_top_40,sqli,dos_slowhttptest,0
+A,chi2_top_40,sqli,recon,0
+A,chi2_top_40,sqli,sqli,11
+A,cramers_v_top_40,Botnet ARES,Botnet ARES,274
+A,cramers_v_top_40,Botnet ARES,Brute Force,0
+A,cramers_v_top_40,Botnet ARES,Dos/DDos,0
+A,cramers_v_top_40,Botnet ARES,Infiltration,0
+A,cramers_v_top_40,Botnet ARES,PortScan,0
+A,cramers_v_top_40,Botnet ARES,Web Attack,0
+A,cramers_v_top_40,Botnet ARES,benign,1
+A,cramers_v_top_40,Botnet ARES,bruteforce,0
+A,cramers_v_top_40,Botnet ARES,dos_httpflood,0
+A,cramers_v_top_40,Botnet ARES,dos_slowhttptest,0
+A,cramers_v_top_40,Botnet ARES,recon,0
+A,cramers_v_top_40,Botnet ARES,sqli,0
+A,cramers_v_top_40,Brute Force,Botnet ARES,0
+A,cramers_v_top_40,Brute Force,Brute Force,1378
+A,cramers_v_top_40,Brute Force,Dos/DDos,0
+A,cramers_v_top_40,Brute Force,Infiltration,0
+A,cramers_v_top_40,Brute Force,PortScan,0
+A,cramers_v_top_40,Brute Force,Web Attack,0
+A,cramers_v_top_40,Brute Force,benign,0
+A,cramers_v_top_40,Brute Force,bruteforce,0
+A,cramers_v_top_40,Brute Force,dos_httpflood,0
+A,cramers_v_top_40,Brute Force,dos_slowhttptest,0
+A,cramers_v_top_40,Brute Force,recon,0
+A,cramers_v_top_40,Brute Force,sqli,0
+A,cramers_v_top_40,Dos/DDos,Botnet ARES,0
+A,cramers_v_top_40,Dos/DDos,Brute Force,1
+A,cramers_v_top_40,Dos/DDos,Dos/DDos,4265
+A,cramers_v_top_40,Dos/DDos,Infiltration,0
+A,cramers_v_top_40,Dos/DDos,PortScan,0
+A,cramers_v_top_40,Dos/DDos,Web Attack,0
+A,cramers_v_top_40,Dos/DDos,benign,7
+A,cramers_v_top_40,Dos/DDos,bruteforce,0
+A,cramers_v_top_40,Dos/DDos,dos_httpflood,0
+A,cramers_v_top_40,Dos/DDos,dos_slowhttptest,0
+A,cramers_v_top_40,Dos/DDos,recon,0
+A,cramers_v_top_40,Dos/DDos,sqli,0
+A,cramers_v_top_40,Infiltration,Botnet ARES,0
+A,cramers_v_top_40,Infiltration,Brute Force,0
+A,cramers_v_top_40,Infiltration,Dos/DDos,0
+A,cramers_v_top_40,Infiltration,Infiltration,4
+A,cramers_v_top_40,Infiltration,PortScan,0
+A,cramers_v_top_40,Infiltration,Web Attack,0
+A,cramers_v_top_40,Infiltration,benign,2
+A,cramers_v_top_40,Infiltration,bruteforce,0
+A,cramers_v_top_40,Infiltration,dos_httpflood,0
+A,cramers_v_top_40,Infiltration,dos_slowhttptest,0
+A,cramers_v_top_40,Infiltration,recon,0
+A,cramers_v_top_40,Infiltration,sqli,0
+A,cramers_v_top_40,PortScan,Botnet ARES,0
+A,cramers_v_top_40,PortScan,Brute Force,0
+A,cramers_v_top_40,PortScan,Dos/DDos,1
+A,cramers_v_top_40,PortScan,Infiltration,0
+A,cramers_v_top_40,PortScan,PortScan,109
+A,cramers_v_top_40,PortScan,Web Attack,1
+A,cramers_v_top_40,PortScan,benign,0
+A,cramers_v_top_40,PortScan,bruteforce,0
+A,cramers_v_top_40,PortScan,dos_httpflood,0
+A,cramers_v_top_40,PortScan,dos_slowhttptest,0
+A,cramers_v_top_40,PortScan,recon,0
+A,cramers_v_top_40,PortScan,sqli,0
+A,cramers_v_top_40,Web Attack,Botnet ARES,0
+A,cramers_v_top_40,Web Attack,Brute Force,0
+A,cramers_v_top_40,Web Attack,Dos/DDos,2
+A,cramers_v_top_40,Web Attack,Infiltration,0
+A,cramers_v_top_40,Web Attack,PortScan,0
+A,cramers_v_top_40,Web Attack,Web Attack,403
+A,cramers_v_top_40,Web Attack,benign,1
+A,cramers_v_top_40,Web Attack,bruteforce,0
+A,cramers_v_top_40,Web Attack,dos_httpflood,0
+A,cramers_v_top_40,Web Attack,dos_slowhttptest,0
+A,cramers_v_top_40,Web Attack,recon,0
+A,cramers_v_top_40,Web Attack,sqli,0
+A,cramers_v_top_40,benign,Botnet ARES,11
+A,cramers_v_top_40,benign,Brute Force,2
+A,cramers_v_top_40,benign,Dos/DDos,202
+A,cramers_v_top_40,benign,Infiltration,0
+A,cramers_v_top_40,benign,PortScan,0
+A,cramers_v_top_40,benign,Web Attack,12
+A,cramers_v_top_40,benign,benign,20605
+A,cramers_v_top_40,benign,bruteforce,2
+A,cramers_v_top_40,benign,dos_httpflood,0
+A,cramers_v_top_40,benign,dos_slowhttptest,0
+A,cramers_v_top_40,benign,recon,0
+A,cramers_v_top_40,benign,sqli,0
+A,cramers_v_top_40,bruteforce,Botnet ARES,0
+A,cramers_v_top_40,bruteforce,Brute Force,0
+A,cramers_v_top_40,bruteforce,Dos/DDos,0
+A,cramers_v_top_40,bruteforce,Infiltration,0
+A,cramers_v_top_40,bruteforce,PortScan,0
+A,cramers_v_top_40,bruteforce,Web Attack,0
+A,cramers_v_top_40,bruteforce,benign,0
+A,cramers_v_top_40,bruteforce,bruteforce,13344
+A,cramers_v_top_40,bruteforce,dos_httpflood,0
+A,cramers_v_top_40,bruteforce,dos_slowhttptest,0
+A,cramers_v_top_40,bruteforce,recon,0
+A,cramers_v_top_40,bruteforce,sqli,0
+A,cramers_v_top_40,dos_httpflood,Botnet ARES,0
+A,cramers_v_top_40,dos_httpflood,Brute Force,0
+A,cramers_v_top_40,dos_httpflood,Dos/DDos,0
+A,cramers_v_top_40,dos_httpflood,Infiltration,0
+A,cramers_v_top_40,dos_httpflood,PortScan,0
+A,cramers_v_top_40,dos_httpflood,Web Attack,0
+A,cramers_v_top_40,dos_httpflood,benign,4
+A,cramers_v_top_40,dos_httpflood,bruteforce,0
+A,cramers_v_top_40,dos_httpflood,dos_httpflood,25381
+A,cramers_v_top_40,dos_httpflood,dos_slowhttptest,0
+A,cramers_v_top_40,dos_httpflood,recon,18
+A,cramers_v_top_40,dos_httpflood,sqli,0
+A,cramers_v_top_40,dos_slowhttptest,Botnet ARES,0
+A,cramers_v_top_40,dos_slowhttptest,Brute Force,0
+A,cramers_v_top_40,dos_slowhttptest,Dos/DDos,0
+A,cramers_v_top_40,dos_slowhttptest,Infiltration,0
+A,cramers_v_top_40,dos_slowhttptest,PortScan,0
+A,cramers_v_top_40,dos_slowhttptest,Web Attack,0
+A,cramers_v_top_40,dos_slowhttptest,benign,0
+A,cramers_v_top_40,dos_slowhttptest,bruteforce,0
+A,cramers_v_top_40,dos_slowhttptest,dos_httpflood,0
+A,cramers_v_top_40,dos_slowhttptest,dos_slowhttptest,165
+A,cramers_v_top_40,dos_slowhttptest,recon,0
+A,cramers_v_top_40,dos_slowhttptest,sqli,0
+A,cramers_v_top_40,recon,Botnet ARES,0
+A,cramers_v_top_40,recon,Brute Force,0
+A,cramers_v_top_40,recon,Dos/DDos,0
+A,cramers_v_top_40,recon,Infiltration,0
+A,cramers_v_top_40,recon,PortScan,0
+A,cramers_v_top_40,recon,Web Attack,0
+A,cramers_v_top_40,recon,benign,1
+A,cramers_v_top_40,recon,bruteforce,0
+A,cramers_v_top_40,recon,dos_httpflood,2
+A,cramers_v_top_40,recon,dos_slowhttptest,0
+A,cramers_v_top_40,recon,recon,854
+A,cramers_v_top_40,recon,sqli,0
+A,cramers_v_top_40,sqli,Botnet ARES,0
+A,cramers_v_top_40,sqli,Brute Force,0
+A,cramers_v_top_40,sqli,Dos/DDos,0
+A,cramers_v_top_40,sqli,Infiltration,0
+A,cramers_v_top_40,sqli,PortScan,0
+A,cramers_v_top_40,sqli,Web Attack,0
+A,cramers_v_top_40,sqli,benign,1
+A,cramers_v_top_40,sqli,bruteforce,0
+A,cramers_v_top_40,sqli,dos_httpflood,0
+A,cramers_v_top_40,sqli,dos_slowhttptest,0
+A,cramers_v_top_40,sqli,recon,0
+A,cramers_v_top_40,sqli,sqli,10
+A,combined_p0.90_k20,Botnet ARES,Botnet ARES,270
+A,combined_p0.90_k20,Botnet ARES,Brute Force,0
+A,combined_p0.90_k20,Botnet ARES,Dos/DDos,0
+A,combined_p0.90_k20,Botnet ARES,Infiltration,0
+A,combined_p0.90_k20,Botnet ARES,PortScan,0
+A,combined_p0.90_k20,Botnet ARES,Web Attack,0
+A,combined_p0.90_k20,Botnet ARES,benign,5
+A,combined_p0.90_k20,Botnet ARES,bruteforce,0
+A,combined_p0.90_k20,Botnet ARES,dos_httpflood,0
+A,combined_p0.90_k20,Botnet ARES,dos_slowhttptest,0
+A,combined_p0.90_k20,Botnet ARES,recon,0
+A,combined_p0.90_k20,Botnet ARES,sqli,0
+A,combined_p0.90_k20,Brute Force,Botnet ARES,0
+A,combined_p0.90_k20,Brute Force,Brute Force,1378
+A,combined_p0.90_k20,Brute Force,Dos/DDos,0
+A,combined_p0.90_k20,Brute Force,Infiltration,0
+A,combined_p0.90_k20,Brute Force,PortScan,0
+A,combined_p0.90_k20,Brute Force,Web Attack,0
+A,combined_p0.90_k20,Brute Force,benign,0
+A,combined_p0.90_k20,Brute Force,bruteforce,0
+A,combined_p0.90_k20,Brute Force,dos_httpflood,0
+A,combined_p0.90_k20,Brute Force,dos_slowhttptest,0
+A,combined_p0.90_k20,Brute Force,recon,0
+A,combined_p0.90_k20,Brute Force,sqli,0
+A,combined_p0.90_k20,Dos/DDos,Botnet ARES,0
+A,combined_p0.90_k20,Dos/DDos,Brute Force,1
+A,combined_p0.90_k20,Dos/DDos,Dos/DDos,4264
+A,combined_p0.90_k20,Dos/DDos,Infiltration,0
+A,combined_p0.90_k20,Dos/DDos,PortScan,0
+A,combined_p0.90_k20,Dos/DDos,Web Attack,0
+A,combined_p0.90_k20,Dos/DDos,benign,8
+A,combined_p0.90_k20,Dos/DDos,bruteforce,0
+A,combined_p0.90_k20,Dos/DDos,dos_httpflood,0
+A,combined_p0.90_k20,Dos/DDos,dos_slowhttptest,0
+A,combined_p0.90_k20,Dos/DDos,recon,0
+A,combined_p0.90_k20,Dos/DDos,sqli,0
+A,combined_p0.90_k20,Infiltration,Botnet ARES,0
+A,combined_p0.90_k20,Infiltration,Brute Force,0
+A,combined_p0.90_k20,Infiltration,Dos/DDos,0
+A,combined_p0.90_k20,Infiltration,Infiltration,4
+A,combined_p0.90_k20,Infiltration,PortScan,0
+A,combined_p0.90_k20,Infiltration,Web Attack,0
+A,combined_p0.90_k20,Infiltration,benign,2
+A,combined_p0.90_k20,Infiltration,bruteforce,0
+A,combined_p0.90_k20,Infiltration,dos_httpflood,0
+A,combined_p0.90_k20,Infiltration,dos_slowhttptest,0
+A,combined_p0.90_k20,Infiltration,recon,0
+A,combined_p0.90_k20,Infiltration,sqli,0
+A,combined_p0.90_k20,PortScan,Botnet ARES,0
+A,combined_p0.90_k20,PortScan,Brute Force,0
+A,combined_p0.90_k20,PortScan,Dos/DDos,1
+A,combined_p0.90_k20,PortScan,Infiltration,0
+A,combined_p0.90_k20,PortScan,PortScan,109
+A,combined_p0.90_k20,PortScan,Web Attack,1
+A,combined_p0.90_k20,PortScan,benign,0
+A,combined_p0.90_k20,PortScan,bruteforce,0
+A,combined_p0.90_k20,PortScan,dos_httpflood,0
+A,combined_p0.90_k20,PortScan,dos_slowhttptest,0
+A,combined_p0.90_k20,PortScan,recon,0
+A,combined_p0.90_k20,PortScan,sqli,0
+A,combined_p0.90_k20,Web Attack,Botnet ARES,0
+A,combined_p0.90_k20,Web Attack,Brute Force,0
+A,combined_p0.90_k20,Web Attack,Dos/DDos,2
+A,combined_p0.90_k20,Web Attack,Infiltration,0
+A,combined_p0.90_k20,Web Attack,PortScan,0
+A,combined_p0.90_k20,Web Attack,Web Attack,403
+A,combined_p0.90_k20,Web Attack,benign,1
+A,combined_p0.90_k20,Web Attack,bruteforce,0
+A,combined_p0.90_k20,Web Attack,dos_httpflood,0
+A,combined_p0.90_k20,Web Attack,dos_slowhttptest,0
+A,combined_p0.90_k20,Web Attack,recon,0
+A,combined_p0.90_k20,Web Attack,sqli,0
+A,combined_p0.90_k20,benign,Botnet ARES,13
+A,combined_p0.90_k20,benign,Brute Force,1
+A,combined_p0.90_k20,benign,Dos/DDos,194
+A,combined_p0.90_k20,benign,Infiltration,1
+A,combined_p0.90_k20,benign,PortScan,0
+A,combined_p0.90_k20,benign,Web Attack,2
+A,combined_p0.90_k20,benign,benign,20622
+A,combined_p0.90_k20,benign,bruteforce,1
+A,combined_p0.90_k20,benign,dos_httpflood,0
+A,combined_p0.90_k20,benign,dos_slowhttptest,0
+A,combined_p0.90_k20,benign,recon,0
+A,combined_p0.90_k20,benign,sqli,0
+A,combined_p0.90_k20,bruteforce,Botnet ARES,0
+A,combined_p0.90_k20,bruteforce,Brute Force,0
+A,combined_p0.90_k20,bruteforce,Dos/DDos,0
+A,combined_p0.90_k20,bruteforce,Infiltration,0
+A,combined_p0.90_k20,bruteforce,PortScan,0
+A,combined_p0.90_k20,bruteforce,Web Attack,0
+A,combined_p0.90_k20,bruteforce,benign,1
+A,combined_p0.90_k20,bruteforce,bruteforce,13343
+A,combined_p0.90_k20,bruteforce,dos_httpflood,0
+A,combined_p0.90_k20,bruteforce,dos_slowhttptest,0
+A,combined_p0.90_k20,bruteforce,recon,0
+A,combined_p0.90_k20,bruteforce,sqli,0
+A,combined_p0.90_k20,dos_httpflood,Botnet ARES,0
+A,combined_p0.90_k20,dos_httpflood,Brute Force,0
+A,combined_p0.90_k20,dos_httpflood,Dos/DDos,0
+A,combined_p0.90_k20,dos_httpflood,Infiltration,0
+A,combined_p0.90_k20,dos_httpflood,PortScan,0
+A,combined_p0.90_k20,dos_httpflood,Web Attack,0
+A,combined_p0.90_k20,dos_httpflood,benign,3
+A,combined_p0.90_k20,dos_httpflood,bruteforce,0
+A,combined_p0.90_k20,dos_httpflood,dos_httpflood,25355
+A,combined_p0.90_k20,dos_httpflood,dos_slowhttptest,1
+A,combined_p0.90_k20,dos_httpflood,recon,44
+A,combined_p0.90_k20,dos_httpflood,sqli,0
+A,combined_p0.90_k20,dos_slowhttptest,Botnet ARES,0
+A,combined_p0.90_k20,dos_slowhttptest,Brute Force,0
+A,combined_p0.90_k20,dos_slowhttptest,Dos/DDos,0
+A,combined_p0.90_k20,dos_slowhttptest,Infiltration,0
+A,combined_p0.90_k20,dos_slowhttptest,PortScan,0
+A,combined_p0.90_k20,dos_slowhttptest,Web Attack,0
+A,combined_p0.90_k20,dos_slowhttptest,benign,0
+A,combined_p0.90_k20,dos_slowhttptest,bruteforce,0
+A,combined_p0.90_k20,dos_slowhttptest,dos_httpflood,0
+A,combined_p0.90_k20,dos_slowhttptest,dos_slowhttptest,165
+A,combined_p0.90_k20,dos_slowhttptest,recon,0
+A,combined_p0.90_k20,dos_slowhttptest,sqli,0
+A,combined_p0.90_k20,recon,Botnet ARES,0
+A,combined_p0.90_k20,recon,Brute Force,0
+A,combined_p0.90_k20,recon,Dos/DDos,0
+A,combined_p0.90_k20,recon,Infiltration,0
+A,combined_p0.90_k20,recon,PortScan,0
+A,combined_p0.90_k20,recon,Web Attack,0
+A,combined_p0.90_k20,recon,benign,1
+A,combined_p0.90_k20,recon,bruteforce,0
+A,combined_p0.90_k20,recon,dos_httpflood,9
+A,combined_p0.90_k20,recon,dos_slowhttptest,0
+A,combined_p0.90_k20,recon,recon,847
+A,combined_p0.90_k20,recon,sqli,0
+A,combined_p0.90_k20,sqli,Botnet ARES,0
+A,combined_p0.90_k20,sqli,Brute Force,0
+A,combined_p0.90_k20,sqli,Dos/DDos,0
+A,combined_p0.90_k20,sqli,Infiltration,0
+A,combined_p0.90_k20,sqli,PortScan,0
+A,combined_p0.90_k20,sqli,Web Attack,0
+A,combined_p0.90_k20,sqli,benign,0
+A,combined_p0.90_k20,sqli,bruteforce,0
+A,combined_p0.90_k20,sqli,dos_httpflood,0
+A,combined_p0.90_k20,sqli,dos_slowhttptest,0
+A,combined_p0.90_k20,sqli,recon,0
+A,combined_p0.90_k20,sqli,sqli,11
+B,baseline,Botnet ARES,Botnet ARES,267
+B,baseline,Botnet ARES,Brute Force,0
+B,baseline,Botnet ARES,Dos/DDos,0
+B,baseline,Botnet ARES,Infiltration,0
+B,baseline,Botnet ARES,PortScan,0
+B,baseline,Botnet ARES,Web Attack,0
+B,baseline,Botnet ARES,benign,8
+B,baseline,Botnet ARES,bruteforce,0
+B,baseline,Botnet ARES,dos_httpflood,0
+B,baseline,Botnet ARES,dos_slowhttptest,0
+B,baseline,Botnet ARES,recon,0
+B,baseline,Botnet ARES,sqli,0
+B,baseline,Brute Force,Botnet ARES,0
+B,baseline,Brute Force,Brute Force,1377
+B,baseline,Brute Force,Dos/DDos,0
+B,baseline,Brute Force,Infiltration,0
+B,baseline,Brute Force,PortScan,0
+B,baseline,Brute Force,Web Attack,1
+B,baseline,Brute Force,benign,0
+B,baseline,Brute Force,bruteforce,0
+B,baseline,Brute Force,dos_httpflood,0
+B,baseline,Brute Force,dos_slowhttptest,0
+B,baseline,Brute Force,recon,0
+B,baseline,Brute Force,sqli,0
+B,baseline,Dos/DDos,Botnet ARES,0
+B,baseline,Dos/DDos,Brute Force,1
+B,baseline,Dos/DDos,Dos/DDos,4265
+B,baseline,Dos/DDos,Infiltration,0
+B,baseline,Dos/DDos,PortScan,0
+B,baseline,Dos/DDos,Web Attack,0
+B,baseline,Dos/DDos,benign,7
+B,baseline,Dos/DDos,bruteforce,0
+B,baseline,Dos/DDos,dos_httpflood,0
+B,baseline,Dos/DDos,dos_slowhttptest,0
+B,baseline,Dos/DDos,recon,0
+B,baseline,Dos/DDos,sqli,0
+B,baseline,Infiltration,Botnet ARES,0
+B,baseline,Infiltration,Brute Force,0
+B,baseline,Infiltration,Dos/DDos,0
+B,baseline,Infiltration,Infiltration,4
+B,baseline,Infiltration,PortScan,0
+B,baseline,Infiltration,Web Attack,0
+B,baseline,Infiltration,benign,2
+B,baseline,Infiltration,bruteforce,0
+B,baseline,Infiltration,dos_httpflood,0
+B,baseline,Infiltration,dos_slowhttptest,0
+B,baseline,Infiltration,recon,0
+B,baseline,Infiltration,sqli,0
+B,baseline,PortScan,Botnet ARES,0
+B,baseline,PortScan,Brute Force,0
+B,baseline,PortScan,Dos/DDos,2
+B,baseline,PortScan,Infiltration,0
+B,baseline,PortScan,PortScan,108
+B,baseline,PortScan,Web Attack,1
+B,baseline,PortScan,benign,0
+B,baseline,PortScan,bruteforce,0
+B,baseline,PortScan,dos_httpflood,0
+B,baseline,PortScan,dos_slowhttptest,0
+B,baseline,PortScan,recon,0
+B,baseline,PortScan,sqli,0
+B,baseline,Web Attack,Botnet ARES,0
+B,baseline,Web Attack,Brute Force,0
+B,baseline,Web Attack,Dos/DDos,1
+B,baseline,Web Attack,Infiltration,0
+B,baseline,Web Attack,PortScan,0
+B,baseline,Web Attack,Web Attack,403
+B,baseline,Web Attack,benign,2
+B,baseline,Web Attack,bruteforce,0
+B,baseline,Web Attack,dos_httpflood,0
+B,baseline,Web Attack,dos_slowhttptest,0
+B,baseline,Web Attack,recon,0
+B,baseline,Web Attack,sqli,0
+B,baseline,benign,Botnet ARES,39
+B,baseline,benign,Brute Force,5
+B,baseline,benign,Dos/DDos,203
+B,baseline,benign,Infiltration,0
+B,baseline,benign,PortScan,0
+B,baseline,benign,Web Attack,5
+B,baseline,benign,benign,20305
+B,baseline,benign,bruteforce,0
+B,baseline,benign,dos_httpflood,2
+B,baseline,benign,dos_slowhttptest,0
+B,baseline,benign,recon,0
+B,baseline,benign,sqli,1
+B,baseline,bruteforce,Botnet ARES,0
+B,baseline,bruteforce,Brute Force,0
+B,baseline,bruteforce,Dos/DDos,0
+B,baseline,bruteforce,Infiltration,0
+B,baseline,bruteforce,PortScan,0
+B,baseline,bruteforce,Web Attack,0
+B,baseline,bruteforce,benign,3
+B,baseline,bruteforce,bruteforce,8419
+B,baseline,bruteforce,dos_httpflood,0
+B,baseline,bruteforce,dos_slowhttptest,0
+B,baseline,bruteforce,recon,0
+B,baseline,bruteforce,sqli,0
+B,baseline,dos_httpflood,Botnet ARES,0
+B,baseline,dos_httpflood,Brute Force,0
+B,baseline,dos_httpflood,Dos/DDos,0
+B,baseline,dos_httpflood,Infiltration,0
+B,baseline,dos_httpflood,PortScan,0
+B,baseline,dos_httpflood,Web Attack,0
+B,baseline,dos_httpflood,benign,2
+B,baseline,dos_httpflood,bruteforce,0
+B,baseline,dos_httpflood,dos_httpflood,24673
+B,baseline,dos_httpflood,dos_slowhttptest,0
+B,baseline,dos_httpflood,recon,31
+B,baseline,dos_httpflood,sqli,0
+B,baseline,dos_slowhttptest,Botnet ARES,0
+B,baseline,dos_slowhttptest,Brute Force,0
+B,baseline,dos_slowhttptest,Dos/DDos,0
+B,baseline,dos_slowhttptest,Infiltration,0
+B,baseline,dos_slowhttptest,PortScan,0
+B,baseline,dos_slowhttptest,Web Attack,0
+B,baseline,dos_slowhttptest,benign,0
+B,baseline,dos_slowhttptest,bruteforce,0
+B,baseline,dos_slowhttptest,dos_httpflood,0
+B,baseline,dos_slowhttptest,dos_slowhttptest,164
+B,baseline,dos_slowhttptest,recon,0
+B,baseline,dos_slowhttptest,sqli,0
+B,baseline,recon,Botnet ARES,0
+B,baseline,recon,Brute Force,0
+B,baseline,recon,Dos/DDos,0
+B,baseline,recon,Infiltration,0
+B,baseline,recon,PortScan,0
+B,baseline,recon,Web Attack,0
+B,baseline,recon,benign,2
+B,baseline,recon,bruteforce,0
+B,baseline,recon,dos_httpflood,2
+B,baseline,recon,dos_slowhttptest,0
+B,baseline,recon,recon,1472
+B,baseline,recon,sqli,0
+B,baseline,sqli,Botnet ARES,0
+B,baseline,sqli,Brute Force,0
+B,baseline,sqli,Dos/DDos,0
+B,baseline,sqli,Infiltration,0
+B,baseline,sqli,PortScan,0
+B,baseline,sqli,Web Attack,0
+B,baseline,sqli,benign,0
+B,baseline,sqli,bruteforce,0
+B,baseline,sqli,dos_httpflood,0
+B,baseline,sqli,dos_slowhttptest,0
+B,baseline,sqli,recon,0
+B,baseline,sqli,sqli,11
+B,variance_qc_0.999,Botnet ARES,Botnet ARES,269
+B,variance_qc_0.999,Botnet ARES,Brute Force,0
+B,variance_qc_0.999,Botnet ARES,Dos/DDos,0
+B,variance_qc_0.999,Botnet ARES,Infiltration,0
+B,variance_qc_0.999,Botnet ARES,PortScan,0
+B,variance_qc_0.999,Botnet ARES,Web Attack,0
+B,variance_qc_0.999,Botnet ARES,benign,6
+B,variance_qc_0.999,Botnet ARES,bruteforce,0
+B,variance_qc_0.999,Botnet ARES,dos_httpflood,0
+B,variance_qc_0.999,Botnet ARES,dos_slowhttptest,0
+B,variance_qc_0.999,Botnet ARES,recon,0
+B,variance_qc_0.999,Botnet ARES,sqli,0
+B,variance_qc_0.999,Brute Force,Botnet ARES,0
+B,variance_qc_0.999,Brute Force,Brute Force,1378
+B,variance_qc_0.999,Brute Force,Dos/DDos,0
+B,variance_qc_0.999,Brute Force,Infiltration,0
+B,variance_qc_0.999,Brute Force,PortScan,0
+B,variance_qc_0.999,Brute Force,Web Attack,0
+B,variance_qc_0.999,Brute Force,benign,0
+B,variance_qc_0.999,Brute Force,bruteforce,0
+B,variance_qc_0.999,Brute Force,dos_httpflood,0
+B,variance_qc_0.999,Brute Force,dos_slowhttptest,0
+B,variance_qc_0.999,Brute Force,recon,0
+B,variance_qc_0.999,Brute Force,sqli,0
+B,variance_qc_0.999,Dos/DDos,Botnet ARES,0
+B,variance_qc_0.999,Dos/DDos,Brute Force,1
+B,variance_qc_0.999,Dos/DDos,Dos/DDos,4264
+B,variance_qc_0.999,Dos/DDos,Infiltration,0
+B,variance_qc_0.999,Dos/DDos,PortScan,0
+B,variance_qc_0.999,Dos/DDos,Web Attack,0
+B,variance_qc_0.999,Dos/DDos,benign,8
+B,variance_qc_0.999,Dos/DDos,bruteforce,0
+B,variance_qc_0.999,Dos/DDos,dos_httpflood,0
+B,variance_qc_0.999,Dos/DDos,dos_slowhttptest,0
+B,variance_qc_0.999,Dos/DDos,recon,0
+B,variance_qc_0.999,Dos/DDos,sqli,0
+B,variance_qc_0.999,Infiltration,Botnet ARES,0
+B,variance_qc_0.999,Infiltration,Brute Force,0
+B,variance_qc_0.999,Infiltration,Dos/DDos,0
+B,variance_qc_0.999,Infiltration,Infiltration,4
+B,variance_qc_0.999,Infiltration,PortScan,0
+B,variance_qc_0.999,Infiltration,Web Attack,0
+B,variance_qc_0.999,Infiltration,benign,2
+B,variance_qc_0.999,Infiltration,bruteforce,0
+B,variance_qc_0.999,Infiltration,dos_httpflood,0
+B,variance_qc_0.999,Infiltration,dos_slowhttptest,0
+B,variance_qc_0.999,Infiltration,recon,0
+B,variance_qc_0.999,Infiltration,sqli,0
+B,variance_qc_0.999,PortScan,Botnet ARES,0
+B,variance_qc_0.999,PortScan,Brute Force,0
+B,variance_qc_0.999,PortScan,Dos/DDos,1
+B,variance_qc_0.999,PortScan,Infiltration,0
+B,variance_qc_0.999,PortScan,PortScan,109
+B,variance_qc_0.999,PortScan,Web Attack,1
+B,variance_qc_0.999,PortScan,benign,0
+B,variance_qc_0.999,PortScan,bruteforce,0
+B,variance_qc_0.999,PortScan,dos_httpflood,0
+B,variance_qc_0.999,PortScan,dos_slowhttptest,0
+B,variance_qc_0.999,PortScan,recon,0
+B,variance_qc_0.999,PortScan,sqli,0
+B,variance_qc_0.999,Web Attack,Botnet ARES,0
+B,variance_qc_0.999,Web Attack,Brute Force,0
+B,variance_qc_0.999,Web Attack,Dos/DDos,2
+B,variance_qc_0.999,Web Attack,Infiltration,0
+B,variance_qc_0.999,Web Attack,PortScan,0
+B,variance_qc_0.999,Web Attack,Web Attack,403
+B,variance_qc_0.999,Web Attack,benign,1
+B,variance_qc_0.999,Web Attack,bruteforce,0
+B,variance_qc_0.999,Web Attack,dos_httpflood,0
+B,variance_qc_0.999,Web Attack,dos_slowhttptest,0
+B,variance_qc_0.999,Web Attack,recon,0
+B,variance_qc_0.999,Web Attack,sqli,0
+B,variance_qc_0.999,benign,Botnet ARES,35
+B,variance_qc_0.999,benign,Brute Force,4
+B,variance_qc_0.999,benign,Dos/DDos,205
+B,variance_qc_0.999,benign,Infiltration,0
+B,variance_qc_0.999,benign,PortScan,0
+B,variance_qc_0.999,benign,Web Attack,5
+B,variance_qc_0.999,benign,benign,20308
+B,variance_qc_0.999,benign,bruteforce,0
+B,variance_qc_0.999,benign,dos_httpflood,2
+B,variance_qc_0.999,benign,dos_slowhttptest,0
+B,variance_qc_0.999,benign,recon,0
+B,variance_qc_0.999,benign,sqli,1
+B,variance_qc_0.999,bruteforce,Botnet ARES,0
+B,variance_qc_0.999,bruteforce,Brute Force,0
+B,variance_qc_0.999,bruteforce,Dos/DDos,0
+B,variance_qc_0.999,bruteforce,Infiltration,0
+B,variance_qc_0.999,bruteforce,PortScan,0
+B,variance_qc_0.999,bruteforce,Web Attack,0
+B,variance_qc_0.999,bruteforce,benign,3
+B,variance_qc_0.999,bruteforce,bruteforce,8419
+B,variance_qc_0.999,bruteforce,dos_httpflood,0
+B,variance_qc_0.999,bruteforce,dos_slowhttptest,0
+B,variance_qc_0.999,bruteforce,recon,0
+B,variance_qc_0.999,bruteforce,sqli,0
+B,variance_qc_0.999,dos_httpflood,Botnet ARES,0
+B,variance_qc_0.999,dos_httpflood,Brute Force,0
+B,variance_qc_0.999,dos_httpflood,Dos/DDos,0
+B,variance_qc_0.999,dos_httpflood,Infiltration,0
+B,variance_qc_0.999,dos_httpflood,PortScan,0
+B,variance_qc_0.999,dos_httpflood,Web Attack,0
+B,variance_qc_0.999,dos_httpflood,benign,2
+B,variance_qc_0.999,dos_httpflood,bruteforce,0
+B,variance_qc_0.999,dos_httpflood,dos_httpflood,24674
+B,variance_qc_0.999,dos_httpflood,dos_slowhttptest,0
+B,variance_qc_0.999,dos_httpflood,recon,30
+B,variance_qc_0.999,dos_httpflood,sqli,0
+B,variance_qc_0.999,dos_slowhttptest,Botnet ARES,0
+B,variance_qc_0.999,dos_slowhttptest,Brute Force,0
+B,variance_qc_0.999,dos_slowhttptest,Dos/DDos,0
+B,variance_qc_0.999,dos_slowhttptest,Infiltration,0
+B,variance_qc_0.999,dos_slowhttptest,PortScan,0
+B,variance_qc_0.999,dos_slowhttptest,Web Attack,0
+B,variance_qc_0.999,dos_slowhttptest,benign,0
+B,variance_qc_0.999,dos_slowhttptest,bruteforce,0
+B,variance_qc_0.999,dos_slowhttptest,dos_httpflood,0
+B,variance_qc_0.999,dos_slowhttptest,dos_slowhttptest,164
+B,variance_qc_0.999,dos_slowhttptest,recon,0
+B,variance_qc_0.999,dos_slowhttptest,sqli,0
+B,variance_qc_0.999,recon,Botnet ARES,0
+B,variance_qc_0.999,recon,Brute Force,0
+B,variance_qc_0.999,recon,Dos/DDos,0
+B,variance_qc_0.999,recon,Infiltration,0
+B,variance_qc_0.999,recon,PortScan,0
+B,variance_qc_0.999,recon,Web Attack,0
+B,variance_qc_0.999,recon,benign,2
+B,variance_qc_0.999,recon,bruteforce,0
+B,variance_qc_0.999,recon,dos_httpflood,2
+B,variance_qc_0.999,recon,dos_slowhttptest,0
+B,variance_qc_0.999,recon,recon,1472
+B,variance_qc_0.999,recon,sqli,0
+B,variance_qc_0.999,sqli,Botnet ARES,0
+B,variance_qc_0.999,sqli,Brute Force,0
+B,variance_qc_0.999,sqli,Dos/DDos,0
+B,variance_qc_0.999,sqli,Infiltration,0
+B,variance_qc_0.999,sqli,PortScan,0
+B,variance_qc_0.999,sqli,Web Attack,0
+B,variance_qc_0.999,sqli,benign,0
+B,variance_qc_0.999,sqli,bruteforce,0
+B,variance_qc_0.999,sqli,dos_httpflood,0
+B,variance_qc_0.999,sqli,dos_slowhttptest,0
+B,variance_qc_0.999,sqli,recon,0
+B,variance_qc_0.999,sqli,sqli,11
+B,pearson_0.90,Botnet ARES,Botnet ARES,272
+B,pearson_0.90,Botnet ARES,Brute Force,0
+B,pearson_0.90,Botnet ARES,Dos/DDos,0
+B,pearson_0.90,Botnet ARES,Infiltration,0
+B,pearson_0.90,Botnet ARES,PortScan,0
+B,pearson_0.90,Botnet ARES,Web Attack,0
+B,pearson_0.90,Botnet ARES,benign,3
+B,pearson_0.90,Botnet ARES,bruteforce,0
+B,pearson_0.90,Botnet ARES,dos_httpflood,0
+B,pearson_0.90,Botnet ARES,dos_slowhttptest,0
+B,pearson_0.90,Botnet ARES,recon,0
+B,pearson_0.90,Botnet ARES,sqli,0
+B,pearson_0.90,Brute Force,Botnet ARES,0
+B,pearson_0.90,Brute Force,Brute Force,1377
+B,pearson_0.90,Brute Force,Dos/DDos,0
+B,pearson_0.90,Brute Force,Infiltration,0
+B,pearson_0.90,Brute Force,PortScan,0
+B,pearson_0.90,Brute Force,Web Attack,0
+B,pearson_0.90,Brute Force,benign,1
+B,pearson_0.90,Brute Force,bruteforce,0
+B,pearson_0.90,Brute Force,dos_httpflood,0
+B,pearson_0.90,Brute Force,dos_slowhttptest,0
+B,pearson_0.90,Brute Force,recon,0
+B,pearson_0.90,Brute Force,sqli,0
+B,pearson_0.90,Dos/DDos,Botnet ARES,0
+B,pearson_0.90,Dos/DDos,Brute Force,1
+B,pearson_0.90,Dos/DDos,Dos/DDos,4265
+B,pearson_0.90,Dos/DDos,Infiltration,0
+B,pearson_0.90,Dos/DDos,PortScan,0
+B,pearson_0.90,Dos/DDos,Web Attack,0
+B,pearson_0.90,Dos/DDos,benign,7
+B,pearson_0.90,Dos/DDos,bruteforce,0
+B,pearson_0.90,Dos/DDos,dos_httpflood,0
+B,pearson_0.90,Dos/DDos,dos_slowhttptest,0
+B,pearson_0.90,Dos/DDos,recon,0
+B,pearson_0.90,Dos/DDos,sqli,0
+B,pearson_0.90,Infiltration,Botnet ARES,0
+B,pearson_0.90,Infiltration,Brute Force,0
+B,pearson_0.90,Infiltration,Dos/DDos,0
+B,pearson_0.90,Infiltration,Infiltration,4
+B,pearson_0.90,Infiltration,PortScan,0
+B,pearson_0.90,Infiltration,Web Attack,0
+B,pearson_0.90,Infiltration,benign,2
+B,pearson_0.90,Infiltration,bruteforce,0
+B,pearson_0.90,Infiltration,dos_httpflood,0
+B,pearson_0.90,Infiltration,dos_slowhttptest,0
+B,pearson_0.90,Infiltration,recon,0
+B,pearson_0.90,Infiltration,sqli,0
+B,pearson_0.90,PortScan,Botnet ARES,0
+B,pearson_0.90,PortScan,Brute Force,0
+B,pearson_0.90,PortScan,Dos/DDos,2
+B,pearson_0.90,PortScan,Infiltration,0
+B,pearson_0.90,PortScan,PortScan,108
+B,pearson_0.90,PortScan,Web Attack,1
+B,pearson_0.90,PortScan,benign,0
+B,pearson_0.90,PortScan,bruteforce,0
+B,pearson_0.90,PortScan,dos_httpflood,0
+B,pearson_0.90,PortScan,dos_slowhttptest,0
+B,pearson_0.90,PortScan,recon,0
+B,pearson_0.90,PortScan,sqli,0
+B,pearson_0.90,Web Attack,Botnet ARES,0
+B,pearson_0.90,Web Attack,Brute Force,0
+B,pearson_0.90,Web Attack,Dos/DDos,1
+B,pearson_0.90,Web Attack,Infiltration,0
+B,pearson_0.90,Web Attack,PortScan,0
+B,pearson_0.90,Web Attack,Web Attack,403
+B,pearson_0.90,Web Attack,benign,2
+B,pearson_0.90,Web Attack,bruteforce,0
+B,pearson_0.90,Web Attack,dos_httpflood,0
+B,pearson_0.90,Web Attack,dos_slowhttptest,0
+B,pearson_0.90,Web Attack,recon,0
+B,pearson_0.90,Web Attack,sqli,0
+B,pearson_0.90,benign,Botnet ARES,32
+B,pearson_0.90,benign,Brute Force,2
+B,pearson_0.90,benign,Dos/DDos,200
+B,pearson_0.90,benign,Infiltration,0
+B,pearson_0.90,benign,PortScan,0
+B,pearson_0.90,benign,Web Attack,2
+B,pearson_0.90,benign,benign,20321
+B,pearson_0.90,benign,bruteforce,0
+B,pearson_0.90,benign,dos_httpflood,2
+B,pearson_0.90,benign,dos_slowhttptest,0
+B,pearson_0.90,benign,recon,0
+B,pearson_0.90,benign,sqli,1
+B,pearson_0.90,bruteforce,Botnet ARES,0
+B,pearson_0.90,bruteforce,Brute Force,0
+B,pearson_0.90,bruteforce,Dos/DDos,0
+B,pearson_0.90,bruteforce,Infiltration,0
+B,pearson_0.90,bruteforce,PortScan,0
+B,pearson_0.90,bruteforce,Web Attack,0
+B,pearson_0.90,bruteforce,benign,3
+B,pearson_0.90,bruteforce,bruteforce,8419
+B,pearson_0.90,bruteforce,dos_httpflood,0
+B,pearson_0.90,bruteforce,dos_slowhttptest,0
+B,pearson_0.90,bruteforce,recon,0
+B,pearson_0.90,bruteforce,sqli,0
+B,pearson_0.90,dos_httpflood,Botnet ARES,0
+B,pearson_0.90,dos_httpflood,Brute Force,0
+B,pearson_0.90,dos_httpflood,Dos/DDos,0
+B,pearson_0.90,dos_httpflood,Infiltration,0
+B,pearson_0.90,dos_httpflood,PortScan,0
+B,pearson_0.90,dos_httpflood,Web Attack,0
+B,pearson_0.90,dos_httpflood,benign,1
+B,pearson_0.90,dos_httpflood,bruteforce,0
+B,pearson_0.90,dos_httpflood,dos_httpflood,24673
+B,pearson_0.90,dos_httpflood,dos_slowhttptest,0
+B,pearson_0.90,dos_httpflood,recon,32
+B,pearson_0.90,dos_httpflood,sqli,0
+B,pearson_0.90,dos_slowhttptest,Botnet ARES,0
+B,pearson_0.90,dos_slowhttptest,Brute Force,0
+B,pearson_0.90,dos_slowhttptest,Dos/DDos,0
+B,pearson_0.90,dos_slowhttptest,Infiltration,0
+B,pearson_0.90,dos_slowhttptest,PortScan,0
+B,pearson_0.90,dos_slowhttptest,Web Attack,0
+B,pearson_0.90,dos_slowhttptest,benign,0
+B,pearson_0.90,dos_slowhttptest,bruteforce,0
+B,pearson_0.90,dos_slowhttptest,dos_httpflood,0
+B,pearson_0.90,dos_slowhttptest,dos_slowhttptest,164
+B,pearson_0.90,dos_slowhttptest,recon,0
+B,pearson_0.90,dos_slowhttptest,sqli,0
+B,pearson_0.90,recon,Botnet ARES,0
+B,pearson_0.90,recon,Brute Force,0
+B,pearson_0.90,recon,Dos/DDos,0
+B,pearson_0.90,recon,Infiltration,0
+B,pearson_0.90,recon,PortScan,0
+B,pearson_0.90,recon,Web Attack,0
+B,pearson_0.90,recon,benign,2
+B,pearson_0.90,recon,bruteforce,0
+B,pearson_0.90,recon,dos_httpflood,2
+B,pearson_0.90,recon,dos_slowhttptest,0
+B,pearson_0.90,recon,recon,1472
+B,pearson_0.90,recon,sqli,0
+B,pearson_0.90,sqli,Botnet ARES,0
+B,pearson_0.90,sqli,Brute Force,0
+B,pearson_0.90,sqli,Dos/DDos,0
+B,pearson_0.90,sqli,Infiltration,0
+B,pearson_0.90,sqli,PortScan,0
+B,pearson_0.90,sqli,Web Attack,0
+B,pearson_0.90,sqli,benign,0
+B,pearson_0.90,sqli,bruteforce,0
+B,pearson_0.90,sqli,dos_httpflood,0
+B,pearson_0.90,sqli,dos_slowhttptest,0
+B,pearson_0.90,sqli,recon,0
+B,pearson_0.90,sqli,sqli,11
+B,cramers_v_top_30,Botnet ARES,Botnet ARES,274
+B,cramers_v_top_30,Botnet ARES,Brute Force,0
+B,cramers_v_top_30,Botnet ARES,Dos/DDos,0
+B,cramers_v_top_30,Botnet ARES,Infiltration,0
+B,cramers_v_top_30,Botnet ARES,PortScan,0
+B,cramers_v_top_30,Botnet ARES,Web Attack,0
+B,cramers_v_top_30,Botnet ARES,benign,1
+B,cramers_v_top_30,Botnet ARES,bruteforce,0
+B,cramers_v_top_30,Botnet ARES,dos_httpflood,0
+B,cramers_v_top_30,Botnet ARES,dos_slowhttptest,0
+B,cramers_v_top_30,Botnet ARES,recon,0
+B,cramers_v_top_30,Botnet ARES,sqli,0
+B,cramers_v_top_30,Brute Force,Botnet ARES,0
+B,cramers_v_top_30,Brute Force,Brute Force,1378
+B,cramers_v_top_30,Brute Force,Dos/DDos,0
+B,cramers_v_top_30,Brute Force,Infiltration,0
+B,cramers_v_top_30,Brute Force,PortScan,0
+B,cramers_v_top_30,Brute Force,Web Attack,0
+B,cramers_v_top_30,Brute Force,benign,0
+B,cramers_v_top_30,Brute Force,bruteforce,0
+B,cramers_v_top_30,Brute Force,dos_httpflood,0
+B,cramers_v_top_30,Brute Force,dos_slowhttptest,0
+B,cramers_v_top_30,Brute Force,recon,0
+B,cramers_v_top_30,Brute Force,sqli,0
+B,cramers_v_top_30,Dos/DDos,Botnet ARES,0
+B,cramers_v_top_30,Dos/DDos,Brute Force,0
+B,cramers_v_top_30,Dos/DDos,Dos/DDos,4251
+B,cramers_v_top_30,Dos/DDos,Infiltration,0
+B,cramers_v_top_30,Dos/DDos,PortScan,15
+B,cramers_v_top_30,Dos/DDos,Web Attack,0
+B,cramers_v_top_30,Dos/DDos,benign,7
+B,cramers_v_top_30,Dos/DDos,bruteforce,0
+B,cramers_v_top_30,Dos/DDos,dos_httpflood,0
+B,cramers_v_top_30,Dos/DDos,dos_slowhttptest,0
+B,cramers_v_top_30,Dos/DDos,recon,0
+B,cramers_v_top_30,Dos/DDos,sqli,0
+B,cramers_v_top_30,Infiltration,Botnet ARES,0
+B,cramers_v_top_30,Infiltration,Brute Force,0
+B,cramers_v_top_30,Infiltration,Dos/DDos,0
+B,cramers_v_top_30,Infiltration,Infiltration,4
+B,cramers_v_top_30,Infiltration,PortScan,0
+B,cramers_v_top_30,Infiltration,Web Attack,0
+B,cramers_v_top_30,Infiltration,benign,2
+B,cramers_v_top_30,Infiltration,bruteforce,0
+B,cramers_v_top_30,Infiltration,dos_httpflood,0
+B,cramers_v_top_30,Infiltration,dos_slowhttptest,0
+B,cramers_v_top_30,Infiltration,recon,0
+B,cramers_v_top_30,Infiltration,sqli,0
+B,cramers_v_top_30,PortScan,Botnet ARES,0
+B,cramers_v_top_30,PortScan,Brute Force,0
+B,cramers_v_top_30,PortScan,Dos/DDos,0
+B,cramers_v_top_30,PortScan,Infiltration,0
+B,cramers_v_top_30,PortScan,PortScan,110
+B,cramers_v_top_30,PortScan,Web Attack,1
+B,cramers_v_top_30,PortScan,benign,0
+B,cramers_v_top_30,PortScan,bruteforce,0
+B,cramers_v_top_30,PortScan,dos_httpflood,0
+B,cramers_v_top_30,PortScan,dos_slowhttptest,0
+B,cramers_v_top_30,PortScan,recon,0
+B,cramers_v_top_30,PortScan,sqli,0
+B,cramers_v_top_30,Web Attack,Botnet ARES,0
+B,cramers_v_top_30,Web Attack,Brute Force,0
+B,cramers_v_top_30,Web Attack,Dos/DDos,1
+B,cramers_v_top_30,Web Attack,Infiltration,0
+B,cramers_v_top_30,Web Attack,PortScan,0
+B,cramers_v_top_30,Web Attack,Web Attack,403
+B,cramers_v_top_30,Web Attack,benign,2
+B,cramers_v_top_30,Web Attack,bruteforce,0
+B,cramers_v_top_30,Web Attack,dos_httpflood,0
+B,cramers_v_top_30,Web Attack,dos_slowhttptest,0
+B,cramers_v_top_30,Web Attack,recon,0
+B,cramers_v_top_30,Web Attack,sqli,0
+B,cramers_v_top_30,benign,Botnet ARES,11
+B,cramers_v_top_30,benign,Brute Force,1
+B,cramers_v_top_30,benign,Dos/DDos,225
+B,cramers_v_top_30,benign,Infiltration,0
+B,cramers_v_top_30,benign,PortScan,2
+B,cramers_v_top_30,benign,Web Attack,10
+B,cramers_v_top_30,benign,benign,20309
+B,cramers_v_top_30,benign,bruteforce,0
+B,cramers_v_top_30,benign,dos_httpflood,0
+B,cramers_v_top_30,benign,dos_slowhttptest,0
+B,cramers_v_top_30,benign,recon,0
+B,cramers_v_top_30,benign,sqli,2
+B,cramers_v_top_30,bruteforce,Botnet ARES,0
+B,cramers_v_top_30,bruteforce,Brute Force,0
+B,cramers_v_top_30,bruteforce,Dos/DDos,0
+B,cramers_v_top_30,bruteforce,Infiltration,0
+B,cramers_v_top_30,bruteforce,PortScan,0
+B,cramers_v_top_30,bruteforce,Web Attack,0
+B,cramers_v_top_30,bruteforce,benign,1
+B,cramers_v_top_30,bruteforce,bruteforce,8421
+B,cramers_v_top_30,bruteforce,dos_httpflood,0
+B,cramers_v_top_30,bruteforce,dos_slowhttptest,0
+B,cramers_v_top_30,bruteforce,recon,0
+B,cramers_v_top_30,bruteforce,sqli,0
+B,cramers_v_top_30,dos_httpflood,Botnet ARES,0
+B,cramers_v_top_30,dos_httpflood,Brute Force,0
+B,cramers_v_top_30,dos_httpflood,Dos/DDos,0
+B,cramers_v_top_30,dos_httpflood,Infiltration,0
+B,cramers_v_top_30,dos_httpflood,PortScan,0
+B,cramers_v_top_30,dos_httpflood,Web Attack,0
+B,cramers_v_top_30,dos_httpflood,benign,1
+B,cramers_v_top_30,dos_httpflood,bruteforce,0
+B,cramers_v_top_30,dos_httpflood,dos_httpflood,24685
+B,cramers_v_top_30,dos_httpflood,dos_slowhttptest,1
+B,cramers_v_top_30,dos_httpflood,recon,18
+B,cramers_v_top_30,dos_httpflood,sqli,1
+B,cramers_v_top_30,dos_slowhttptest,Botnet ARES,0
+B,cramers_v_top_30,dos_slowhttptest,Brute Force,0
+B,cramers_v_top_30,dos_slowhttptest,Dos/DDos,0
+B,cramers_v_top_30,dos_slowhttptest,Infiltration,0
+B,cramers_v_top_30,dos_slowhttptest,PortScan,0
+B,cramers_v_top_30,dos_slowhttptest,Web Attack,0
+B,cramers_v_top_30,dos_slowhttptest,benign,0
+B,cramers_v_top_30,dos_slowhttptest,bruteforce,0
+B,cramers_v_top_30,dos_slowhttptest,dos_httpflood,0
+B,cramers_v_top_30,dos_slowhttptest,dos_slowhttptest,161
+B,cramers_v_top_30,dos_slowhttptest,recon,3
+B,cramers_v_top_30,dos_slowhttptest,sqli,0
+B,cramers_v_top_30,recon,Botnet ARES,0
+B,cramers_v_top_30,recon,Brute Force,0
+B,cramers_v_top_30,recon,Dos/DDos,0
+B,cramers_v_top_30,recon,Infiltration,0
+B,cramers_v_top_30,recon,PortScan,0
+B,cramers_v_top_30,recon,Web Attack,0
+B,cramers_v_top_30,recon,benign,0
+B,cramers_v_top_30,recon,bruteforce,0
+B,cramers_v_top_30,recon,dos_httpflood,167
+B,cramers_v_top_30,recon,dos_slowhttptest,0
+B,cramers_v_top_30,recon,recon,1309
+B,cramers_v_top_30,recon,sqli,0
+B,cramers_v_top_30,sqli,Botnet ARES,0
+B,cramers_v_top_30,sqli,Brute Force,0
+B,cramers_v_top_30,sqli,Dos/DDos,0
+B,cramers_v_top_30,sqli,Infiltration,0
+B,cramers_v_top_30,sqli,PortScan,0
+B,cramers_v_top_30,sqli,Web Attack,0
+B,cramers_v_top_30,sqli,benign,0
+B,cramers_v_top_30,sqli,bruteforce,0
+B,cramers_v_top_30,sqli,dos_httpflood,0
+B,cramers_v_top_30,sqli,dos_slowhttptest,0
+B,cramers_v_top_30,sqli,recon,0
+B,cramers_v_top_30,sqli,sqli,11
+B,chi2_top_40,Botnet ARES,Botnet ARES,270
+B,chi2_top_40,Botnet ARES,Brute Force,0
+B,chi2_top_40,Botnet ARES,Dos/DDos,0
+B,chi2_top_40,Botnet ARES,Infiltration,0
+B,chi2_top_40,Botnet ARES,PortScan,0
+B,chi2_top_40,Botnet ARES,Web Attack,0
+B,chi2_top_40,Botnet ARES,benign,5
+B,chi2_top_40,Botnet ARES,bruteforce,0
+B,chi2_top_40,Botnet ARES,dos_httpflood,0
+B,chi2_top_40,Botnet ARES,dos_slowhttptest,0
+B,chi2_top_40,Botnet ARES,recon,0
+B,chi2_top_40,Botnet ARES,sqli,0
+B,chi2_top_40,Brute Force,Botnet ARES,0
+B,chi2_top_40,Brute Force,Brute Force,1376
+B,chi2_top_40,Brute Force,Dos/DDos,1
+B,chi2_top_40,Brute Force,Infiltration,0
+B,chi2_top_40,Brute Force,PortScan,0
+B,chi2_top_40,Brute Force,Web Attack,0
+B,chi2_top_40,Brute Force,benign,1
+B,chi2_top_40,Brute Force,bruteforce,0
+B,chi2_top_40,Brute Force,dos_httpflood,0
+B,chi2_top_40,Brute Force,dos_slowhttptest,0
+B,chi2_top_40,Brute Force,recon,0
+B,chi2_top_40,Brute Force,sqli,0
+B,chi2_top_40,Dos/DDos,Botnet ARES,0
+B,chi2_top_40,Dos/DDos,Brute Force,2
+B,chi2_top_40,Dos/DDos,Dos/DDos,4263
+B,chi2_top_40,Dos/DDos,Infiltration,0
+B,chi2_top_40,Dos/DDos,PortScan,0
+B,chi2_top_40,Dos/DDos,Web Attack,0
+B,chi2_top_40,Dos/DDos,benign,8
+B,chi2_top_40,Dos/DDos,bruteforce,0
+B,chi2_top_40,Dos/DDos,dos_httpflood,0
+B,chi2_top_40,Dos/DDos,dos_slowhttptest,0
+B,chi2_top_40,Dos/DDos,recon,0
+B,chi2_top_40,Dos/DDos,sqli,0
+B,chi2_top_40,Infiltration,Botnet ARES,0
+B,chi2_top_40,Infiltration,Brute Force,0
+B,chi2_top_40,Infiltration,Dos/DDos,0
+B,chi2_top_40,Infiltration,Infiltration,4
+B,chi2_top_40,Infiltration,PortScan,0
+B,chi2_top_40,Infiltration,Web Attack,0
+B,chi2_top_40,Infiltration,benign,2
+B,chi2_top_40,Infiltration,bruteforce,0
+B,chi2_top_40,Infiltration,dos_httpflood,0
+B,chi2_top_40,Infiltration,dos_slowhttptest,0
+B,chi2_top_40,Infiltration,recon,0
+B,chi2_top_40,Infiltration,sqli,0
+B,chi2_top_40,PortScan,Botnet ARES,0
+B,chi2_top_40,PortScan,Brute Force,0
+B,chi2_top_40,PortScan,Dos/DDos,2
+B,chi2_top_40,PortScan,Infiltration,0
+B,chi2_top_40,PortScan,PortScan,108
+B,chi2_top_40,PortScan,Web Attack,1
+B,chi2_top_40,PortScan,benign,0
+B,chi2_top_40,PortScan,bruteforce,0
+B,chi2_top_40,PortScan,dos_httpflood,0
+B,chi2_top_40,PortScan,dos_slowhttptest,0
+B,chi2_top_40,PortScan,recon,0
+B,chi2_top_40,PortScan,sqli,0
+B,chi2_top_40,Web Attack,Botnet ARES,0
+B,chi2_top_40,Web Attack,Brute Force,0
+B,chi2_top_40,Web Attack,Dos/DDos,1
+B,chi2_top_40,Web Attack,Infiltration,0
+B,chi2_top_40,Web Attack,PortScan,0
+B,chi2_top_40,Web Attack,Web Attack,404
+B,chi2_top_40,Web Attack,benign,1
+B,chi2_top_40,Web Attack,bruteforce,0
+B,chi2_top_40,Web Attack,dos_httpflood,0
+B,chi2_top_40,Web Attack,dos_slowhttptest,0
+B,chi2_top_40,Web Attack,recon,0
+B,chi2_top_40,Web Attack,sqli,0
+B,chi2_top_40,benign,Botnet ARES,30
+B,chi2_top_40,benign,Brute Force,3
+B,chi2_top_40,benign,Dos/DDos,207
+B,chi2_top_40,benign,Infiltration,1
+B,chi2_top_40,benign,PortScan,0
+B,chi2_top_40,benign,Web Attack,11
+B,chi2_top_40,benign,benign,20306
+B,chi2_top_40,benign,bruteforce,0
+B,chi2_top_40,benign,dos_httpflood,1
+B,chi2_top_40,benign,dos_slowhttptest,0
+B,chi2_top_40,benign,recon,0
+B,chi2_top_40,benign,sqli,1
+B,chi2_top_40,bruteforce,Botnet ARES,0
+B,chi2_top_40,bruteforce,Brute Force,0
+B,chi2_top_40,bruteforce,Dos/DDos,0
+B,chi2_top_40,bruteforce,Infiltration,0
+B,chi2_top_40,bruteforce,PortScan,0
+B,chi2_top_40,bruteforce,Web Attack,0
+B,chi2_top_40,bruteforce,benign,3
+B,chi2_top_40,bruteforce,bruteforce,8419
+B,chi2_top_40,bruteforce,dos_httpflood,0
+B,chi2_top_40,bruteforce,dos_slowhttptest,0
+B,chi2_top_40,bruteforce,recon,0
+B,chi2_top_40,bruteforce,sqli,0
+B,chi2_top_40,dos_httpflood,Botnet ARES,0
+B,chi2_top_40,dos_httpflood,Brute Force,0
+B,chi2_top_40,dos_httpflood,Dos/DDos,0
+B,chi2_top_40,dos_httpflood,Infiltration,0
+B,chi2_top_40,dos_httpflood,PortScan,0
+B,chi2_top_40,dos_httpflood,Web Attack,0
+B,chi2_top_40,dos_httpflood,benign,2
+B,chi2_top_40,dos_httpflood,bruteforce,0
+B,chi2_top_40,dos_httpflood,dos_httpflood,24673
+B,chi2_top_40,dos_httpflood,dos_slowhttptest,0
+B,chi2_top_40,dos_httpflood,recon,31
+B,chi2_top_40,dos_httpflood,sqli,0
+B,chi2_top_40,dos_slowhttptest,Botnet ARES,0
+B,chi2_top_40,dos_slowhttptest,Brute Force,0
+B,chi2_top_40,dos_slowhttptest,Dos/DDos,0
+B,chi2_top_40,dos_slowhttptest,Infiltration,0
+B,chi2_top_40,dos_slowhttptest,PortScan,0
+B,chi2_top_40,dos_slowhttptest,Web Attack,0
+B,chi2_top_40,dos_slowhttptest,benign,0
+B,chi2_top_40,dos_slowhttptest,bruteforce,0
+B,chi2_top_40,dos_slowhttptest,dos_httpflood,0
+B,chi2_top_40,dos_slowhttptest,dos_slowhttptest,164
+B,chi2_top_40,dos_slowhttptest,recon,0
+B,chi2_top_40,dos_slowhttptest,sqli,0
+B,chi2_top_40,recon,Botnet ARES,0
+B,chi2_top_40,recon,Brute Force,0
+B,chi2_top_40,recon,Dos/DDos,0
+B,chi2_top_40,recon,Infiltration,0
+B,chi2_top_40,recon,PortScan,0
+B,chi2_top_40,recon,Web Attack,0
+B,chi2_top_40,recon,benign,2
+B,chi2_top_40,recon,bruteforce,0
+B,chi2_top_40,recon,dos_httpflood,2
+B,chi2_top_40,recon,dos_slowhttptest,0
+B,chi2_top_40,recon,recon,1472
+B,chi2_top_40,recon,sqli,0
+B,chi2_top_40,sqli,Botnet ARES,0
+B,chi2_top_40,sqli,Brute Force,0
+B,chi2_top_40,sqli,Dos/DDos,0
+B,chi2_top_40,sqli,Infiltration,0
+B,chi2_top_40,sqli,PortScan,0
+B,chi2_top_40,sqli,Web Attack,0
+B,chi2_top_40,sqli,benign,0
+B,chi2_top_40,sqli,bruteforce,0
+B,chi2_top_40,sqli,dos_httpflood,0
+B,chi2_top_40,sqli,dos_slowhttptest,0
+B,chi2_top_40,sqli,recon,0
+B,chi2_top_40,sqli,sqli,11
+B,combined_p0.90_k30,Botnet ARES,Botnet ARES,272
+B,combined_p0.90_k30,Botnet ARES,Brute Force,0
+B,combined_p0.90_k30,Botnet ARES,Dos/DDos,0
+B,combined_p0.90_k30,Botnet ARES,Infiltration,0
+B,combined_p0.90_k30,Botnet ARES,PortScan,0
+B,combined_p0.90_k30,Botnet ARES,Web Attack,0
+B,combined_p0.90_k30,Botnet ARES,benign,3
+B,combined_p0.90_k30,Botnet ARES,bruteforce,0
+B,combined_p0.90_k30,Botnet ARES,dos_httpflood,0
+B,combined_p0.90_k30,Botnet ARES,dos_slowhttptest,0
+B,combined_p0.90_k30,Botnet ARES,recon,0
+B,combined_p0.90_k30,Botnet ARES,sqli,0
+B,combined_p0.90_k30,Brute Force,Botnet ARES,0
+B,combined_p0.90_k30,Brute Force,Brute Force,1378
+B,combined_p0.90_k30,Brute Force,Dos/DDos,0
+B,combined_p0.90_k30,Brute Force,Infiltration,0
+B,combined_p0.90_k30,Brute Force,PortScan,0
+B,combined_p0.90_k30,Brute Force,Web Attack,0
+B,combined_p0.90_k30,Brute Force,benign,0
+B,combined_p0.90_k30,Brute Force,bruteforce,0
+B,combined_p0.90_k30,Brute Force,dos_httpflood,0
+B,combined_p0.90_k30,Brute Force,dos_slowhttptest,0
+B,combined_p0.90_k30,Brute Force,recon,0
+B,combined_p0.90_k30,Brute Force,sqli,0
+B,combined_p0.90_k30,Dos/DDos,Botnet ARES,0
+B,combined_p0.90_k30,Dos/DDos,Brute Force,1
+B,combined_p0.90_k30,Dos/DDos,Dos/DDos,4264
+B,combined_p0.90_k30,Dos/DDos,Infiltration,0
+B,combined_p0.90_k30,Dos/DDos,PortScan,0
+B,combined_p0.90_k30,Dos/DDos,Web Attack,0
+B,combined_p0.90_k30,Dos/DDos,benign,8
+B,combined_p0.90_k30,Dos/DDos,bruteforce,0
+B,combined_p0.90_k30,Dos/DDos,dos_httpflood,0
+B,combined_p0.90_k30,Dos/DDos,dos_slowhttptest,0
+B,combined_p0.90_k30,Dos/DDos,recon,0
+B,combined_p0.90_k30,Dos/DDos,sqli,0
+B,combined_p0.90_k30,Infiltration,Botnet ARES,0
+B,combined_p0.90_k30,Infiltration,Brute Force,0
+B,combined_p0.90_k30,Infiltration,Dos/DDos,0
+B,combined_p0.90_k30,Infiltration,Infiltration,4
+B,combined_p0.90_k30,Infiltration,PortScan,0
+B,combined_p0.90_k30,Infiltration,Web Attack,0
+B,combined_p0.90_k30,Infiltration,benign,2
+B,combined_p0.90_k30,Infiltration,bruteforce,0
+B,combined_p0.90_k30,Infiltration,dos_httpflood,0
+B,combined_p0.90_k30,Infiltration,dos_slowhttptest,0
+B,combined_p0.90_k30,Infiltration,recon,0
+B,combined_p0.90_k30,Infiltration,sqli,0
+B,combined_p0.90_k30,PortScan,Botnet ARES,0
+B,combined_p0.90_k30,PortScan,Brute Force,0
+B,combined_p0.90_k30,PortScan,Dos/DDos,1
+B,combined_p0.90_k30,PortScan,Infiltration,0
+B,combined_p0.90_k30,PortScan,PortScan,109
+B,combined_p0.90_k30,PortScan,Web Attack,1
+B,combined_p0.90_k30,PortScan,benign,0
+B,combined_p0.90_k30,PortScan,bruteforce,0
+B,combined_p0.90_k30,PortScan,dos_httpflood,0
+B,combined_p0.90_k30,PortScan,dos_slowhttptest,0
+B,combined_p0.90_k30,PortScan,recon,0
+B,combined_p0.90_k30,PortScan,sqli,0
+B,combined_p0.90_k30,Web Attack,Botnet ARES,0
+B,combined_p0.90_k30,Web Attack,Brute Force,0
+B,combined_p0.90_k30,Web Attack,Dos/DDos,1
+B,combined_p0.90_k30,Web Attack,Infiltration,0
+B,combined_p0.90_k30,Web Attack,PortScan,0
+B,combined_p0.90_k30,Web Attack,Web Attack,403
+B,combined_p0.90_k30,Web Attack,benign,2
+B,combined_p0.90_k30,Web Attack,bruteforce,0
+B,combined_p0.90_k30,Web Attack,dos_httpflood,0
+B,combined_p0.90_k30,Web Attack,dos_slowhttptest,0
+B,combined_p0.90_k30,Web Attack,recon,0
+B,combined_p0.90_k30,Web Attack,sqli,0
+B,combined_p0.90_k30,benign,Botnet ARES,27
+B,combined_p0.90_k30,benign,Brute Force,2
+B,combined_p0.90_k30,benign,Dos/DDos,201
+B,combined_p0.90_k30,benign,Infiltration,0
+B,combined_p0.90_k30,benign,PortScan,0
+B,combined_p0.90_k30,benign,Web Attack,3
+B,combined_p0.90_k30,benign,benign,20325
+B,combined_p0.90_k30,benign,bruteforce,0
+B,combined_p0.90_k30,benign,dos_httpflood,1
+B,combined_p0.90_k30,benign,dos_slowhttptest,0
+B,combined_p0.90_k30,benign,recon,0
+B,combined_p0.90_k30,benign,sqli,1
+B,combined_p0.90_k30,bruteforce,Botnet ARES,0
+B,combined_p0.90_k30,bruteforce,Brute Force,0
+B,combined_p0.90_k30,bruteforce,Dos/DDos,0
+B,combined_p0.90_k30,bruteforce,Infiltration,0
+B,combined_p0.90_k30,bruteforce,PortScan,0
+B,combined_p0.90_k30,bruteforce,Web Attack,0
+B,combined_p0.90_k30,bruteforce,benign,3
+B,combined_p0.90_k30,bruteforce,bruteforce,8419
+B,combined_p0.90_k30,bruteforce,dos_httpflood,0
+B,combined_p0.90_k30,bruteforce,dos_slowhttptest,0
+B,combined_p0.90_k30,bruteforce,recon,0
+B,combined_p0.90_k30,bruteforce,sqli,0
+B,combined_p0.90_k30,dos_httpflood,Botnet ARES,0
+B,combined_p0.90_k30,dos_httpflood,Brute Force,0
+B,combined_p0.90_k30,dos_httpflood,Dos/DDos,0
+B,combined_p0.90_k30,dos_httpflood,Infiltration,0
+B,combined_p0.90_k30,dos_httpflood,PortScan,0
+B,combined_p0.90_k30,dos_httpflood,Web Attack,0
+B,combined_p0.90_k30,dos_httpflood,benign,1
+B,combined_p0.90_k30,dos_httpflood,bruteforce,0
+B,combined_p0.90_k30,dos_httpflood,dos_httpflood,24671
+B,combined_p0.90_k30,dos_httpflood,dos_slowhttptest,0
+B,combined_p0.90_k30,dos_httpflood,recon,34
+B,combined_p0.90_k30,dos_httpflood,sqli,0
+B,combined_p0.90_k30,dos_slowhttptest,Botnet ARES,0
+B,combined_p0.90_k30,dos_slowhttptest,Brute Force,0
+B,combined_p0.90_k30,dos_slowhttptest,Dos/DDos,0
+B,combined_p0.90_k30,dos_slowhttptest,Infiltration,0
+B,combined_p0.90_k30,dos_slowhttptest,PortScan,0
+B,combined_p0.90_k30,dos_slowhttptest,Web Attack,0
+B,combined_p0.90_k30,dos_slowhttptest,benign,0
+B,combined_p0.90_k30,dos_slowhttptest,bruteforce,0
+B,combined_p0.90_k30,dos_slowhttptest,dos_httpflood,0
+B,combined_p0.90_k30,dos_slowhttptest,dos_slowhttptest,164
+B,combined_p0.90_k30,dos_slowhttptest,recon,0
+B,combined_p0.90_k30,dos_slowhttptest,sqli,0
+B,combined_p0.90_k30,recon,Botnet ARES,0
+B,combined_p0.90_k30,recon,Brute Force,0
+B,combined_p0.90_k30,recon,Dos/DDos,0
+B,combined_p0.90_k30,recon,Infiltration,0
+B,combined_p0.90_k30,recon,PortScan,0
+B,combined_p0.90_k30,recon,Web Attack,0
+B,combined_p0.90_k30,recon,benign,2
+B,combined_p0.90_k30,recon,bruteforce,0
+B,combined_p0.90_k30,recon,dos_httpflood,2
+B,combined_p0.90_k30,recon,dos_slowhttptest,0
+B,combined_p0.90_k30,recon,recon,1472
+B,combined_p0.90_k30,recon,sqli,0
+B,combined_p0.90_k30,sqli,Botnet ARES,0
+B,combined_p0.90_k30,sqli,Brute Force,0
+B,combined_p0.90_k30,sqli,Dos/DDos,0
+B,combined_p0.90_k30,sqli,Infiltration,0
+B,combined_p0.90_k30,sqli,PortScan,0
+B,combined_p0.90_k30,sqli,Web Attack,0
+B,combined_p0.90_k30,sqli,benign,0
+B,combined_p0.90_k30,sqli,bruteforce,0
+B,combined_p0.90_k30,sqli,dos_httpflood,0
+B,combined_p0.90_k30,sqli,dos_slowhttptest,0
+B,combined_p0.90_k30,sqli,recon,0
+B,combined_p0.90_k30,sqli,sqli,11

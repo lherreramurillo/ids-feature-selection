@@ -1,0 +1,13 @@
+newLabel,A,B
+Botnet ARES,1873,1873
+Brute Force,10201,10201
+Dos/DDos,26066,26066
+Infiltration,29,29
+PortScan,25409,25409
+Web Attack,2067,2067
+benign,105306,103943
+bruteforce,66723,42113
+dos_httpflood,127047,123945
+dos_slowhttptest,823,822
+recon,4822,8545
+sqli,179,179

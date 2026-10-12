@@ -1,0 +1,25 @@
+dataset,newLabel,train,test,total,test_pct
+A,dos_httpflood,101612,25403,127015,20.0
+A,benign,83337,20834,104171,20.0
+A,bruteforce,53378,13344,66722,20.0
+A,Dos/DDos,17091,4273,21364,20.0
+A,Brute Force,5510,1378,6888,20.01
+A,recon,3429,857,4286,20.0
+A,Web Attack,1625,406,2031,19.99
+A,Botnet ARES,1098,275,1373,20.03
+A,dos_slowhttptest,658,165,823,20.05
+A,PortScan,443,111,554,20.04
+A,sqli,47,11,58,18.97
+A,Infiltration,23,6,29,20.69
+B,dos_httpflood,98823,24706,123529,20.0
+B,benign,82243,20560,102803,20.0
+B,bruteforce,33690,8422,42112,20.0
+B,Dos/DDos,17091,4273,21364,20.0
+B,recon,5902,1476,7378,20.01
+B,Brute Force,5510,1378,6888,20.01
+B,Web Attack,1625,406,2031,19.99
+B,Botnet ARES,1098,275,1373,20.03
+B,dos_slowhttptest,658,164,822,19.95
+B,PortScan,443,111,554,20.04
+B,sqli,46,11,57,19.3
+B,Infiltration,23,6,29,20.69
