@@ -413,6 +413,7 @@ Ejecutar en este orden con `.venv/bin/python`:
 | `src/04_filters.py` | Los tres filtros sobre el conjunto de entrenamiento completo |
 | `src/05_evaluate.py`, `src/05b_plots.py` | Evaluación y gráficas |
 | `src/06_deliverables.py`, `src/06b_report.py` | Listas finales y este informe |
+| `src/06c_report_pdf.py`, `src/06d_report_docx.py` | Exportación de este informe a PDF y Word |
 
 Los parámetros están en `src/config.py`. Las semillas son fijas. Las etapas 1
 a 4 y la 6 se ejecutaron dos veces y produjeron archivos idénticos; la etapa

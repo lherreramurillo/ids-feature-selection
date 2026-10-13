@@ -379,6 +379,7 @@ Run in order with `.venv/bin/python`:
 | `src/04_filters.py` | The three filters on the full training set |
 | `src/05_evaluate.py`, `src/05b_plots.py` | Evaluation and figures |
 | `src/06_deliverables.py`, `src/06b_report.py` | Final lists and this report |
+| `src/06c_report_pdf.py`, `src/06d_report_docx.py` | Export of this report to PDF and Word |
 
 Parameters are in `src/config.py`. Seeds are fixed. Stages 1 to 4 and 6 were
 run twice and produced identical files; stage 5 (about one hour) was run
