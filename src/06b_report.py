@@ -35,8 +35,7 @@ from config import (CHI2_N_BINS, CLEANING_DIR, CLEANING_LOG_FILE, CV_FOLDS,
                     EVALUATION_DIR, FEATURE_SCORES_FILE, FILTERS_DIR,
                     FINAL_FEATURES_FILE, MODEL_PARAMS, N_EXTERNAL_ROWS,
                     PEARSON_PAIRS_FILE, RANDOM_SEED, REPORT_DIR, REPORT_FILE,
-                    REPORT_FILE_ES, NTLFLOWLYZER_CHECKED_PCAP, REPORT_COURSE,
-                    REPORT_DATE, REPORT_PROFESSOR,
+                    REPORT_FILE_ES, NTLFLOWLYZER_CHECKED_PCAP, REPORT_DATE,
                     RESULTS_DIR, SPLIT_DIR, SPLIT_SUMMARY_FILE, TARGET,
                     TEST_SIZE)
 from data_io import load_split
@@ -279,7 +278,6 @@ def main():
              features_A=feature_table(final["A"], text),
              features_B=feature_table(final["B"], text),
              appendix=appendix_figures(test, finals, text),
-             course=REPORT_COURSE, professor=REPORT_PROFESSOR,
              date=REPORT_DATE, ntl_pcap=NTLFLOWLYZER_CHECKED_PCAP,
              trees=MODEL_PARAMS["n_estimators"], folds=CV_FOLDS,
              bins=CHI2_N_BINS, seed=RANDOM_SEED, target=TARGET,
@@ -292,7 +290,7 @@ def main():
 TEMPLATE = """# Feature selection with filter methods for an IDS flow dataset
 
 Project "Arquitectura IDS impulsada por IA". Author: Laura Camila Herrera
-Murillo. Course: {course}. Professor: {professor}. Date: {date}.
+Murillo. Date: {date}.
 
 All numbers in this report are read from the result files under
 `results/`; the scripts that produce them are listed in section 9.

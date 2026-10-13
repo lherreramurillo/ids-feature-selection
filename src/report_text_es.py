@@ -10,7 +10,7 @@ English template uses, so both versions are filled with the same numbers.
 TEMPLATE_ES = """# Selección de características con métodos de filtro para un conjunto de datos de flujos de un IDS
 
 Proyecto "Arquitectura IDS impulsada por IA". Autora: Laura Camila Herrera
-Murillo. Curso: {course}. Profesor: {professor}. Fecha: {date}.
+Murillo. Fecha: {date}.
 
 Todos los números de este informe se leen de los archivos de
 resultados en `results/`; los scripts que los producen se listan en la

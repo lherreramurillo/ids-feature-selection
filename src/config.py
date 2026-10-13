@@ -100,9 +100,7 @@ FINAL_FEATURES_FILE = "final_features_{name}.csv"  # written to RESULTS_DIR
 HANDOFF_V2_NAME = "feature_selection_handoff_v2"
 REPORT_FILE = "feature_selection_report.md"  # written to REPORT_DIR
 REPORT_PDF_FILE = "feature_selection_report.pdf"
-# Header of the report. Replace the two placeholders before handing it in.
-REPORT_COURSE = "[NOMBRE DEL CURSO]"
-REPORT_PROFESSOR = "[NOMBRE]"
+# Date shown in the header of the report.
 REPORT_DATE = "2026-10-14"
 # The NTLFlowLyzer comparison (bidirectional flows) was made on this capture
 # only, not on the 12 lab captures.
@@ -110,6 +108,8 @@ NTLFLOWLYZER_CHECKED_PCAP = "fw_benign_20260828_01"
 # Spanish version of the report, generated from the same values.
 REPORT_FILE_ES = "feature_selection_report_es.md"
 REPORT_PDF_FILE_ES = "feature_selection_report_es.pdf"
+REPORT_DOCX_FILE = "feature_selection_report.docx"
+REPORT_DOCX_FILE_ES = "feature_selection_report_es.docx"
 
 # Classes with so few rows that losing any of them must be noticed.
 RARE_LABELS = ["sqli", "Infiltration", "dos_slowhttptest"]

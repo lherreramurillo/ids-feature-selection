@@ -1,7 +1,7 @@
 # Feature selection with filter methods for an IDS flow dataset
 
 Project "Arquitectura IDS impulsada por IA". Author: Laura Camila Herrera
-Murillo. Course: [NOMBRE DEL CURSO]. Professor: [NOMBRE]. Date: 2026-10-14.
+Murillo. Date: 2026-10-14.
 
 All numbers in this report are read from the result files under
 `results/`; the scripts that produce them are listed in section 9.
