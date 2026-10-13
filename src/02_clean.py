@@ -34,7 +34,7 @@ it produces identical files.
 import numpy as np
 import pandas as pd
 
-from config import (CLEAN_FILE, CLEANING_DIR, CLEANING_LOG_FILE,
+from config import (NTLFLOWLYZER_CHECKED_PCAP, CLEAN_FILE, CLEANING_DIR, CLEANING_LOG_FILE,
                     CLEANING_NOTES_FILE, DROP_PORTS, INTERIM_DIR, PORT_COLUMNS,
                     RARE_LABELS, RAW_FILES, REPORT_DIR, ROW_ID, TARGET)
 
@@ -265,8 +265,11 @@ def write_notes(tables, log, conflicts):
         "packet count is 0 and the flow source is the server "
         "(172.16.30.10). The client side of every conversation is "
         "missing: no attacker requests and no SQL payloads are represented. "
-        "NTLFlowLyzer extracts bidirectional flows from the same PCAP, so the "
-        "flow extraction failed, not the capture. Cleaning cannot repair "
+        "NTLFlowLyzer extracts bidirectional flows from the same PCAP, which "
+        "points to a failure of the flow extraction and not of the capture. "
+        "That comparison was verified on a single PCAP "
+        f"(`{NTLFLOWLYZER_CHECKED_PCAP}`), not on the 12 lab captures; for "
+        "the other 11 it is assumed, not checked. Cleaning cannot repair "
         "this; all `Bwd` features carry no information for lab rows.",
         "- **Two sources mixed.** External rows (IDS2025) and lab rows come "
         "from different extractors and use different label vocabularies. "

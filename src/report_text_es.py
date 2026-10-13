@@ -10,7 +10,9 @@ English template uses, so both versions are filled with the same numbers.
 TEMPLATE_ES = """# Selección de características con métodos de filtro para un conjunto de datos de flujos de un IDS
 
 Proyecto "Arquitectura IDS impulsada por IA". Autora: Laura Camila Herrera
-Murillo. Todos los números de este informe se leen de los archivos de
+Murillo. Curso: {course}. Profesor: {professor}. Fecha: {date}.
+
+Todos los números de este informe se leen de los archivos de
 resultados en `results/`; los scripts que los producen se listan en la
 sección 9. Al final hay un glosario de los términos técnicos.
 
@@ -139,7 +141,6 @@ Chi-cuadrado.
 {cv_table}
 
 ![Comparación en validación cruzada, conjunto de datos A](figures/cv_comparison_A.png)
-
 ![Comparación en validación cruzada, conjunto de datos B](figures/cv_comparison_B.png)
 
 ### 5.2 Prueba (baseline y la configuración seleccionada de cada familia)
@@ -270,7 +271,9 @@ En el 100% de las filas del laboratorio el conteo de paquetes de vuelta
 cliente de todas las conversaciones del laboratorio: no están representadas
 las peticiones del atacante ni las cargas de inyección SQL. Otro extractor
 (NTLFlowLyzer) produce flujos bidireccionales a partir de la misma captura,
-así que falló la extracción, no la captura. Todas las características de
+lo que apunta a una falla de la extracción y no de la captura. Esa
+comparación se verificó en un solo PCAP (`{ntl_pcap}`), no en las 12 capturas
+del laboratorio; para las otras 11 se asume, no se comprobó. Todas las características de
 vuelta son constantes para las filas del laboratorio, y las clases del
 laboratorio se separan únicamente por lo que envió el servidor.
 

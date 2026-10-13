@@ -61,20 +61,26 @@ def plot_confusion(part, dataset, config, n_features, path):
     counts = matrix.to_numpy()
     share = counts / counts.sum(axis=1, keepdims=True)
 
-    fig, ax = plt.subplots(figsize=(9.2, 7.6))
+    # Compact canvas: the report prints two of these per page, and a smaller
+    # canvas with the same font sizes keeps the numbers readable there.
+    fig, ax = plt.subplots(figsize=(7.8, 6.5))
     cmap = LinearSegmentedColormap.from_list("blue", BLUE_RAMP)
     cmap.set_bad(SURFACE)
     # Zero cells are masked so they keep the background color.
     mesh = ax.pcolormesh(np.ma.masked_where(counts == 0, share), cmap=cmap,
                          vmin=0, vmax=1, edgecolors=SURFACE, linewidth=2)
     ax.invert_yaxis()
-    ax.set_aspect("equal")
+    # Cells are left wider than tall on purpose: counts such as "25,385" need
+    # the width, and square cells would make them spill into the next cell.
 
     for i in range(len(LABEL_ORDER)):
         for j in range(len(LABEL_ORDER)):
             if counts[i, j]:
                 ax.text(j + 0.5, i + 0.5, f"{counts[i, j]:,}", ha="center",
-                        va="center", fontsize=7.5,
+                        va="center",
+                        # Five-digit counts get a slightly smaller font so
+                        # they stay inside their cell.
+                        fontsize=6.8 if counts[i, j] >= 10_000 else 8,
                         color=SURFACE if share[i, j] > 0.55 else INK)
 
     ticks = np.arange(len(LABEL_ORDER)) + 0.5
@@ -108,7 +114,7 @@ def plot_confusion(part, dataset, config, n_features, path):
     bar.set_label("Share of the true class")
     bar.outline.set_visible(False)
     fig.tight_layout()
-    fig.savefig(path, dpi=160)
+    fig.savefig(path, dpi=220)
     plt.close(fig)
 
 
@@ -122,7 +128,7 @@ def plot_cv_comparison(part, dataset, path):
     labels = [f"{c}  ({n:.0f})" for c, n in zip(part["config"],
                                                 part["n_features"])]
     y = np.arange(len(part))
-    fig, ax = plt.subplots(figsize=(8.2, 6.6))
+    fig, ax = plt.subplots(figsize=(7.8, 6.2))
     ax.errorbar(part["f1_macro_mean"], y, xerr=part["f1_macro_se"], fmt="none",
                 ecolor=SERIES, elinewidth=2, capsize=0)
     selected = part["selected"].to_numpy()
@@ -149,7 +155,7 @@ def plot_cv_comparison(part, dataset, path):
     ax.set_title("Number of features in parentheses.", loc="left",
                  fontsize=8.5, color=MUTED)
     fig.tight_layout()
-    fig.savefig(path, dpi=160)
+    fig.savefig(path, dpi=220)
     plt.close(fig)
 
 

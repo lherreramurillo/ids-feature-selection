@@ -1,7 +1,9 @@
 # Feature selection with filter methods for an IDS flow dataset
 
 Project "Arquitectura IDS impulsada por IA". Author: Laura Camila Herrera
-Murillo. All numbers in this report are read from the result files under
+Murillo. Course: [NOMBRE DEL CURSO]. Professor: [NOMBRE]. Date: 2026-10-14.
+
+All numbers in this report are read from the result files under
 `results/`; the scripts that produce them are listed in section 9.
 
 ## 1. Summary
@@ -128,7 +130,6 @@ Mean of 5 folds; F1-macro is shown with its standard error.
 | `combined_p0.99_k30` | 30 | 0.9614 ± 0.0069 | 0.9687 | 0.9942 | 30 | 0.9580 ± 0.0082 | 0.9734 | 0.9929 |
 
 ![Cross-validation comparison, dataset A](figures/cv_comparison_A.png)
-
 ![Cross-validation comparison, dataset B](figures/cv_comparison_B.png)
 
 ### 5.2 Test (baseline and the selected setting of each family)
@@ -330,8 +331,10 @@ indicative only.
 In 100% of the lab rows the backward packet count is 0 and the flow source
 is the server. The client side of every lab conversation is missing: no
 attacker requests and no SQL payloads are represented. Another extractor
-(NTLFlowLyzer) produces bidirectional flows from the same capture, so the
-extraction failed, not the capture. All backward features are constant for
+(NTLFlowLyzer) produces bidirectional flows from the same capture, which
+points to a failure of the extraction and not of the capture. That comparison
+was verified on a single PCAP (`fw_benign_20260828_01`), not on the 12 lab captures; for
+the other 11 it is assumed, not checked. All backward features are constant for
 lab rows, and the lab classes are being separated only by what the server
 sent.
 
@@ -380,3 +383,23 @@ Run in order with `.venv/bin/python`:
 Parameters are in `src/config.py`. Seeds are fixed. Stages 1 to 4 and 6 were
 run twice and produced identical files; stage 5 (about one hour) was run
 once.
+
+## Appendix. Confusion matrices of the other configurations scored on test
+
+The matrices of the final lists are in section 7. The ones below belong to
+the baseline and to the setting selected in each of the other families.
+
+![Confusion matrix on test, dataset A, baseline](figures/confusion_A_baseline.png)
+![Confusion matrix on test, dataset B, baseline](figures/confusion_B_baseline.png)
+
+![Confusion matrix on test, dataset A, variance_qc_0.999](figures/confusion_A_variance_qc_0.999.png)
+![Confusion matrix on test, dataset B, variance_qc_0.999](figures/confusion_B_variance_qc_0.999.png)
+
+![Confusion matrix on test, dataset A, pearson_0.90](figures/confusion_A_pearson_0.90.png)
+![Confusion matrix on test, dataset B, pearson_0.90](figures/confusion_B_pearson_0.90.png)
+
+![Confusion matrix on test, dataset A, chi2_top_40](figures/confusion_A_chi2_top_40.png)
+![Confusion matrix on test, dataset B, chi2_top_40](figures/confusion_B_chi2_top_40.png)
+
+![Confusion matrix on test, dataset A, cramers_v_top_40](figures/confusion_A_cramers_v_top_40.png)
+![Confusion matrix on test, dataset B, cramers_v_top_30](figures/confusion_B_cramers_v_top_30.png)

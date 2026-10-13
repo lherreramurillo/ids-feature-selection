@@ -19,6 +19,7 @@ How to run (after 06b_report.py with the same language)
 
 Needs the packages `markdown` and `weasyprint` in the venv.
 """
+import re
 import sys
 
 import markdown
@@ -49,8 +50,26 @@ th { background: #f3f4f6; }
 td code, th code { font-size: 7pt; background: none; padding: 0; }
 tr { break-inside: avoid; }
 img { max-width: 100%; display: block; margin: 8pt auto; }
-p:has(> img) { break-inside: avoid; }
+p.figure, p.figure-pair { break-inside: avoid; margin: 0; }
+/* Two figures in one paragraph share a page: each one is limited to a bit
+   less than half of the printable height (257mm on A4 with these margins). */
+p.figure-pair img { max-height: 106mm; width: auto; margin: 4pt auto; }
+/* The appendix starts on a new page so its heading stays with its first
+   pair of figures. */
+h2.appendix { break-before: page; margin-top: 0; }
 """
+
+
+def tag_figures(match):
+    """Give image paragraphs a class, by number of images, for the print CSS.
+
+    In the Markdown source, two image lines without a blank line between
+    them form one paragraph; that is how the report asks for two figures on
+    the same page.
+    """
+    content = match.group(1)
+    kind = "figure-pair" if content.count("<img") > 1 else "figure"
+    return f'<p class="{kind}">{content}</p>'
 
 
 def main():
@@ -62,6 +81,8 @@ def main():
                              "es": (REPORT_FILE_ES, REPORT_PDF_FILE_ES)}[lang]
     source = (REPORT_DIR / source_file).read_text(encoding="utf-8")
     body = markdown.markdown(source, extensions=["tables", "sane_lists"])
+    body = re.sub(r"<p>(?=<img)(.*?)</p>", tag_figures, body, flags=re.S)
+    body = re.sub(r"<h2>(?=(Appendix|Anexo)\b)", '<h2 class="appendix">', body)
     # The lang attribute lets the renderer apply the right hyphenation rules.
     html = (f"<html lang='{lang}'><head><meta charset='utf-8'>"
             f"<style>{CSS}</style></head>"

@@ -1,7 +1,9 @@
 # Selección de características con métodos de filtro para un conjunto de datos de flujos de un IDS
 
 Proyecto "Arquitectura IDS impulsada por IA". Autora: Laura Camila Herrera
-Murillo. Todos los números de este informe se leen de los archivos de
+Murillo. Curso: [NOMBRE DEL CURSO]. Profesor: [NOMBRE]. Fecha: 2026-10-14.
+
+Todos los números de este informe se leen de los archivos de
 resultados en `results/`; los scripts que los producen se listan en la
 sección 9. Al final hay un glosario de los términos técnicos.
 
@@ -153,7 +155,6 @@ Chi-cuadrado.
 | `combined_p0.99_k30` | 30 | 0.9614 ± 0.0069 | 0.9687 | 0.9942 | 30 | 0.9580 ± 0.0082 | 0.9734 | 0.9929 |
 
 ![Comparación en validación cruzada, conjunto de datos A](figures/cv_comparison_A.png)
-
 ![Comparación en validación cruzada, conjunto de datos B](figures/cv_comparison_B.png)
 
 ### 5.2 Prueba (baseline y la configuración seleccionada de cada familia)
@@ -362,7 +363,9 @@ En el 100% de las filas del laboratorio el conteo de paquetes de vuelta
 cliente de todas las conversaciones del laboratorio: no están representadas
 las peticiones del atacante ni las cargas de inyección SQL. Otro extractor
 (NTLFlowLyzer) produce flujos bidireccionales a partir de la misma captura,
-así que falló la extracción, no la captura. Todas las características de
+lo que apunta a una falla de la extracción y no de la captura. Esa
+comparación se verificó en un solo PCAP (`fw_benign_20260828_01`), no en las 12 capturas
+del laboratorio; para las otras 11 se asume, no se comprobó. Todas las características de
 vuelta son constantes para las filas del laboratorio, y las clases del
 laboratorio se separan únicamente por lo que envió el servidor.
 
@@ -422,24 +425,19 @@ las del baseline y las de la configuración seleccionada en las demás
 familias. Los títulos de las gráficas están en inglés.
 
 ![Matriz de confusión en prueba, conjunto de datos A, baseline](figures/confusion_A_baseline.png)
-
-![Matriz de confusión en prueba, conjunto de datos A, variance_qc_0.999](figures/confusion_A_variance_qc_0.999.png)
-
-![Matriz de confusión en prueba, conjunto de datos A, pearson_0.90](figures/confusion_A_pearson_0.90.png)
-
-![Matriz de confusión en prueba, conjunto de datos A, chi2_top_40](figures/confusion_A_chi2_top_40.png)
-
-![Matriz de confusión en prueba, conjunto de datos A, cramers_v_top_40](figures/confusion_A_cramers_v_top_40.png)
-
 ![Matriz de confusión en prueba, conjunto de datos B, baseline](figures/confusion_B_baseline.png)
 
+![Matriz de confusión en prueba, conjunto de datos A, variance_qc_0.999](figures/confusion_A_variance_qc_0.999.png)
 ![Matriz de confusión en prueba, conjunto de datos B, variance_qc_0.999](figures/confusion_B_variance_qc_0.999.png)
 
+![Matriz de confusión en prueba, conjunto de datos A, pearson_0.90](figures/confusion_A_pearson_0.90.png)
 ![Matriz de confusión en prueba, conjunto de datos B, pearson_0.90](figures/confusion_B_pearson_0.90.png)
 
-![Matriz de confusión en prueba, conjunto de datos B, cramers_v_top_30](figures/confusion_B_cramers_v_top_30.png)
-
+![Matriz de confusión en prueba, conjunto de datos A, chi2_top_40](figures/confusion_A_chi2_top_40.png)
 ![Matriz de confusión en prueba, conjunto de datos B, chi2_top_40](figures/confusion_B_chi2_top_40.png)
+
+![Matriz de confusión en prueba, conjunto de datos A, cramers_v_top_40](figures/confusion_A_cramers_v_top_40.png)
+![Matriz de confusión en prueba, conjunto de datos B, cramers_v_top_30](figures/confusion_B_cramers_v_top_30.png)
 
 ## Glosario
 

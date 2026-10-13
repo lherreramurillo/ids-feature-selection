@@ -35,7 +35,8 @@ from config import (CHI2_N_BINS, CLEANING_DIR, CLEANING_LOG_FILE, CV_FOLDS,
                     EVALUATION_DIR, FEATURE_SCORES_FILE, FILTERS_DIR,
                     FINAL_FEATURES_FILE, MODEL_PARAMS, N_EXTERNAL_ROWS,
                     PEARSON_PAIRS_FILE, RANDOM_SEED, REPORT_DIR, REPORT_FILE,
-                    REPORT_FILE_ES,
+                    REPORT_FILE_ES, NTLFLOWLYZER_CHECKED_PCAP, REPORT_COURSE,
+                    REPORT_DATE, REPORT_PROFESSOR,
                     RESULTS_DIR, SPLIT_DIR, SPLIT_SUMMARY_FILE, TARGET,
                     TEST_SIZE)
 from data_io import load_split
@@ -164,17 +165,24 @@ def appendix_figures(test, finals, text):
     """Markdown for the confusion matrices not shown in the report body.
 
     One figure per configuration scored on test, except the final lists,
-    which the report shows in the section about them.
+    which the report shows in the section about them. The figures of A and B
+    for the same family are written on consecutive lines, which makes them
+    one paragraph: the PDF style prints the two images of a paragraph on the
+    same page.
     """
-    lines = []
-    for row in test.itertuples():
-        if row.config == finals[row.dataset]:
-            continue
-        alt = text["appendix_alt"].format(dataset=row.dataset,
-                                          config=row.config)
-        lines.append(f"![{alt}](figures/confusion_{row.dataset}_"
-                     f"{row.config}.png)")
-    return "\n\n".join(lines)
+    pairs = []
+    for family, part in test.groupby("family", sort=False):
+        images = []
+        for row in part.itertuples():
+            if row.config == finals[row.dataset]:
+                continue
+            alt = text["appendix_alt"].format(dataset=row.dataset,
+                                              config=row.config)
+            images.append(f"![{alt}](figures/confusion_{row.dataset}_"
+                          f"{row.config}.png)")
+        if images:
+            pairs.append("\n".join(images))
+    return "\n\n".join(pairs)
 
 
 def main():
@@ -271,6 +279,8 @@ def main():
              features_A=feature_table(final["A"], text),
              features_B=feature_table(final["B"], text),
              appendix=appendix_figures(test, finals, text),
+             course=REPORT_COURSE, professor=REPORT_PROFESSOR,
+             date=REPORT_DATE, ntl_pcap=NTLFLOWLYZER_CHECKED_PCAP,
              trees=MODEL_PARAMS["n_estimators"], folds=CV_FOLDS,
              bins=CHI2_N_BINS, seed=RANDOM_SEED, target=TARGET,
              test_pct=round(TEST_SIZE * 100))
@@ -282,7 +292,9 @@ def main():
 TEMPLATE = """# Feature selection with filter methods for an IDS flow dataset
 
 Project "Arquitectura IDS impulsada por IA". Author: Laura Camila Herrera
-Murillo. All numbers in this report are read from the result files under
+Murillo. Course: {course}. Professor: {professor}. Date: {date}.
+
+All numbers in this report are read from the result files under
 `results/`; the scripts that produce them are listed in section 9.
 
 ## 1. Summary
@@ -386,7 +398,6 @@ Mean of {folds} folds; F1-macro is shown with its standard error.
 {cv_table}
 
 ![Cross-validation comparison, dataset A](figures/cv_comparison_A.png)
-
 ![Cross-validation comparison, dataset B](figures/cv_comparison_B.png)
 
 ### 5.2 Test (baseline and the selected setting of each family)
@@ -510,8 +521,10 @@ indicative only.
 In 100% of the lab rows the backward packet count is 0 and the flow source
 is the server. The client side of every lab conversation is missing: no
 attacker requests and no SQL payloads are represented. Another extractor
-(NTLFlowLyzer) produces bidirectional flows from the same capture, so the
-extraction failed, not the capture. All backward features are constant for
+(NTLFlowLyzer) produces bidirectional flows from the same capture, which
+points to a failure of the extraction and not of the capture. That comparison
+was verified on a single PCAP (`{ntl_pcap}`), not on the 12 lab captures; for
+the other 11 it is assumed, not checked. All backward features are constant for
 lab rows, and the lab classes are being separated only by what the server
 sent.
 
@@ -560,6 +573,13 @@ Run in order with `.venv/bin/python`:
 Parameters are in `src/config.py`. Seeds are fixed. Stages 1 to 4 and 6 were
 run twice and produced identical files; stage 5 (about one hour) was run
 once.
+
+## Appendix. Confusion matrices of the other configurations scored on test
+
+The matrices of the final lists are in section 7. The ones below belong to
+the baseline and to the setting selected in each of the other families.
+
+{appendix}
 """
 
 

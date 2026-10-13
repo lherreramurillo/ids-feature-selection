@@ -70,7 +70,7 @@ With the port columns present, the raw files contain only 94 (A) and 100 (B) exa
 
 ## Limitations
 
-- **One-direction flows.** In 100% of the lab rows the backward packet count is 0 and the flow source is the server (172.16.30.10). The client side of every conversation is missing: no attacker requests and no SQL payloads are represented. NTLFlowLyzer extracts bidirectional flows from the same PCAP, so the flow extraction failed, not the capture. Cleaning cannot repair this; all `Bwd` features carry no information for lab rows.
+- **One-direction flows.** In 100% of the lab rows the backward packet count is 0 and the flow source is the server (172.16.30.10). The client side of every conversation is missing: no attacker requests and no SQL payloads are represented. NTLFlowLyzer extracts bidirectional flows from the same PCAP, which points to a failure of the flow extraction and not of the capture. That comparison was verified on a single PCAP (`fw_benign_20260828_01`), not on the 12 lab captures; for the other 11 it is assumed, not checked. Cleaning cannot repair this; all `Bwd` features carry no information for lab rows.
 - **Two sources mixed.** External rows (IDS2025) and lab rows come from different extractors and use different label vocabularies. Features may separate the data source instead of the attack.
 - **Small classes after deduplication.** See the tables above; classes with few remaining rows give unstable per-class metrics.
 - **Near duplicates remain.** Only exact duplicates are removed. Rows that differ in a single timing value are kept and may still fall on both sides of the train/test split.
